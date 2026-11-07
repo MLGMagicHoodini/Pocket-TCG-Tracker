@@ -4,957 +4,124 @@
     {
       "name": "Suicune",
       "rarities": {
-        "♢": [
-          1,
-          1,
-          1,
-          0,
-          0
-        ],
-        "♢♢": [
-          0,
-          0,
-          0,
-          0.89,
-          0.56
-        ],
-        "♢♢♢": [
-          0,
-          0,
-          0,
-          0.04952,
-          0.1981
-        ],
-        "♢♢♢♢": [
-          0,
-          0,
-          0,
-          0.01666,
-          0.06664
-        ],
-        "☆": [
-          0,
-          0,
-          0,
-          0.02572,
-          0.10288
-        ],
-        "☆☆": [
-          0,
-          0,
-          0,
-          0.005,
-          0.02
-        ],
-        "☆☆☆": [
-          0,
-          0,
-          0,
-          0.00222,
-          0.00888
-        ],
-        "☼": [
-          0,
-          0,
-          0,
-          0.00714,
-          0.02857
-        ],
-        "☼☼": [
-          0,
-          0,
-          0,
-          0.00333,
-          0.01333
-        ],
-        "♛": [
-          0,
-          0,
-          0,
-          0.0004,
-          0.0016
-        ]
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89, 0.56],
+        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
       }
     }
   ],
   "cards": [
-    {
-      "id": "A4a 001",
-      "name": "Hoppip",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 002",
-      "name": "Skiploom",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 003",
-      "name": "Jumpluff ex",
-      "pack": "Suicune",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 004",
-      "name": "Sunkern",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 005",
-      "name": "Sunflora",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 006",
-      "name": "Celebi",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 007",
-      "name": "Durant",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 008",
-      "name": "Slugma",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 009",
-      "name": "Magcargo",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 010",
-      "name": "Entei ex",
-      "pack": "Suicune",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 011",
-      "name": "Fletchinder",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 012",
-      "name": "Talonflame",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 013",
-      "name": "Poliwag",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 014",
-      "name": "Poliwhirl",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 015",
-      "name": "Tentacool",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 016",
-      "name": "Tentacruel",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 017",
-      "name": "Slowpoke",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 018",
-      "name": "Slowking",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 019",
-      "name": "Jynx",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 020",
-      "name": "Suicune ex",
-      "pack": "Suicune",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 021",
-      "name": "Feebas",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 022",
-      "name": "Milotic",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 023",
-      "name": "Mantyke",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 024",
-      "name": "Cryogonal",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 025",
-      "name": "Raikou ex",
-      "pack": "Suicune",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 026",
-      "name": "Tynamo",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 027",
-      "name": "Eelektrik",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 028",
-      "name": "Eelektross",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 029",
-      "name": "Stunfisk",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 030",
-      "name": "Yamper",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 031",
-      "name": "Boltund",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 032",
-      "name": "Misdreavus",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 033",
-      "name": "Mismagius",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 034",
-      "name": "Galarian Corsola",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 035",
-      "name": "Galarian Cursola",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 036",
-      "name": "Latias",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 037",
-      "name": "Latios",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 038",
-      "name": "Frillish",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 039",
-      "name": "Jellicent",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 040",
-      "name": "Diglett",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 041",
-      "name": "Dugtrio",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 042",
-      "name": "Poliwrath ex",
-      "pack": "Suicune",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 043",
-      "name": "Phanpy",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 044",
-      "name": "Donphan",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 045",
-      "name": "Relicanth",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 046",
-      "name": "Dwebble",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 047",
-      "name": "Crustle",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 048",
-      "name": "Seviper",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 049",
-      "name": "Zorua",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 050",
-      "name": "Zoroark",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 051",
-      "name": "Inkay",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 052",
-      "name": "Malamar",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 053",
-      "name": "Skrelp",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 054",
-      "name": "Dragalge",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 055",
-      "name": "Altaria",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Dragon"
-    },
-    {
-      "id": "A4a 056",
-      "name": "Farfetch'd",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 057",
-      "name": "Lickitung",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 058",
-      "name": "Lickilicky",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 059",
-      "name": "Igglybuff",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 060",
-      "name": "Teddiursa",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 061",
-      "name": "Ursaring",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 062",
-      "name": "Miltank",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 063",
-      "name": "Azurill",
-      "pack": "Suicune",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 064",
-      "name": "Swablu",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 065",
-      "name": "Zangoose",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 066",
-      "name": "Fletchling",
-      "pack": "Suicune",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 067",
-      "name": "Inflatable Boat",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Pokémon Tool"
-    },
-    {
-      "id": "A4a 068",
-      "name": "Memory Light",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Pokémon Tool"
-    },
-    {
-      "id": "A4a 069",
-      "name": "Whitney",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A4a 070",
-      "name": "Traveling Merchant",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A4a 071",
-      "name": "Morty",
-      "pack": "Suicune",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A4a 072",
-      "name": "Milotic",
-      "pack": "Suicune",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 073",
-      "name": "Stunfisk",
-      "pack": "Suicune",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 074",
-      "name": "Yamper",
-      "pack": "Suicune",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 075",
-      "name": "Latios",
-      "pack": "Suicune",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 076",
-      "name": "Phanpy",
-      "pack": "Suicune",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 077",
-      "name": "Azurill",
-      "pack": "Suicune",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A4a 078",
-      "name": "Jumpluff ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 079",
-      "name": "Entei ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 080",
-      "name": "Suicune ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 081",
-      "name": "Raikou ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 082",
-      "name": "Poliwrath ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 083",
-      "name": "Whitney",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A4a 084",
-      "name": "Traveling Merchant",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A4a 085",
-      "name": "Morty",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A4a 086",
-      "name": "Jumpluff ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A4a 087",
-      "name": "Entei ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 088",
-      "name": "Raikou ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Lightning"
-    },
-    {
-      "id": "A4a 089",
-      "name": "Poliwrath ex",
-      "pack": "Suicune",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 090",
-      "name": "Suicune ex",
-      "pack": "Suicune",
-      "rarity": "☆☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 091",
-      "name": "Chimchar",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 092",
-      "name": "Monferno",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 093",
-      "name": "Psyduck",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 094",
-      "name": "Golduck",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 095",
-      "name": "Krabby",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 096",
-      "name": "Kingler",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 097",
-      "name": "Pyukumuku",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A4a 098",
-      "name": "Gible",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 099",
-      "name": "Gabite",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 100",
-      "name": "Paldean Wooper",
-      "pack": "Suicune",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 101",
-      "name": "Infernape ex",
-      "pack": "Suicune",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A4a 102",
-      "name": "Mew ex",
-      "pack": "Suicune",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A4a 103",
-      "name": "Garchomp ex",
-      "pack": "Suicune",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A4a 104",
-      "name": "Paldean Clodsire ex",
-      "pack": "Suicune",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Darkness"
-    },
-    {
-      "id": "A4a 105",
-      "name": "Mantyke",
-      "pack": "Suicune",
-      "rarity": "♛",
-      "tags": [],
-      "type": "Water"
-    }
+    {"id": "A4a 001", "name": "Hoppip", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A4a 002", "name": "Skiploom", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A4a 003", "name": "Jumpluff ex", "pack": "Suicune", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+    {"id": "A4a 004", "name": "Sunkern", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A4a 005", "name": "Sunflora", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A4a 006", "name": "Celebi", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "A4a 007", "name": "Durant", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A4a 008", "name": "Slugma", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A4a 009", "name": "Magcargo", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A4a 010", "name": "Entei ex", "pack": "Suicune", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
+    {"id": "A4a 011", "name": "Fletchinder", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A4a 012", "name": "Talonflame", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A4a 013", "name": "Poliwag", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A4a 014", "name": "Poliwhirl", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A4a 015", "name": "Tentacool", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A4a 016", "name": "Tentacruel", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A4a 017", "name": "Slowpoke", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A4a 018", "name": "Slowking", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A4a 019", "name": "Jynx", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A4a 020", "name": "Suicune ex", "pack": "Suicune", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "A4a 021", "name": "Feebas", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A4a 022", "name": "Milotic", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A4a 023", "name": "Mantyke", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A4a 024", "name": "Cryogonal", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A4a 025", "name": "Raikou ex", "pack": "Suicune", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
+    {"id": "A4a 026", "name": "Tynamo", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A4a 027", "name": "Eelektrik", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A4a 028", "name": "Eelektross", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A4a 029", "name": "Stunfisk", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A4a 030", "name": "Yamper", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A4a 031", "name": "Boltund", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A4a 032", "name": "Misdreavus", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 033", "name": "Mismagius", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 034", "name": "Galarian Corsola", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 035", "name": "Galarian Cursola", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 036", "name": "Latias", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 037", "name": "Latios", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 038", "name": "Frillish", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 039", "name": "Jellicent", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A4a 040", "name": "Diglett", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 041", "name": "Dugtrio", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 042", "name": "Poliwrath ex", "pack": "Suicune", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A4a 043", "name": "Phanpy", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 044", "name": "Donphan", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 045", "name": "Relicanth", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 046", "name": "Dwebble", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 047", "name": "Crustle", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A4a 048", "name": "Seviper", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 049", "name": "Zorua", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 050", "name": "Zoroark", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 051", "name": "Inkay", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 052", "name": "Malamar", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 053", "name": "Skrelp", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 054", "name": "Dragalge", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A4a 055", "name": "Altaria", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Dragon"},
+    {"id": "A4a 056", "name": "Farfetch'd", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 057", "name": "Lickitung", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 058", "name": "Lickilicky", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 059", "name": "Igglybuff", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 060", "name": "Teddiursa", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 061", "name": "Ursaring", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 062", "name": "Miltank", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 063", "name": "Azurill", "pack": "Suicune", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 064", "name": "Swablu", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 065", "name": "Zangoose", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 066", "name": "Fletchling", "pack": "Suicune", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A4a 067", "name": "Inflatable Boat", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
+    {"id": "A4a 068", "name": "Memory Light", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
+    {"id": "A4a 069", "name": "Whitney", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A4a 070", "name": "Traveling Merchant", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A4a 071", "name": "Morty", "pack": "Suicune", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A4a 072", "name": "Milotic", "pack": "Suicune", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "A4a 073", "name": "Stunfisk", "pack": "Suicune", "rarity": "☆", "tags": [], "type": "Lightning"},
+    {"id": "A4a 074", "name": "Yamper", "pack": "Suicune", "rarity": "☆", "tags": [], "type": "Lightning"},
+    {"id": "A4a 075", "name": "Latios", "pack": "Suicune", "rarity": "☆", "tags": [], "type": "Psychic"},
+    {"id": "A4a 076", "name": "Phanpy", "pack": "Suicune", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "A4a 077", "name": "Azurill", "pack": "Suicune", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "A4a 078", "name": "Jumpluff ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "A4a 079", "name": "Entei ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "A4a 080", "name": "Suicune ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A4a 081", "name": "Raikou ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+    {"id": "A4a 082", "name": "Poliwrath ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A4a 083", "name": "Whitney", "pack": "Suicune", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A4a 084", "name": "Traveling Merchant", "pack": "Suicune", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A4a 085", "name": "Morty", "pack": "Suicune", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A4a 086", "name": "Jumpluff ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "A4a 087", "name": "Entei ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "A4a 088", "name": "Raikou ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+    {"id": "A4a 089", "name": "Poliwrath ex", "pack": "Suicune", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A4a 090", "name": "Suicune ex", "pack": "Suicune", "rarity": "☆☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A4a 091", "name": "Chimchar", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Fire"},
+    {"id": "A4a 092", "name": "Monferno", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Fire"},
+    {"id": "A4a 093", "name": "Psyduck", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "A4a 094", "name": "Golduck", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "A4a 095", "name": "Krabby", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "A4a 096", "name": "Kingler", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "A4a 097", "name": "Pyukumuku", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "A4a 098", "name": "Gible", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "A4a 099", "name": "Gabite", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "A4a 100", "name": "Paldean Wooper", "pack": "Suicune", "rarity": "☼", "tags": [], "type": "Darkness"},
+    {"id": "A4a 101", "name": "Infernape ex", "pack": "Suicune", "rarity": "☼☼", "tags": ["EX"], "type": "Fire"},
+    {"id": "A4a 102", "name": "Mew ex", "pack": "Suicune", "rarity": "☼☼", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A4a 103", "name": "Garchomp ex", "pack": "Suicune", "rarity": "☼☼", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A4a 104", "name": "Paldean Clodsire ex", "pack": "Suicune", "rarity": "☼☼", "tags": ["EX"], "type": "Darkness"},
+    {"id": "A4a 105", "name": "Mantyke", "pack": "Suicune", "rarity": "♛", "tags": [], "type": "Water"}
   ]
 }

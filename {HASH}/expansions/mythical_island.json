@@ -3,247 +3,71 @@
     {
       "name": "Catching Bugs",
       "requirements": [
-        {
-          "display": "Larvesta",
-          "ids": [
-            "A1a 013"
-          ]
-        },
-        {
-          "display": "Joltik",
-          "ids": [
-            "A1a 028"
-          ]
-        },
-        {
-          "display": "Venipede",
-          "ids": [
-            "A1a 053"
-          ]
-        },
-        {
-          "display": "Whirlipede",
-          "ids": [
-            "A1a 054"
-          ]
-        },
-        {
-          "display": "Galvantula",
-          "ids": [
-            "A1a 029"
-          ]
-        }
+        {"display": "Larvesta", "ids": ["A1a 013"]},
+        {"display": "Joltik", "ids": ["A1a 028"]},
+        {"display": "Venipede", "ids": ["A1a 053"]},
+        {"display": "Whirlipede", "ids": ["A1a 054"]},
+        {"display": "Galvantula", "ids": ["A1a 029"]}
       ]
     },
     {
       "name": "Pokemon than Fly",
       "requirements": [
-        {
-          "display": "Cramorant",
-          "ids": [
-            "A1a 024"
-          ]
-        },
-        {
-          "display": "Pidgey",
-          "ids": [
-            "A1a 057"
-          ]
-        },
-        {
-          "display": "Chatot",
-          "ids": [
-            "A1a 062"
-          ]
-        },
-        {
-          "display": "Flabebe",
-          "ids": [
-            "A1a 036"
-          ]
-        },
-        {
-          "display": "Floette",
-          "ids": [
-            "A1a 037"
-          ]
-        }
+        {"display": "Cramorant", "ids": ["A1a 024"]},
+        {"display": "Pidgey", "ids": ["A1a 057"]},
+        {"display": "Chatot", "ids": ["A1a 062"]},
+        {"display": "Flabebe", "ids": ["A1a 036"]},
+        {"display": "Floette", "ids": ["A1a 037"]}
       ]
     },
     {
       "name": "Attacks with 20 Damage",
       "requirements": [
-        {
-          "display": "Morelull",
-          "ids": [
-            "A1a 007"
-          ]
-        },
-        {
-          "display": "Elgyem",
-          "ids": [
-            "A1a 034"
-          ]
-        },
-        {
-          "display": "Swirlix",
-          "ids": [
-            "A1a 039"
-          ]
-        },
-        {
-          "display": "Purrloin",
-          "ids": [
-            "A1a 051"
-          ]
-        },
-        {
-          "display": "Whirlipede",
-          "ids": [
-            "A1a 054"
-          ]
-        }
+        {"display": "Morelull", "ids": ["A1a 007"]},
+        {"display": "Elgyem", "ids": ["A1a 034"]},
+        {"display": "Swirlix", "ids": ["A1a 039"]},
+        {"display": "Purrloin", "ids": ["A1a 051"]},
+        {"display": "Whirlipede", "ids": ["A1a 054"]}
       ]
     },
     {
       "name": "Small Pokemon",
       "requirements": [
-        {
-          "display": "Joltik",
-          "ids": [
-            "A1a 028"
-          ]
-        },
-        {
-          "display": "Chatot",
-          "ids": [
-            "A1a 062"
-          ]
-        },
-        {
-          "display": "Pidgey",
-          "ids": [
-            "A1a 057"
-          ]
-        },
-        {
-          "display": "Flabebe",
-          "ids": [
-            "A1a 036"
-          ]
-        },
-        {
-          "display": "Chewtle",
-          "ids": [
-            "A1a 022"
-          ]
-        }
+        {"display": "Joltik", "ids": ["A1a 028"]},
+        {"display": "Chatot", "ids": ["A1a 062"]},
+        {"display": "Pidgey", "ids": ["A1a 057"]},
+        {"display": "Flabebe", "ids": ["A1a 036"]},
+        {"display": "Chewtle", "ids": ["A1a 022"]}
       ]
     },
     {
       "name": "Tree of Repose",
       "requirements": [
-        {
-          "display": "Primape",
-          "ids": [
-            "A1a 042"
-          ]
-        },
-        {
-          "display": "Pidgeotto",
-          "ids": [
-            "A1a 058"
-          ]
-        },
-        {
-          "display": "Dedenne",
-          "ids": [
-            "A1a 030"
-          ]
-        },
-        {
-          "display": "Chewtle",
-          "ids": [
-            "A1a 022"
-          ]
-        }
+        {"display": "Primape", "ids": ["A1a 042"]},
+        {"display": "Pidgeotto", "ids": ["A1a 058"]},
+        {"display": "Dedenne", "ids": ["A1a 030"]},
+        {"display": "Chewtle", "ids": ["A1a 022"]}
       ]
     },
     {
       "name": "Flower Travelers",
       "requirements": [
-        {
-          "display": "Flabebe",
-          "ids": [
-            "A1a 036"
-          ]
-        },
-        {
-          "display": "Floette",
-          "ids": [
-            "A1a 037"
-          ]
-        },
-        {
-          "display": "Florges",
-          "ids": [
-            "A1a 038"
-          ]
-        }
+        {"display": "Flabebe", "ids": ["A1a 036"]},
+        {"display": "Floette", "ids": ["A1a 037"]},
+        {"display": "Florges", "ids": ["A1a 038"]}
       ]
     },
     {
       "name": "Untouched Forest",
       "requirements": [
-        {
-          "display": "Any Exeggutor",
-          "ids": [
-            "A1a 002",
-            "A1a 069"
-          ]
-        },
-        {
-          "display": "Chatot",
-          "ids": [
-            "A1a 062"
-          ]
-        },
-        {
-          "display": "Liepard",
-          "ids": [
-            "A1a 052"
-          ]
-        },
-        {
-          "display": "Mankey",
-          "ids": [
-            "A1a 041"
-          ]
-        },
-        {
-          "display": "Joltik",
-          "ids": [
-            "A1a 028"
-          ]
-        },
-        {
-          "display": "Shiinotic",
-          "ids": [
-            "A1a 008"
-          ]
-        },
-        {
-          "display": "Raichu",
-          "ids": [
-            "A1a 026"
-          ]
-        },
-        {
-          "display": "Venipede",
-          "ids": [
-            "A1a 052"
-          ]
-        }
+        {"display": "Any Exeggutor", "ids": ["A1a 002", "A1a 069"]},
+        {"display": "Chatot", "ids": ["A1a 062"]},
+        {"display": "Liepard", "ids": ["A1a 052"]},
+        {"display": "Mankey", "ids": ["A1a 041"]},
+        {"display": "Joltik", "ids": ["A1a 028"]},
+        {"display": "Shiinotic", "ids": ["A1a 008"]},
+        {"display": "Raichu", "ids": ["A1a 026"]},
+        {"display": "Venipede", "ids": ["A1a 052"]}
       ]
     }
   ],
@@ -251,781 +75,103 @@
     {
       "name": "Mew",
       "rarities": {
-        "♢": [
-          1,
-          1,
-          1,
-          0,
-          0
-        ],
-        "♢♢": [
-          0,
-          0,
-          0,
-          0.9,
-          0.6
-        ],
-        "♢♢♢": [
-          0,
-          0,
-          0,
-          0.05,
-          0.2
-        ],
-        "♢♢♢♢": [
-          0,
-          0,
-          0,
-          0.01666,
-          0.06664
-        ],
-        "☆": [
-          0,
-          0,
-          0,
-          0.02572,
-          0.10288
-        ],
-        "☆☆": [
-          0,
-          0,
-          0,
-          0.005,
-          0.02
-        ],
-        "☆☆☆": [
-          0,
-          0,
-          0,
-          0.00222,
-          0.00888
-        ],
-        "♛": [
-          0,
-          0,
-          0,
-          0.0004,
-          0.0016
-        ]
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.9, 0.6],
+        "♢♢♢": [0, 0, 0, 0.05, 0.2],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
       }
     }
   ],
   "cards": [
-    {
-      "id": "A1a 001",
-      "name": "Exeggcute",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 002",
-      "name": "Exeggutor",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 003",
-      "name": "Celebi ex",
-      "pack": "Mew",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 004",
-      "name": "Snivy",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 005",
-      "name": "Servine",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 006",
-      "name": "Serperior",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 007",
-      "name": "Morelull",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 008",
-      "name": "Shiinotic",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 009",
-      "name": "Dhelmise",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 010",
-      "name": "Ponyta",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 011",
-      "name": "Rapidash",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 012",
-      "name": "Magmar",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 013",
-      "name": "Larvesta",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 014",
-      "name": "Volcarona",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 015",
-      "name": "Salandit",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 016",
-      "name": "Salazzle",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 017",
-      "name": "Magikarp",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 018",
-      "name": "Gyarados ex",
-      "pack": "Mew",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 019",
-      "name": "Vaporeon",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 020",
-      "name": "Finneon",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 021",
-      "name": "Lumineon",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 022",
-      "name": "Chewtle",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 023",
-      "name": "Drednaw",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 024",
-      "name": "Cramorant",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 025",
-      "name": "Pikachu",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 026",
-      "name": "Raichu",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 027",
-      "name": "Electabuzz",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 028",
-      "name": "Joltik",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 029",
-      "name": "Galvantula",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 030",
-      "name": "Dedenne",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 031",
-      "name": "Mew",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 032",
-      "name": "Mew ex",
-      "pack": "Mew",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 033",
-      "name": "Sigilyph",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 034",
-      "name": "Elgyem",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 035",
-      "name": "Beheeyem",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 036",
-      "name": "Flabébé",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 037",
-      "name": "Floette",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 038",
-      "name": "Florges",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 039",
-      "name": "Swirlix",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 040",
-      "name": "Slurpuff",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 041",
-      "name": "Mankey",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 042",
-      "name": "Primeape",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 043",
-      "name": "Geodude",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 044",
-      "name": "Graveler",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 045",
-      "name": "Golem",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 046",
-      "name": "Aerodactyl ex",
-      "pack": "Mew",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 047",
-      "name": "Marshadow",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 048",
-      "name": "Stonjourner",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 049",
-      "name": "Koffing",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 050",
-      "name": "Weezing",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 051",
-      "name": "Purrloin",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 052",
-      "name": "Liepard",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 053",
-      "name": "Venipede",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 054",
-      "name": "Whirlipede",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 055",
-      "name": "Scolipede",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A1a 056",
-      "name": "Druddigon",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Dragon"
-    },
-    {
-      "id": "A1a 057",
-      "name": "Pidgey",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 058",
-      "name": "Pidgeotto",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 059",
-      "name": "Pidgeot ex",
-      "pack": "Mew",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 060",
-      "name": "Tauros",
-      "pack": "Mew",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 061",
-      "name": "Eevee",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 062",
-      "name": "Chatot",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 063",
-      "name": "Old Amber",
-      "pack": "Mew",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Item"
-    },
-    {
-      "id": "A1a 064",
-      "name": "Pokémon Flute",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Item"
-    },
-    {
-      "id": "A1a 065",
-      "name": "Mythical Slab",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Item"
-    },
-    {
-      "id": "A1a 066",
-      "name": "Budding Expeditioner",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A1a 067",
-      "name": "Blue",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A1a 068",
-      "name": "Leaf",
-      "pack": "Mew",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A1a 069",
-      "name": "Exeggutor",
-      "pack": "Mew",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 070",
-      "name": "Serperior",
-      "pack": "Mew",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 071",
-      "name": "Salandit",
-      "pack": "Mew",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A1a 072",
-      "name": "Vaporeon",
-      "pack": "Mew",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 073",
-      "name": "Dedenne",
-      "pack": "Mew",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A1a 074",
-      "name": "Marshadow",
-      "pack": "Mew",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 075",
-      "name": "Celebi ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 076",
-      "name": "Gyarados ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A1a 077",
-      "name": "Mew ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 078",
-      "name": "Aerodactyl ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 079",
-      "name": "Pidgeot ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A1a 080",
-      "name": "Budding Expeditioner",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A1a 081",
-      "name": "Blue",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A1a 082",
-      "name": "Leaf",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A1a 083",
-      "name": "Mew ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A1a 084",
-      "name": "Aerodactyl ex",
-      "pack": "Mew",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A1a 085",
-      "name": "Celebi ex",
-      "pack": "Mew",
-      "rarity": "☆☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A1a 086",
-      "name": "Mew ex",
-      "pack": "Mew",
-      "rarity": "♛",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    }
+    {"id": "A1a 001", "name": "Exeggcute", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 002", "name": "Exeggutor", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 003", "name": "Celebi ex", "pack": "Mew", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+    {"id": "A1a 004", "name": "Snivy", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 005", "name": "Servine", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 006", "name": "Serperior", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 007", "name": "Morelull", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 008", "name": "Shiinotic", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 009", "name": "Dhelmise", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A1a 010", "name": "Ponyta", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 011", "name": "Rapidash", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 012", "name": "Magmar", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 013", "name": "Larvesta", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 014", "name": "Volcarona", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 015", "name": "Salandit", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 016", "name": "Salazzle", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A1a 017", "name": "Magikarp", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A1a 018", "name": "Gyarados ex", "pack": "Mew", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "A1a 019", "name": "Vaporeon", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A1a 020", "name": "Finneon", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A1a 021", "name": "Lumineon", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A1a 022", "name": "Chewtle", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A1a 023", "name": "Drednaw", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A1a 024", "name": "Cramorant", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A1a 025", "name": "Pikachu", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A1a 026", "name": "Raichu", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A1a 027", "name": "Electabuzz", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A1a 028", "name": "Joltik", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A1a 029", "name": "Galvantula", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A1a 030", "name": "Dedenne", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A1a 031", "name": "Mew", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 032", "name": "Mew ex", "pack": "Mew", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A1a 033", "name": "Sigilyph", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 034", "name": "Elgyem", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 035", "name": "Beheeyem", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 036", "name": "Flabébé", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 037", "name": "Floette", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 038", "name": "Florges", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 039", "name": "Swirlix", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 040", "name": "Slurpuff", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A1a 041", "name": "Mankey", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 042", "name": "Primeape", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 043", "name": "Geodude", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 044", "name": "Graveler", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 045", "name": "Golem", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 046", "name": "Aerodactyl ex", "pack": "Mew", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A1a 047", "name": "Marshadow", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 048", "name": "Stonjourner", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A1a 049", "name": "Koffing", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 050", "name": "Weezing", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 051", "name": "Purrloin", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 052", "name": "Liepard", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 053", "name": "Venipede", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 054", "name": "Whirlipede", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 055", "name": "Scolipede", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A1a 056", "name": "Druddigon", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Dragon"},
+    {"id": "A1a 057", "name": "Pidgey", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A1a 058", "name": "Pidgeotto", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A1a 059", "name": "Pidgeot ex", "pack": "Mew", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A1a 060", "name": "Tauros", "pack": "Mew", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A1a 061", "name": "Eevee", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A1a 062", "name": "Chatot", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A1a 063", "name": "Old Amber", "pack": "Mew", "rarity": "♢", "tags": [], "type": "Item"},
+    {"id": "A1a 064", "name": "Pokémon Flute", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "A1a 065", "name": "Mythical Slab", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "A1a 066", "name": "Budding Expeditioner", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A1a 067", "name": "Blue", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A1a 068", "name": "Leaf", "pack": "Mew", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A1a 069", "name": "Exeggutor", "pack": "Mew", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "A1a 070", "name": "Serperior", "pack": "Mew", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "A1a 071", "name": "Salandit", "pack": "Mew", "rarity": "☆", "tags": [], "type": "Fire"},
+    {"id": "A1a 072", "name": "Vaporeon", "pack": "Mew", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "A1a 073", "name": "Dedenne", "pack": "Mew", "rarity": "☆", "tags": [], "type": "Lightning"},
+    {"id": "A1a 074", "name": "Marshadow", "pack": "Mew", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "A1a 075", "name": "Celebi ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "A1a 076", "name": "Gyarados ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A1a 077", "name": "Mew ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A1a 078", "name": "Aerodactyl ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A1a 079", "name": "Pidgeot ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A1a 080", "name": "Budding Expeditioner", "pack": "Mew", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A1a 081", "name": "Blue", "pack": "Mew", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A1a 082", "name": "Leaf", "pack": "Mew", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A1a 083", "name": "Mew ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A1a 084", "name": "Aerodactyl ex", "pack": "Mew", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A1a 085", "name": "Celebi ex", "pack": "Mew", "rarity": "☆☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "A1a 086", "name": "Mew ex", "pack": "Mew", "rarity": "♛", "tags": ["EX"], "type": "Psychic"}
   ]
 }

@@ -3,326 +3,99 @@
     {
       "name": "Crimson Ascension",
       "requirements": [
-        {
-          "display": "Charmander",
-          "ids": [
-            "B1a 011"
-          ]
-        },
-        {
-          "display": "Charmeleon",
-          "ids": [
-            "B1a 012"
-          ]
-        },
-        {
-          "display": "Charizard",
-          "ids": [
-            "B1a 013"
-          ]
-        },
-        {
-          "display": "Mega Charizard Y ex",
-          "ids": [
-            "B1a 014",
-            "B1a 046",
-            "B1a 056"
-          ]
-        }
+        {"display": "Charmander", "ids": ["B1a 011"]},
+        {"display": "Charmeleon", "ids": ["B1a 012"]},
+        {"display": "Charizard", "ids": ["B1a 013"]},
+        {"display": "Mega Charizard Y ex", "ids": ["B1a 014", "B1a 046", "B1a 056"]}
       ]
     },
     {
       "name": "Mighty Water Blasts",
       "requirements": [
-        {
-          "display": "Mega Blastoise ex",
-          "ids": [
-            "B1a 020",
-            "B1a 047",
-            "B1a 053"
-          ]
-        },
-        {
-          "display": "Wartortle",
-          "ids": [
-            "B1a 018"
-          ]
-        },
-        {
-          "display": "Clauncher",
-          "ids": [
-            "B1a 022"
-          ]
-        }
+        {"display": "Mega Blastoise ex", "ids": ["B1a 020", "B1a 047", "B1a 053"]}, 
+        {"display": "Wartortle", "ids": ["B1a 018"]},
+        {"display": "Clauncher", "ids": ["B1a 022"]}
       ]
     },
     {
       "name": "Overpowering Aromas",
       "requirements": [
-        {
-          "display": "Mega Venusaur ex",
-          "ids": [
-            "B1a 004",
-            "B1a 045",
-            "B1a 052"
-          ]
-        },
-        {
-          "display": "Spinarak",
-          "ids": [
-            "B1a 005"
-          ]
-        },
-        {
-          "display": "Mothim",
-          "ids": [
-            "B1a 010"
-          ]
-        },
-        {
-          "display": "Spritzee",
-          "ids": [
-            "B1a 035"
-          ]
-        }
+        {"display": "Mega Venusaur ex", "ids": ["B1a 004", "B1a 045", "B1a 052"]}, 
+        {"display": "Spinarak", "ids": ["B1a 005"]},
+        {"display": "Mothim", "ids": ["B1a 010"]},
+        {"display": "Spritzee", "ids": ["B1a 035"]}
       ]
     },
     {
       "name": "Deposit Trash in Mouth",
       "requirements": [
-        {
-          "display": "Trubbish",
-          "ids": [
-            "B1a 043"
-          ]
-        },
-        {
-          "display": "Trubbish",
-          "ids": [
-            "B1a 049"
-          ]
-        },
-        {
-          "display": "Garbodor",
-          "ids": [
-            "B1a 050"
-          ]
-        },
-        {
-          "display": "Grimer",
-          "ids": [
-            "B1a 045"
-          ]
-        },
-        {
-          "display": "Muk",
-          "ids": [
-            "B1a 046"
-          ]
-        }
+        {"display": "Trubbish", "ids": ["B1a 043"]}, 
+        {"display": "Trubbish", "ids": ["B1a 049"]},
+        {"display": "Garbodor", "ids": ["B1a 050"]},
+        {"display": "Grimer", "ids": ["B1a 045"]},
+        {"display": "Muk", "ids": ["B1a 046"]}
       ]
     },
     {
       "name": "Sunkern's Growth Diary",
       "requirements": [
-        {
-          "display": "Sunkern",
-          "ids": [
-            "B1a 007"
-          ]
-        },
-        {
-          "display": "Sunflora",
-          "ids": [
-            "B1a 008"
-          ]
-        }
+        {"display": "Sunkern", "ids": ["B1a 007"]}, 
+        {"display": "Sunflora", "ids": ["B1a 008"]}
       ]
     },
     {
       "name": "Artificial Pokémon",
       "requirements": [
-        {
-          "display": "Porygon",
-          "ids": [
-            "B1a 056"
-          ]
-        },
-        {
-          "display": "Porygon2",
-          "ids": [
-            "B1a 057"
-          ]
-        },
-        {
-          "display": "Porygon-Z",
-          "ids": [
-            "B1a 058"
-          ]
-        },
-        {
-          "display": "Genesect",
-          "ids": [
-            "B1a 054"
-          ]
-        }
+        {"display": "Porygon", "ids": ["B1a 056"]}, 
+        {"display": "Porygon2", "ids": ["B1a 057"]},
+        {"display": "Porygon-Z", "ids": ["B1a 058"]},
+        {"display": "Genesect", "ids": ["B1a 054"]}
       ]
     },
     {
       "name": "Magnetic Pokémon",
       "requirements": [
-        {
-          "display": "Magnemite",
-          "ids": [
-            "B1a 024"
-          ]
-        },
-        {
-          "display": "Magneton",
-          "ids": [
-            "B1a 025"
-          ]
-        },
-        {
-          "display": "Magnezone",
-          "ids": [
-            "B1a 026"
-          ]
-        },
-        {
-          "display": "Nosepass",
-          "ids": [
-            "B1a 041"
-          ]
-        },
-        {
-          "display": "Probopass",
-          "ids": [
-            "B1a 053"
-          ]
-        }
+        {"display": "Magnemite", "ids": ["B1a 024"]}, 
+        {"display": "Magneton", "ids": ["B1a 025"]},
+        {"display": "Magnezone", "ids": ["B1a 026"]},
+        {"display": "Nosepass", "ids": ["B1a 041"]},
+        {"display": "Probopass", "ids": ["B1a 053"]}
       ]
     },
     {
       "name": "A Flock of Starly",
       "requirements": [
-        {
-          "display": "Starly",
-          "ids": [
-            "B1a 059"
-          ]
-        },
-        {
-          "display": "Starly",
-          "ids": [
-            "B1a 059"
-          ]
-        },
-        {
-          "display": "Starly",
-          "ids": [
-            "B1a 059"
-          ]
-        },
-        {
-          "display": "Starly",
-          "ids": [
-            "B1a 059"
-          ]
-        },
-        {
-          "display": "Starly",
-          "ids": [
-            "B1a 059"
-          ]
-        }
+        {"display": "Starly", "ids": ["B1a 059"]}, 
+        {"display": "Starly", "ids": ["B1a 059"]},
+        {"display": "Starly", "ids": ["B1a 059"]},
+        {"display": "Starly", "ids": ["B1a 059"]},
+        {"display": "Starly", "ids": ["B1a 059"]}
       ]
     },
     {
       "name": "Clemont the Inventor",
       "requirements": [
-        {
-          "display": "Clemont",
-          "ids": [
-            "B1a 068",
-            "B1a 081"
-          ]
-        },
-        {
-          "display": "Emolga",
-          "ids": [
-            "B1a 027"
-          ]
-        },
-        {
-          "display": "Magneton",
-          "ids": [
-            "B1a 025"
-          ]
-        },
-        {
-          "display": "Heliolisk",
-          "ids": [
-            "B1a 029"
-          ]
-        }
+        {"display": "Clemont", "ids": ["B1a 068", "B1a 081"]}, 
+        {"display": "Emolga", "ids": ["B1a 027"]},
+        {"display": "Magneton", "ids": ["B1a 025"]},
+        {"display": "Heliolisk", "ids": ["B1a 029"]}
       ]
     },
     {
       "name": "Pokémon with Horns",
       "requirements": [
-        {
-          "display": "Ariados",
-          "ids": [
-            "B1a 006",
-            "B1a 070"
-          ]
-        },
-        {
-          "display": "Houndoom",
-          "ids": [
-            "B1a 016"
-          ]
-        },
-        {
-          "display": "Bouffalant",
-          "ids": [
-            "B1a 064"
-          ]
-        },
-        {
-          "display": "Xerneas",
-          "ids": [
-            "B1a 037",
-            "B1a 073"
-          ]
-        }
+        {"display": "Ariados", "ids": ["B1a 006", "B1a 070"]}, 
+        {"display": "Houndoom", "ids": ["B1a 016"]},
+        {"display": "Bouffalant", "ids": ["B1a 064"]},
+        {"display": "Xerneas", "ids": ["B1a 037", "B1a 073"]}
       ]
     },
     {
       "name": "Collect 3 Serena cards",
       "requirements": [
-        {
-          "display": "Serena",
-          "ids": [
-            "B1a 069",
-            "B1a 082"
-          ]
-        },
-        {
-          "display": "Serena",
-          "ids": [
-            "B1a 069",
-            "B1a 082"
-          ]
-        },
-        {
-          "display": "Serena",
-          "ids": [
-            "B1a 069",
-            "B1a 082"
-          ]
-        }
+        {"display": "Serena", "ids": ["B1a 069", "B1a 082"]}, 
+        {"display": "Serena", "ids": ["B1a 069", "B1a 082"]},
+        {"display": "Serena", "ids": ["B1a 069", "B1a 082"]}
       ]
     }
   ],
@@ -330,935 +103,122 @@
     {
       "name": "Crimson Blaze",
       "rarities": {
-        "♢": [
-          1,
-          1,
-          1,
-          0,
-          0
-        ],
-        "♢♢": [
-          0,
-          0,
-          0,
-          0.89999,
-          0.6
-        ],
-        "♢♢♢": [
-          0,
-          0,
-          0,
-          0.05,
-          0.2
-        ],
-        "♢♢♢♢": [
-          0,
-          0,
-          0,
-          0.01667,
-          0.06667
-        ],
-        "☆": [
-          0,
-          0,
-          0,
-          0.02572,
-          0.10286
-        ],
-        "☆☆": [
-          0,
-          0,
-          0,
-          0.005,
-          0.02
-        ],
-        "☆☆☆": [
-          0,
-          0,
-          0,
-          0.00222,
-          0.00889
-        ],
-        "☼": [
-          0,
-          0,
-          0,
-          0.00714,
-          0.02857
-        ],
-        "☼☼": [
-          0,
-          0,
-          0,
-          0.00333,
-          0.01333
-        ],
-        "♛": [
-          0,
-          0,
-          0,
-          0.0004,
-          0.00158
-        ]
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89999, 0.60],
+        "♢♢♢": [0, 0, 0, 0.05, 0.20],
+        "♢♢♢♢": [0, 0, 0, 0.01667, 0.06667],
+        "☆": [0, 0, 0, 0.02572, 0.10286],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00889],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.00040, 0.00158]
       }
     }
   ],
   "cards": [
-    {
-      "id": "B1a 001",
-      "name": "Bulbasaur",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 002",
-      "name": "Ivysaur",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 003",
-      "name": "Venusaur",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 004",
-      "name": "Mega Venusaur ex",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 005",
-      "name": "Spinarak",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 006",
-      "name": "Ariados",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 007",
-      "name": "Sunkern",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 008",
-      "name": "Sunflora",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 009",
-      "name": "Burmy",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 010",
-      "name": "Mothim",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 011",
-      "name": "Charmander",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 012",
-      "name": "Charmeleon",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 013",
-      "name": "Charizard",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 014",
-      "name": "Mega Charizard Y ex",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 015",
-      "name": "Houndour",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 016",
-      "name": "Houndoom",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 017",
-      "name": "Squirtle",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 018",
-      "name": "Wartortle",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 019",
-      "name": "Blastoise",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 020",
-      "name": "Mega Blastoise ex",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 021",
-      "name": "Basculin",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 022",
-      "name": "Clauncher",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 023",
-      "name": "Clawitzer",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 024",
-      "name": "Magnemite",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "B1a 025",
-      "name": "Magneton",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "B1a 026",
-      "name": "Magnezone",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "B1a 027",
-      "name": "Emolga",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "B1a 028",
-      "name": "Helioptile",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "B1a 029",
-      "name": "Heliolisk",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "B1a 030",
-      "name": "Misdreavus",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 031",
-      "name": "Mismagius",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 032",
-      "name": "Solosis",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 033",
-      "name": "Duosion",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 034",
-      "name": "Reuniclus",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 035",
-      "name": "Spritzee",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 036",
-      "name": "Aromatisse",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 037",
-      "name": "Xerneas",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 038",
-      "name": "Onix",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 039",
-      "name": "Makuhita",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 040",
-      "name": "Hariyama",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 041",
-      "name": "Nosepass",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 042",
-      "name": "Mega Lopunny ex",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 043",
-      "name": "Mienfoo",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 044",
-      "name": "Mienshao",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 045",
-      "name": "Grimer",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 046",
-      "name": "Muk",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 047",
-      "name": "Purrloin",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 048",
-      "name": "Liepard",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 049",
-      "name": "Trubbish",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 050",
-      "name": "Garbodor",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 051",
-      "name": "Steelix",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 052",
-      "name": "Mega Steelix ex",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 053",
-      "name": "Probopass",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 054",
-      "name": "Genesect",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 055",
-      "name": "Ditto",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 056",
-      "name": "Porygon",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 057",
-      "name": "Porygon2",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 058",
-      "name": "Porygon-Z",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 059",
-      "name": "Starly",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 060",
-      "name": "Staravia",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 061",
-      "name": "Staraptor",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 062",
-      "name": "Buneary",
-      "pack": "Crimson Blaze",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 063",
-      "name": "Lopunny",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 064",
-      "name": "Bouffalant",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 065",
-      "name": "Furfrou",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 066",
-      "name": "Clemont's Backpack",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Item"
-    },
-    {
-      "id": "B1a 067",
-      "name": "Quick-Grow Extract",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Item"
-    },
-    {
-      "id": "B1a 068",
-      "name": "Clemont",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "B1a 069",
-      "name": "Serena",
-      "pack": "Crimson Blaze",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "B1a 070",
-      "name": "Ariados",
-      "pack": "Crimson Blaze",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 071",
-      "name": "Sunflora",
-      "pack": "Crimson Blaze",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 072",
-      "name": "Reuniclus",
-      "pack": "Crimson Blaze",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 073",
-      "name": "Xerneas",
-      "pack": "Crimson Blaze",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 074",
-      "name": "Trubbish",
-      "pack": "Crimson Blaze",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 075",
-      "name": "Buneary",
-      "pack": "Crimson Blaze",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 076",
-      "name": "Mega Venusaur ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 077",
-      "name": "Mega Charizard Y ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 078",
-      "name": "Mega Blastoise ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 079",
-      "name": "Mega Lopunny ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 080",
-      "name": "Mega Steelix ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 081",
-      "name": "Clemont",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "B1a 082",
-      "name": "Serena",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "B1a 083",
-      "name": "Mega Venusaur ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 084",
-      "name": "Mega Blastoise ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 085",
-      "name": "Mega Lopunny ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 086",
-      "name": "Mega Steelix ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 087",
-      "name": "Mega Charizard Y ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☆☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 088",
-      "name": "Oddish",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 089",
-      "name": "Gloom",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 090",
-      "name": "Vileplume",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 091",
-      "name": "Charizard",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "B1a 092",
-      "name": "Shellder",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 093",
-      "name": "Cloyster",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "B1a 094",
-      "name": "Sandshrew",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 095",
-      "name": "Sandslash",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "B1a 096",
-      "name": "Type: Null",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 097",
-      "name": "Silvally",
-      "pack": "Crimson Blaze",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "B1a 098",
-      "name": "Buzzwole ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "B1a 099",
-      "name": "Lunala ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "B1a 100",
-      "name": "Guzzlord ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Darkness"
-    },
-    {
-      "id": "B1a 101",
-      "name": "Solgaleo ex",
-      "pack": "Crimson Blaze",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 102",
-      "name": "Aegislash",
-      "pack": "Crimson Blaze",
-      "rarity": "♛",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "B1a 103",
-      "name": "Quick-Grow Extract",
-      "pack": "Crimson Blaze",
-      "rarity": "♛",
-      "tags": [],
-      "type": "Item"
-    }
+    {"id": "B1a 001", "name": "Bulbasaur", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 002", "name": "Ivysaur", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 003", "name": "Venusaur", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 004", "name": "Mega Venusaur ex", "pack": "Crimson Blaze", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1a 005", "name": "Spinarak", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 006", "name": "Ariados", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 007", "name": "Sunkern", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 008", "name": "Sunflora", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 009", "name": "Burmy", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 010", "name": "Mothim", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1a 011", "name": "Charmander", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1a 012", "name": "Charmeleon", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1a 013", "name": "Charizard", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1a 014", "name": "Mega Charizard Y ex", "pack": "Crimson Blaze", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1a 015", "name": "Houndour", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1a 016", "name": "Houndoom", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1a 017", "name": "Squirtle", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1a 018", "name": "Wartortle", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1a 019", "name": "Blastoise", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1a 020", "name": "Mega Blastoise ex", "pack": "Crimson Blaze", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "B1a 021", "name": "Basculin", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1a 022", "name": "Clauncher", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1a 023", "name": "Clawitzer", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1a 024", "name": "Magnemite", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1a 025", "name": "Magneton", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1a 026", "name": "Magnezone", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1a 027", "name": "Emolga", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1a 028", "name": "Helioptile", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1a 029", "name": "Heliolisk", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1a 030", "name": "Misdreavus", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 031", "name": "Mismagius", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 032", "name": "Solosis", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 033", "name": "Duosion", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 034", "name": "Reuniclus", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 035", "name": "Spritzee", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 036", "name": "Aromatisse", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 037", "name": "Xerneas", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1a 038", "name": "Onix", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1a 039", "name": "Makuhita", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1a 040", "name": "Hariyama", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1a 041", "name": "Nosepass", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1a 042", "name": "Mega Lopunny ex", "pack": "Crimson Blaze", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1a 043", "name": "Mienfoo", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1a 044", "name": "Mienshao", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1a 045", "name": "Grimer", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1a 046", "name": "Muk", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1a 047", "name": "Purrloin", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1a 048", "name": "Liepard", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1a 049", "name": "Trubbish", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1a 050", "name": "Garbodor", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1a 051", "name": "Steelix", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1a 052", "name": "Mega Steelix ex", "pack": "Crimson Blaze", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1a 053", "name": "Probopass", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1a 054", "name": "Genesect", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1a 055", "name": "Ditto", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 056", "name": "Porygon", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 057", "name": "Porygon2", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 058", "name": "Porygon-Z", "pack": "Crimson Blaze", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 059", "name": "Starly", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 060", "name": "Staravia", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 061", "name": "Staraptor", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 062", "name": "Buneary", "pack": "Crimson Blaze", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 063", "name": "Lopunny", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 064", "name": "Bouffalant", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 065", "name": "Furfrou", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1a 066", "name": "Clemont's Backpack", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "B1a 067", "name": "Quick-Grow Extract", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "B1a 068", "name": "Clemont", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1a 069", "name": "Serena", "pack": "Crimson Blaze", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1a 070", "name": "Ariados", "pack": "Crimson Blaze", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "B1a 071", "name": "Sunflora", "pack": "Crimson Blaze", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "B1a 072", "name": "Reuniclus", "pack": "Crimson Blaze", "rarity": "☆", "tags": [], "type": "Darkness"},
+    {"id": "B1a 073", "name": "Xerneas", "pack": "Crimson Blaze", "rarity": "☆", "tags": [], "type": "Darkness"},
+    {"id": "B1a 074", "name": "Trubbish", "pack": "Crimson Blaze", "rarity": "☆", "tags": [], "type": "Darkness"},
+    {"id": "B1a 075", "name": "Buneary", "pack": "Crimson Blaze", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "B1a 076", "name": "Mega Venusaur ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1a 077", "name": "Mega Charizard Y ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1a 078", "name": "Mega Blastoise ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": [], "type": "Water"},
+    {"id": "B1a 079", "name": "Mega Lopunny ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": [], "type": "Fighting"},
+    {"id": "B1a 080", "name": "Mega Steelix ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": [], "type": "Metal"},
+    {"id": "B1a 081", "name": "Clemont", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1a 082", "name": "Serena", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1a 083", "name": "Mega Venusaur ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1a 084", "name": "Mega Blastoise ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B1a 085", "name": "Mega Lopunny ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1a 086", "name": "Mega Steelix ex", "pack": "Crimson Blaze", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1a 087", "name": "Mega Charizard Y ex", "pack": "Crimson Blaze", "rarity": "☆☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1a 088", "name": "Oddish", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1a 089", "name": "Gloom", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1a 090", "name": "Vileplume", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1a 091", "name": "Charizard", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Fire"},
+    {"id": "B1a 092", "name": "Shellder", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1a 093", "name": "Cloyster", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1a 094", "name": "Sandshrew", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "B1a 095", "name": "Sandslash", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "B1a 096", "name": "Type: Null", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1a 097", "name": "Silvally", "pack": "Crimson Blaze", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1a 098", "name": "Buzzwole ex", "pack": "Crimson Blaze", "rarity": "☼☼", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1a 099", "name": "Lunala ex", "pack": "Crimson Blaze", "rarity": "☼☼", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1a 100", "name": "Guzzlord ex", "pack": "Crimson Blaze", "rarity": "☼☼", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1a 101", "name": "Solgaleo ex", "pack": "Crimson Blaze", "rarity": "☼☼", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1a 102", "name": "Aegislash", "pack": "Crimson Blaze", "rarity": "♛", "tags": [], "type": "Metal"},
+    {"id": "B1a 103", "name": "Quick-Grow Extract", "pack": "Crimson Blaze", "rarity": "♛", "tags": [], "type": "Item"}
   ]
 }

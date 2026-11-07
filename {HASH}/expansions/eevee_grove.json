@@ -4,979 +4,126 @@
     {
       "name": "Eevee Grove",
       "rarities": {
-        "♢": [
-          1,
-          1,
-          1,
-          0,
-          0
-        ],
-        "♢♢": [
-          0,
-          0,
-          0,
-          0.89,
-          0.56
-        ],
-        "♢♢♢": [
-          0,
-          0,
-          0,
-          0.04952,
-          0.1981
-        ],
-        "♢♢♢♢": [
-          0,
-          0,
-          0,
-          0.01666,
-          0.06664
-        ],
-        "☆": [
-          0,
-          0,
-          0,
-          0.02572,
-          0.10288
-        ],
-        "☆☆": [
-          0,
-          0,
-          0,
-          0.005,
-          0.02
-        ],
-        "☆☆☆": [
-          0,
-          0,
-          0,
-          0.00222,
-          0.00888
-        ],
-        "☼": [
-          0,
-          0,
-          0,
-          0.00714,
-          0.02857
-        ],
-        "☼☼": [
-          0,
-          0,
-          0,
-          0.00333,
-          0.01333
-        ],
-        "♛": [
-          0,
-          0,
-          0,
-          0.0004,
-          0.0016
-        ]
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89, 0.56],
+        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
       }
     }
   ],
   "cards": [
-    {
-      "id": "A3b 001",
-      "name": "Tropius",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 002",
-      "name": "Leafeon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 003",
-      "name": "Bounsweet",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 004",
-      "name": "Steenee",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 005",
-      "name": "Tsareena",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 006",
-      "name": "Applin",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 007",
-      "name": "Appletun",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 008",
-      "name": "Flareon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 009",
-      "name": "Flareon ex",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 010",
-      "name": "Torkoal",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 011",
-      "name": "Litten",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 012",
-      "name": "Torracat",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 013",
-      "name": "Incineroar",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 014",
-      "name": "Salandit",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 015",
-      "name": "Salazzle",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 016",
-      "name": "Vaporeon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 017",
-      "name": "Glaceon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 018",
-      "name": "Vanillite",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 019",
-      "name": "Vanillish",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 020",
-      "name": "Vanilluxe",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 021",
-      "name": "Alomomola",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 022",
-      "name": "Popplio",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 023",
-      "name": "Brionne",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 024",
-      "name": "Primarina ex",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 025",
-      "name": "Jolteon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 026",
-      "name": "Joltik",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 027",
-      "name": "Galvantula",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 028",
-      "name": "Espeon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 029",
-      "name": "Woobat",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 030",
-      "name": "Swoobat",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 031",
-      "name": "Swirlix",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 032",
-      "name": "Slurpuff",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 033",
-      "name": "Sylveon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 034",
-      "name": "Sylveon ex",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 035",
-      "name": "Mimikyu",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 036",
-      "name": "Milcery",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 037",
-      "name": "Alcremie",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 038",
-      "name": "Barboach",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A3b 039",
-      "name": "Whiscash",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A3b 040",
-      "name": "Mienfoo",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A3b 041",
-      "name": "Mienshao",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A3b 042",
-      "name": "Carbink",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A3b 043",
-      "name": "Umbreon",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 044",
-      "name": "Sableye",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 045",
-      "name": "Purrloin",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 046",
-      "name": "Liepard",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 047",
-      "name": "Mawile",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A3b 048",
-      "name": "Togedemaru",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A3b 049",
-      "name": "Meltan",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A3b 050",
-      "name": "Melmetal",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A3b 051",
-      "name": "Dratini",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Dragon"
-    },
-    {
-      "id": "A3b 052",
-      "name": "Dragonair",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Dragon"
-    },
-    {
-      "id": "A3b 053",
-      "name": "Dragonite ex",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Dragon"
-    },
-    {
-      "id": "A3b 054",
-      "name": "Drampa",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Dragon"
-    },
-    {
-      "id": "A3b 055",
-      "name": "Eevee",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 056",
-      "name": "Eevee ex",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 057",
-      "name": "Snorlax ex",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 058",
-      "name": "Aipom",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 059",
-      "name": "Ambipom",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 060",
-      "name": "Chatot",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 061",
-      "name": "Audino",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 062",
-      "name": "Minccino",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 063",
-      "name": "Cinccino",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 064",
-      "name": "Skwovet",
-      "pack": "Eevee Grove",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 065",
-      "name": "Greedent",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 066",
-      "name": "Eevee Bag",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Item"
-    },
-    {
-      "id": "A3b 067",
-      "name": "Leftovers",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Pokémon Tool"
-    },
-    {
-      "id": "A3b 068",
-      "name": "Hau",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A3b 069",
-      "name": "Penny",
-      "pack": "Eevee Grove",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A3b 070",
-      "name": "Leafeon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 071",
-      "name": "Flareon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 072",
-      "name": "Vaporeon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 073",
-      "name": "Glaceon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 074",
-      "name": "Jolteon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 075",
-      "name": "Espeon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 076",
-      "name": "Sylveon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 077",
-      "name": "Umbreon",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 078",
-      "name": "Eevee",
-      "pack": "Eevee Grove",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 079",
-      "name": "Flareon ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 080",
-      "name": "Primarina ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 081",
-      "name": "Sylveon ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 082",
-      "name": "Dragonite ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Dragon"
-    },
-    {
-      "id": "A3b 083",
-      "name": "Eevee ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 084",
-      "name": "Snorlax ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 085",
-      "name": "Hau",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A3b 086",
-      "name": "Penny",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A3b 087",
-      "name": "Flareon ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 088",
-      "name": "Primarina ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 089",
-      "name": "Sylveon ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 090",
-      "name": "Dragonite ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Dragon"
-    },
-    {
-      "id": "A3b 091",
-      "name": "Snorlax ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 092",
-      "name": "Eevee ex",
-      "pack": "Eevee Grove",
-      "rarity": "☆☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 093",
-      "name": "Pinsir",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A3b 094",
-      "name": "Lapras",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 095",
-      "name": "Voltorb",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 096",
-      "name": "Electrode",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 097",
-      "name": "Ralts",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 098",
-      "name": "Kirlia",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 099",
-      "name": "Gardevoir",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A3b 100",
-      "name": "Ekans",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 101",
-      "name": "Arbok",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A3b 102",
-      "name": "Farfetch'd",
-      "pack": "Eevee Grove",
-      "rarity": "☼",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A3b 103",
-      "name": "Moltres ex",
-      "pack": "Eevee Grove",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fire"
-    },
-    {
-      "id": "A3b 104",
-      "name": "Articuno ex",
-      "pack": "Eevee Grove",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A3b 105",
-      "name": "Zapdos ex",
-      "pack": "Eevee Grove",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Lightning"
-    },
-    {
-      "id": "A3b 106",
-      "name": "Gallade ex",
-      "pack": "Eevee Grove",
-      "rarity": "☼☼",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A3b 107",
-      "name": "Eevee Bag",
-      "pack": "Eevee Grove",
-      "rarity": "♛",
-      "tags": [],
-      "type": "Item"
-    }
+    {"id": "A3b 001", "name": "Tropius", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 002", "name": "Leafeon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 003", "name": "Bounsweet", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 004", "name": "Steenee", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 005", "name": "Tsareena", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 006", "name": "Applin", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 007", "name": "Appletun", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A3b 008", "name": "Flareon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 009", "name": "Flareon ex", "pack": "Eevee Grove", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
+    {"id": "A3b 010", "name": "Torkoal", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 011", "name": "Litten", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 012", "name": "Torracat", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 013", "name": "Incineroar", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 014", "name": "Salandit", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 015", "name": "Salazzle", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A3b 016", "name": "Vaporeon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A3b 017", "name": "Glaceon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A3b 018", "name": "Vanillite", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A3b 019", "name": "Vanillish", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A3b 020", "name": "Vanilluxe", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A3b 021", "name": "Alomomola", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A3b 022", "name": "Popplio", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A3b 023", "name": "Brionne", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A3b 024", "name": "Primarina ex", "pack": "Eevee Grove", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "A3b 025", "name": "Jolteon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A3b 026", "name": "Joltik", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A3b 027", "name": "Galvantula", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A3b 028", "name": "Espeon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 029", "name": "Woobat", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 030", "name": "Swoobat", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 031", "name": "Swirlix", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 032", "name": "Slurpuff", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 033", "name": "Sylveon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 034", "name": "Sylveon ex", "pack": "Eevee Grove", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A3b 035", "name": "Mimikyu", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 036", "name": "Milcery", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 037", "name": "Alcremie", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A3b 038", "name": "Barboach", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A3b 039", "name": "Whiscash", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A3b 040", "name": "Mienfoo", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A3b 041", "name": "Mienshao", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A3b 042", "name": "Carbink", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A3b 043", "name": "Umbreon", "pack": "Eevee Grove", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A3b 044", "name": "Sableye", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A3b 045", "name": "Purrloin", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A3b 046", "name": "Liepard", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A3b 047", "name": "Mawile", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A3b 048", "name": "Togedemaru", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A3b 049", "name": "Meltan", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A3b 050", "name": "Melmetal", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Metal"},
+    {"id": "A3b 051", "name": "Dratini", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Dragon"},
+    {"id": "A3b 052", "name": "Dragonair", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Dragon"},
+    {"id": "A3b 053", "name": "Dragonite ex", "pack": "Eevee Grove", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Dragon"},
+    {"id": "A3b 054", "name": "Drampa", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Dragon"},
+    {"id": "A3b 055", "name": "Eevee", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 056", "name": "Eevee ex", "pack": "Eevee Grove", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A3b 057", "name": "Snorlax ex", "pack": "Eevee Grove", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A3b 058", "name": "Aipom", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 059", "name": "Ambipom", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 060", "name": "Chatot", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 061", "name": "Audino", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 062", "name": "Minccino", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 063", "name": "Cinccino", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 064", "name": "Skwovet", "pack": "Eevee Grove", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 065", "name": "Greedent", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A3b 066", "name": "Eevee Bag", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "A3b 067", "name": "Leftovers", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
+    {"id": "A3b 068", "name": "Hau", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A3b 069", "name": "Penny", "pack": "Eevee Grove", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A3b 070", "name": "Leafeon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "A3b 071", "name": "Flareon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Fire"},
+    {"id": "A3b 072", "name": "Vaporeon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "A3b 073", "name": "Glaceon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "A3b 074", "name": "Jolteon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Lightning"},
+    {"id": "A3b 075", "name": "Espeon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Psychic"},
+    {"id": "A3b 076", "name": "Sylveon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Psychic"},
+    {"id": "A3b 077", "name": "Umbreon", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Darkness"},
+    {"id": "A3b 078", "name": "Eevee", "pack": "Eevee Grove", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "A3b 079", "name": "Flareon ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "A3b 080", "name": "Primarina ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A3b 081", "name": "Sylveon ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A3b 082", "name": "Dragonite ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Dragon"},
+    {"id": "A3b 083", "name": "Eevee ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A3b 084", "name": "Snorlax ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A3b 085", "name": "Hau", "pack": "Eevee Grove", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A3b 086", "name": "Penny", "pack": "Eevee Grove", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A3b 087", "name": "Flareon ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "A3b 088", "name": "Primarina ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A3b 089", "name": "Sylveon ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "A3b 090", "name": "Dragonite ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Dragon"},
+    {"id": "A3b 091", "name": "Snorlax ex", "pack": "Eevee Grove", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A3b 092", "name": "Eevee ex", "pack": "Eevee Grove", "rarity": "☆☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A3b 093", "name": "Pinsir", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "A3b 094", "name": "Lapras", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "A3b 095", "name": "Voltorb", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Lightning"},
+    {"id": "A3b 096", "name": "Electrode", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Lightning"},
+    {"id": "A3b 097", "name": "Ralts", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Psychic"},
+    {"id": "A3b 098", "name": "Kirlia", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Psychic"},
+    {"id": "A3b 099", "name": "Gardevoir", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Psychic"},
+    {"id": "A3b 100", "name": "Ekans", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Darkness"},
+    {"id": "A3b 101", "name": "Arbok", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Darkness"},
+    {"id": "A3b 102", "name": "Farfetch'd", "pack": "Eevee Grove", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "A3b 103", "name": "Moltres ex", "pack": "Eevee Grove", "rarity": "☼☼", "tags": ["EX"], "type": "Fire"},
+    {"id": "A3b 104", "name": "Articuno ex", "pack": "Eevee Grove", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
+    {"id": "A3b 105", "name": "Zapdos ex", "pack": "Eevee Grove", "rarity": "☼☼", "tags": ["EX"], "type": "Lightning"},
+    {"id": "A3b 106", "name": "Gallade ex", "pack": "Eevee Grove", "rarity": "☼☼", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A3b 107", "name": "Eevee Bag", "pack": "Eevee Grove", "rarity": "♛", "tags": [], "type": "Item"}
   ]
 }
