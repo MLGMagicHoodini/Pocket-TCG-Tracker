@@ -1,0 +1,323 @@
+{
+  "missions": [
+    {
+      "name": "Crimson Ascension",
+      "requirements": [
+        {"display": "Charmander", "ids": ["B1a 011"]},
+        {"display": "Charmeleon", "ids": ["B1a 012"]},
+        {"display": "Charizard", "ids": ["B1a 013"]},
+        {"display": "Mega Charizard Y ex", "ids": ["B1a 014", "B1a 046", "B1a 056"]}
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "Fantastical Parade",
+      "rarities": {
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89999, 0.60],
+        "♢♢♢": [0, 0, 0, 0.05, 0.20],
+        "♢♢♢♢": [0, 0, 0, 0.01667, 0.06667],
+        "☆": [0, 0, 0, 0.02572, 0.10286],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00889],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.00040, 0.00158]
+      }
+    }
+  ],
+  "cards": [
+    {"id": "B2 001", "name": "Ledyba", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 002", "name": "Ledian", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 003", "name": "Shuckle", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 004", "name": "Roselia", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 005", "name": "Roserade", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 006", "name": "Cacnea", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 007", "name": "Cacturne", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 008", "name": "Chespin", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 009", "name": "Quilladin", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 010", "name": "Chesnaught", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 011", "name": "Scatterbug", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 0012", "name": "Spewpa", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 0013", "name": "Vivillon", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 0014", "name": "Buzzwole", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 0015", "name": "Gossifleur", "pack": "Fantastical Parade", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B2 0016", "name": "Eldegoss", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B2 0017", "name": "Teal Mask Ogerpon ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+
+    {"id": "B2 0018", "name": "Alolan Marowak", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0019", "name": "Reshiram", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0020", "name": "Litleo", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0021", "name": "Pyroar", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0022", "name": "Oricorio", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0023", "name": "Blacephalon ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
+    {"id": "B2 0024", "name": "Scorbunny", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0025", "name": "Raboot", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0026", "name": "Cinderace", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Fire"},
+    {"id": "B2 0027", "name": "Hearthflame Mask Ogerpon", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Fire"},
+
+    {"id": "B2 0028", "name": "Alolan Vulpix", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0029", "name": "Alolan Ninetales ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "B2 0030", "name": "Galarian Mr. Mime", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0031", "name": "Galarian Mr. Rime", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0032", "name": "Delibird", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0033", "name": "Mudkip", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0034", "name": "Marshtomp", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0035", "name": "Swampert", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0036", "name": "Mega Swampert ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "B2 0037", "name": "Vanillite", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0038", "name": "Vanillish", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0039", "name": "Vanilluxe", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0040", "name": "Cryogonal", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0041", "name": "Amaura", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0042", "name": "Aurorus", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0043", "name": "Chewtle", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0044", "name": "Drednaw", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0045", "name": "Cramorant", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0046", "name": "Arrokuda", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0047", "name": "Barraskewda", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Water"},
+    {"id": "B2 0048", "name": "Wellspring Mask Ogerpon", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Water"},
+
+    {"id": "B2 0049", "name": "Pikachu", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0050", "name": "Alolan Raichu", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0051", "name": "Zapdos", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0052", "name": "Plusle", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0053", "name": "Minun", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0054", "name": "Toxel", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0055", "name": "Toxtricity ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B2 0056", "name": "Tadbulb", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0057", "name": "Bellibolt", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Lightning"},
+
+    {"id": "B2 0058", "name": "Galarian Ponyta", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0059", "name": "Galarian Rapidash", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0060", "name": "Wobbuffet", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0061", "name": "Snubbull", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0062", "name": "Granbull", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0063", "name": "Ralts", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0064", "name": "Kirlia", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0065", "name": "Gardevoir", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0066", "name": "Mega Gardevoir ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B2 0067", "name": "Litwick", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0068", "name": "Lampent", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0069", "name": "Chandelure", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0070", "name": "Meloetta", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0071", "name": "Pumpkaboo", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0072", "name": "Gourgeist", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0073", "name": "Mimikyu ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B2 0074", "name": "Sinistea", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0075", "name": "Polteageist", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0076", "name": "Indeedee", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Psychic"},
+
+    {"id": "B2 0077", "name": "Sandshrew", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0078", "name": "Sandslash", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0079", "name": "Machop", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0080", "name": "Machoke", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0081", "name": "Machamp", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0082", "name": "Cubone", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0083", "name": "Meditite", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0084", "name": "Medicham", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0085", "name": "Roggenrola", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0086", "name": "Boldore", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0087", "name": "Gigalith ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B2 0088", "name": "Drilbur", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0089", "name": "Tyrunt", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0090", "name": "Tyrantrum", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0091", "name": "Passimian", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0092", "name": "Falinks", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0093", "name": "Cornerstone Mask Ogerpon", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Fighting"},
+
+    {"id": "B2 0094", "name": "Alolan Meowth", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0095", "name": "Alolan Persian", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0096", "name": "Alolan Grimer", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0097", "name": "Alolan Muk", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0098", "name": "Galarian Zigzagoon", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0099", "name": "Galarian Linoone", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0100", "name": "Galarian Obstagoon", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0101", "name": "Stunky", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0102", "name": "Skuntank", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0103", "name": "Spiritomb", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0104", "name": "Purrloin", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0105", "name": "Liepard", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0106", "name": "Scraggy", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0107", "name": "Scrafty", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0108", "name": "Yveltal", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0109", "name": "Guzzlord", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Darkness"},
+
+    {"id": "B2 0110", "name": "Galarian Meowth", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0111", "name": "Galarian Perrserker", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0112", "name": "Mawile", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0113", "name": "Mega Mawile ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
+    {"id": "B2 0114", "name": "Excadrill", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0115", "name": "Ferroseed", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0116", "name": "Ferrothorn", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0117", "name": "Galarian Stunfisk", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0118", "name": "Honedge", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0119", "name": "Doublade", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Metal"},
+    {"id": "B2 0120", "name": "Aegislash", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Metal"},
+
+    {"id": "B2 0121", "name": "Bagon", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Dragon"},
+    {"id": "B2 0122", "name": "Shelgon", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Dragon"},
+    {"id": "B2 0123", "name": "Salamence", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Dragon"},
+
+    {"id": "B2 0124", "name": "Meowth", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0125", "name": "Persian", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0126", "name": "Kangaskhan", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0127", "name": "Mega Kangaskhan ex", "pack": "Fantastical Parade", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
+    {"id": "B2 0128", "name": "Sentret", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0129", "name": "Furret", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0130", "name": "Smeargle", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0131", "name": "Lugia", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0132", "name": "Taillow", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0133", "name": "Swellow", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0134", "name": "Slakoth", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0135", "name": "Vigoroth", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0136", "name": "Slaking", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0137", "name": "Spinda", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0138", "name": "Tornadus", "pack": "Fantastical Parade", "rarity": "♢♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0139", "name": "Bunnelby", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0140", "name": "Diggersby", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0141", "name": "Furfrou", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0142", "name": "Tandemaus", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Colorless"},
+    {"id": "B2 0143", "name": "Maushold", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Colorless"},
+
+    {"id": "B2 0144", "name": "Jaw Fossil", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Item"},
+    {"id": "B2 0145", "name": "Lucky Ice Pop", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Item"},
+    {"id": "B2 0146", "name": "Sail Fossil", "pack": "Fantastical Parade", "rarity": "♢", "tags": [""], "type": "Item"},
+
+    {"id": "B2 0147", "name": "Protective Poncho", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Tool"},
+    {"id": "B2 0148", "name": "Metal Core Barrier", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Tool"},
+    
+    {"id": "B2 0149", "name": "Diantha", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Supporter"},
+    {"id": "B2 0150", "name": "Sightseer", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Supporter"},
+    {"id": "B2 0151", "name": "Juggler", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Supporter"},
+    {"id": "B2 0152", "name": "Piers", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Supporter"},
+
+    {"id": "B2 0153", "name": "Training Area", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Stadium"},
+    {"id": "B2 0154", "name": "Starting Plains", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Stadium"},
+    {"id": "B2 0155", "name": "Peculiar Plaza", "pack": "Fantastical Parade", "rarity": "♢♢", "tags": [""], "type": "Stadium"},
+
+    {"id": "B2 0156", "name": "Cacnea", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Grass"},
+    {"id": "B2 0157", "name": "Roserade", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Grass"},
+    {"id": "B2 0158", "name": "Vivillon", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Grass"},
+    {"id": "B2 0159", "name": "Buzzwole", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Grass"},
+
+    {"id": "B2 0160", "name": "Reshiram", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Fire"},
+    {"id": "B2 0161", "name": "Oricorio", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Fire"},
+    {"id": "B2 0162", "name": "Scorbunny", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Fire"},
+
+    {"id": "B2 0163", "name": "Aurorus", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Water"},
+    {"id": "B2 0164", "name": "Cramorant", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Water"},
+
+    {"id": "B2 0165", "name": "Minun", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Lightning"},
+    {"id": "B2 0166", "name": "Toxel", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Lightning"},
+
+    {"id": "B2 0167", "name": "Galarian Ponyta", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0168", "name": "Snubbull", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0169", "name": "Indeedee", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Psychic"},
+
+    {"id": "B2 0170", "name": "Sandshrew", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0171", "name": "Tyrantrum", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0172", "name": "Falinks", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Fighting"},
+
+    {"id": "B2 0173", "name": "Alolan Muk", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0174", "name": "Purrloin", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0175", "name": "Yveltal", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Darkness"},
+    {"id": "B2 0176", "name": "Galarian Obstagoon", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Darkness"},
+
+    {"id": "B2 0177", "name": "Galarian Perrserker", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Metal"},
+
+    {"id": "B2 0178", "name": "Salamence", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Dragon"},
+
+    {"id": "B2 0179", "name": "Slakoth", "pack": "Fantastical Parade", "rarity": "☆", "tags": [""], "type": "Colorless"},
+
+    {"id": "B2 0180", "name": "Teal Mask Ogerpon ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+
+    {"id": "B2 0181", "name": "Blacephalon ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+
+    {"id": "B2 0182", "name": "Alolan Ninetales ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B2 0183", "name": "Mega Swampert ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+
+    {"id": "B2 0184", "name": "Toxtricity ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+
+    {"id": "B2 0185", "name": "Mega Gardevoir ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B2 0186", "name": "Mimikyu ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+
+    {"id": "B2 0187", "name": "Gigalith ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+
+    {"id": "B2 0188", "name": "Mega Mawile ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+
+    {"id": "B2 0189", "name": "Mega Kangaskhan ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+
+    {"id": "B2 0190", "name": "Diantha", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": [""], "type": "Supporter"},
+    {"id": "B2 0191", "name": "Sightseer", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": [""], "type": "Supporter"},
+    {"id": "B2 0192", "name": "Juggler", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": [""], "type": "Supporter"},
+    {"id": "B2 0193", "name": "Piers", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": [""], "type": "Supporter"},
+
+    {"id": "B2 0194", "name": "Teal Mask Ogerpon ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+
+    {"id": "B2 0195", "name": "Blacephalon ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+
+    {"id": "B2 0196", "name": "Alolan Ninetales ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B2 0197", "name": "Mega Swampert ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+
+    {"id": "B2 0198", "name": "Toxtricity ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+
+    {"id": "B2 0199", "name": "Mimikyu ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+
+    {"id": "B2 0200", "name": "Gigalith ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+
+    {"id": "B2 0201", "name": "Mega Mawile ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+
+    {"id": "B2 0202", "name": "Mega Kangaskhan ex", "pack": "Fantastical Parade", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+
+    {"id": "B2 0203", "name": "Mega Gardevoir ex", "pack": "Fantastical Parade", "rarity": "☆☆☆", "tags": ["EX"], "type": "Psychic"},
+
+    {"id": "B2 0204", "name": "Meowth", "pack": "Fantastical Parade", "rarity": "☆☆☆", "tags": [""], "type": "Colorless"},
+
+    {"id": "B2 0205", "name": "Tangela", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Grass"},
+
+    {"id": "B2 0206", "name": "Magby", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fire"},
+    {"id": "B2 0207", "name": "Magmar", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fire"},
+
+    {"id": "B2 0208", "name": "Horsea", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Water"},
+    {"id": "B2 0209", "name": "Seadra", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Water"},
+    {"id": "B2 0210", "name": "Mantyke", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Water"},
+    {"id": "B2 0211", "name": "Omanyte", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Water"},
+    {"id": "B2 0212", "name": "Omastar", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Water"},
+
+    {"id": "B2 0213", "name": "Pichu", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Lightning"},
+
+    {"id": "B2 0214", "name": "Clefairy", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0215", "name": "Clefable", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0216", "name": "Latias", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Psychic"},
+    {"id": "B2 0217", "name": "Latios", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Psychic"},
+
+    {"id": "B2 0218", "name": "Hitmonlee", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0219", "name": "Hitmonchan", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0220", "name": "Kabuto", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0221", "name": "Kabutops", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0222", "name": "Phanpy", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fighting"},
+    {"id": "B2 0223", "name": "Tyrogue", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Fighting"},
+
+    {"id": "B2 0224", "name": "Tauros", "pack": "Fantastical Parade", "rarity": "☼", "tags": [""], "type": "Colorless"},
+
+    {"id": "B2 0225", "name": "Flareon ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Fire"},
+    {"id": "B2 0226", "name": "Ho-Oh ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Fire"},
+
+    {"id": "B2 0227", "name": "Kingdra ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
+
+    {"id": "B2 0228", "name": "Espeon ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B2 0229", "name": "Sylveon ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Psychic"},
+
+    {"id": "B2 0230", "name": "Donphan ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Fighting"},
+
+    {"id": "B2 0231", "name": "Umbreon ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Darkness"},
+
+    {"id": "B2 0232", "name": "Lugia ex", "pack": "Fantastical Parade", "rarity": "☼☼", "tags": ["EX"], "type": "Colorless"},
+
+    {"id": "B2 0233", "name": "Meloetta", "pack": "Fantastical Parade", "rarity": "♛", "tags": ["EX"], "type": "Psychic"},
+
+    {"id": "B2 0234", "name": "Protective Poncho", "pack": "Fantastical Parade", "rarity": "♛", "tags": ["EX"], "type": "Tool"}
+  ]
+}

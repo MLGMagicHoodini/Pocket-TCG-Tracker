@@ -1,0 +1,85 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "Shop",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Gold Shop",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Premium Mission",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Event Mission",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Wonder Pick",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Campaign",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 1",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 2",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 3",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    }
+  ],
+  "cards": [
+    {"id": "P-B 001", "name": "Pikachu", "pack": "Gold Shop", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-B 002", "name": "Petilil", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-B 003", "name": "Froakie", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-B 004", "name": "Luxray", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-B 005", "name": "Pidgey", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-B 006", "name": "Mega Pidgeot ex", "pack": "Volume 1", "rarity": "-", "tags": ["EX"], "type": "Colorless"},
+    {"id": "P-B 007", "name": "Torchic", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Fire"},
+    {"id": "P-B 008", "name": "Psyduck", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-B 009", "name": "Mega Absol ex", "pack": "Premium Mission", "rarity": "-", "tags": ["EX"], "type": "Darkness"},
+    {"id": "P-B 010", "name": "Drifblim", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-B 011", "name": "Eevee", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-B 012", "name": "Ditto", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-B 013", "name": "Arcanine", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Fire"},
+    {"id": "P-B 014", "name": "Magikarp", "pack": "Volume 2", "rarity": "-", "tags": ["EX"], "type": "Water"},
+    {"id": "P-B 015", "name": "Mareep", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-B 016", "name": "Krookodile", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-B 017", "name": "Swablu", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-B 018", "name": "Heliolisk", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-B 019", "name": "Buneary", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-B 020", "name": "Charmeleon", "pack": "Volume 3", "rarity": "-", "tags": ["EX"], "type": "Fire"},
+    {"id": "P-B 021", "name": "Onix", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-B 022", "name": "Hawlucha", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-B 023", "name": "Genesect", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Metal"},
+    {"id": "P-B 024", "name": "Mega Latios ex", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Dragon"}
+  ]
+}

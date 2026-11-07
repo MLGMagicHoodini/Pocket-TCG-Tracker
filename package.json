@@ -1,0 +1,12 @@
+{
+  "name": "pocket-tcg-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-data.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "npm run build && npx serve dist"
+  }
+}

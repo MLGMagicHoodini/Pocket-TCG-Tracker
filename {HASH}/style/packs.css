@@ -1,0 +1,231 @@
+.even-row.mewtwo-pack {
+    background-color: #A764B7;
+}
+
+.odd-row.mewtwo-pack {
+    background-color: #D08DE1;
+}
+
+.even-row.mew-pack {
+    background-color: #4a885b;
+}
+
+.odd-row.mew-pack {
+    background-color: #64b77e;
+}
+
+.even-row.pikachu-pack {
+    background-color: #FFE04A;
+}
+
+.odd-row.pikachu-pack {
+    background-color: #FFED95;
+}
+
+.even-row.charizard-pack {
+    background-color: #FB8D82;
+}
+
+.odd-row.charizard-pack {
+    background-color: #FFA096;
+}
+
+.even-row.all-pack {
+    background-color: #AAAAB6;
+}
+
+.odd-row.all-pack {
+    background-color: #B2B3CC;
+}
+
+.even-row.wonder-pick-pack {
+    background-color: #FDC2C4;
+}
+
+.odd-row.wonder-pick-pack {
+    background-color: #FDD8D9;
+}
+
+.even-row.shop-pack {
+    background-color: #7DD68D;
+}
+
+.odd-row.shop-pack {
+    background-color: #ABEDB7;
+}
+
+.even-row.gold-shop-pack {
+    background-color: #a5944c;
+}
+
+.odd-row.gold-shop-pack {
+    background-color: #e1cd6d;
+}
+
+.even-row.premium-mission-pack {
+    background-color: #FF8F2B;
+}
+
+.odd-row.premium-mission-pack {
+    background-color: #FF9536;
+}
+
+.even-row.event-mission-pack {
+    background-color: #ffdc2b;
+}
+
+.odd-row.event-mission-pack {
+    background-color: #fbe257;
+}
+
+.even-row.volume-1-pack, .even-row.volume-4-pack, .even-row.volume-7-pack, .even-row.volume-11-pack {
+    background-color: #FA7899;
+}
+
+.odd-row.volume-1-pack, .odd-row.volume-4-pack, .odd-row.volume-7-pack, .odd-row.volume-11-pack {
+    background-color: #FD9DB5;
+}
+
+.even-row.volume-2-pack, .even-row.volume-5-pack, .even-row.volume-8-pack, .even-row.volume-12-pack {
+    background-color: #41DB39;
+}
+
+.odd-row.volume-2-pack, .odd-row.volume-5-pack, .odd-row.volume-8-pack, .odd-row.volume-12-pack {
+    background-color: #0CF900;
+}
+
+.even-row.volume-3-pack, .even-row.volume-6-pack, .even-row.volume-10-pack {
+    background-color: #36d1d1;
+}
+
+.odd-row.volume-3-pack, .odd-row.volume-6-pack, .odd-row.volume-10-pack {
+    background-color: #3ef6f6;
+}
+
+.odd-row.volume-9-pack {
+    background-color: #e42f49;
+}
+
+.even-row.volume-9-pack {
+    background-color: #ea6073;
+}
+
+.even-row.campaign-pack {
+    background-color: #5f50ec;
+}
+
+.odd-row.campaign-pack {
+    background-color: #7366ef;
+}
+
+.even-row.dialga-pack, .even-row.suicune-pack {
+    background-color: #5074ec;
+}
+
+.odd-row.dialga-pack, .odd-row.suicune-pack {
+    background-color: #6183ef;
+}
+
+.even-row.palkia-pack {
+    background-color: #a150ec;
+}
+
+.odd-row.palkia-pack {
+    background-color: #a166e4;
+}
+
+.even-row.arceus-pack {
+    background-color: #a16015;
+}
+
+.odd-row.arceus-pack {
+    background-color: #f19328;
+}
+
+.even-row.shining-revelry-pack {
+    background-color: #a290aa;
+}
+
+.odd-row.shining-revelry-pack {
+    background-color: #e0c8ea;
+}
+
+.even-row.solgaleo-pack {
+    background-color: #e3dfc0;
+}
+
+.odd-row.solgaleo-pack {
+    background-color: #afab93;
+}
+
+.even-row.lunala-pack {
+    background-color: #9862f4;
+}
+
+.odd-row.lunala-pack {
+    background-color: #b49ce8;
+}
+
+.even-row.extradimensional-crisis-pack {
+    background-color: #ec517d;
+}
+
+.odd-row.extradimensional-crisis-pack {
+    background-color: #e47496;
+}
+
+.even-row.eevee-grove-pack, .even-row.deluxe-pack-ex-pack {
+    background-color: #bf731b;
+}
+
+.odd-row.eevee-grove-pack, .odd-row.deluxe-pack-ex-pack{
+    background-color: #c58338;
+}
+
+.even-row.ho-oh-pack {
+    background-color: #a5944c;
+}
+
+.odd-row.ho-oh-pack {
+    background-color: #e1cd6d;
+}
+
+.even-row.lugia-pack {
+    background-color: #5074ec;
+}
+
+.odd-row.lugia-pack {
+    background-color: #6183ef;
+}
+
+.even-row.crimson-blaze-pack {
+    background-color: #FFAB00;
+}
+
+.odd-row.crimson-blaze-pack {
+    background-color: #E77A04;
+}
+
+.even-row.fantastical-parade-pack {
+    background-color: #7700AA;
+}
+
+.odd-row.fantastical-parade-pack {
+    background-color: #EE3377;
+}
+
+.even-row.paldean-wonders-pack {
+    background-color: #1ec2a0;
+}
+
+.odd-row.paldean-wonders-pack {
+    background-color: #3ee6c4;
+}
+
+.even-row.mega-shine-pack {
+    background-color: #ffcb00;
+}
+
+.odd-row.mega-shine-pack {
+    background-color: #2787ff;
+}

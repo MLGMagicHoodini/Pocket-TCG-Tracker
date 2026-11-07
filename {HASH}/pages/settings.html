@@ -1,0 +1,103 @@
+<div class="expansion-body settings-body col-12" id="Settings" style="width: 100%;">
+    <div>
+        <h1 style="text-align: center;">Oa10712's Pocket TCG Tracker</h1>
+        <p>Select an expansion from the list above to get started. Once you have an expansion open, you will see a
+            list of all cards in that expansion on the left, a pack overview on the top right, and a mission
+            overview on the bottom right. Select the checkboxes for cards you have and the pack overview and
+            missions will update accordingly.</p>
+        <p>The pack overview will display how many cards you are missing from each, as well as the % chance of
+            getting a new card from each pack.</p>
+        <p>The mission overview contains a list of all expansion missions. Select one to view the card requirements.
+            Once you have a mission opened, you can click the "Show missing requirements" button to filter the
+            card list and pack overview to only show missing cards from the selected mission. You can also click any
+            requirement name to filter for that specific requirement only.</p>
+        <p>Want to suggest a feature or report a bug? Check the Issues tab below.</p>
+    </div>
+    <div id="setting-buttons" class="w3-bar w3-grey">
+        <button class="w3-bar-item w3-button settinglink" onclick="loadSetting(event, 'Import')">
+            Import
+        </button>
+        <button class="w3-bar-item w3-button settinglink" onclick="loadSetting(event, 'Transfer')">
+            Transfer
+        </button>
+        <button class="w3-bar-item w3-button settinglink selected-tab" onclick="loadSetting(event, 'Display')">
+            Display
+        </button>
+        <button class="w3-bar-item w3-button settinglink" onclick="loadSetting(event, 'Issues')">
+            Issues
+        </button>
+        <button class="w3-bar-item w3-button settinglink" onclick="loadSetting(event, 'Attribution')">
+            Attribution
+        </button>
+    </div>
+    <div id="Import" style="display: none;" class="setting-body">
+        <div>
+            <h3>
+                <a href="https://www.reddit.com/r/pokemon/comments/1fu76x4/a_spreadsheet_for_tcg_pocket_that_calculates_the/">/u/maxwell1755's
+                    Spreadsheet</a></h3>
+            <form action="javascript:importMaxwell()">
+                <p>With the tab on the spreadsheet open that you want to import, select column A and copy the entire
+                    row into the textbox below. Select the expansion from the dropdown and click submit.</p>
+                <label for="maxwell-expansion">Expansion</label>
+                <select id="maxwell-expansion" name="maxwell-expansion">
+                    <option value="genetic-apex">Genetic Apex</option>
+                    <option value="promo-a">Promo A</option>
+                </select>
+                <label for="maxwell-data">Copied Data</label>
+                <textarea id="maxwell-data" name="maxwell-data"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div id="Display" class="setting-body" style="display: block;">
+        <label for="hidden-missions">Show Hidden Missions</label>
+        <input id="hidden-missions" name="hidden-missions" type="checkbox" onclick="toggleHiddenMissions(event)">
+        <br>
+        <label for="hidden-cards">Show Unreleased Cards</label>
+        <input id="hidden-cards" name="hidden-cards" type="checkbox" onclick="toggleHiddenCards(event)">
+    </div>
+    <div id="Transfer" class="setting-body" style="display: none;">
+        <h2>Transfer Data</h2>
+        <div>
+            <h3>Load from exported data</h3>
+            <input id="file-input" type="file" value="Load">
+            <p class="w3-red" id="import-error"></p>
+            <p class="w3-green" id="import-info"></p>
+        </div>
+        <h3>Export</h3>
+        <form action="javascript:saveCards()">
+            <input type="submit" value="Save data to file">
+        </form>
+    </div>
+    <div id="Issues" class="setting-body" style="display: none;">
+        <h3>Known Issues</h3>
+        <list id="issues">
+            <li>Missions with a large number of requirements spill offscreen when viewed</li>
+            <li>The mission list also spills offscreen on small monitors</li>
+            <li>Missions for Mythical Island contain inaccuracies. There's some new formatting that I need to code in
+                before these will work correctly.
+            </li>
+        </list>
+        <h3>Planned Features</h3>
+        <list id="features">
+            <li>New main tab for non expansion-specific information such as dex completion and full card list</li>
+            <li>Add optional saving to Google Drive</li>
+            <li>Add progress bar to mission tab background</li>
+            <li>Add a better way to manage tag filters</li>
+        </list>
+        <h3>Reporting</h3>
+        For the time being, please report any issues not listed above in the #tracker-discussion channel on my dev
+        discord. An invite is available by clicking the Discord icon in the footer of this page..
+    </div>
+    <div id="Attribution" class="setting-body" style="display: none;">
+        Navigation icons from <a href="https://fontawesome.com/">FontAwesome</a><br>
+        Type icons by <a href="https://discord.com/invite/U7ue38S2QX">Fapdos</a>
+    </div>
+    <div class="output">
+        <p class="w3-red" id="error"></p>
+        <p class="w3-green" id="info"></p>
+    </div>
+    <div class="footer">Created by Oa10712 <a href="https://discord.gg/UrensGntpC"><i class="fa-brands fa-discord"></i></a>
+        Build {HASH}
+    </div>
+</div>

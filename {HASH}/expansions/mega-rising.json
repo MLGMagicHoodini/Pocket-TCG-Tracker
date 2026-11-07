@@ -1,0 +1,607 @@
+{
+  "missions": [
+    {
+      "name": "A Journey of Evolution That Fires Up Your Fighting Spirit",
+      "requirements": [
+        {"display": "Mega Blaziken ex", "ids": ["B1 036", "B1 254", "B1 284"]},
+        {"display": "May", "ids": ["B1 223", "B1 268"]},
+        {"display": "Torchic", "ids": ["B1 033"]},
+        {"display": "Combusken", "ids": ["B1 034"]},
+        {"display": "Blaziken", "ids": ["B1 035"]}
+      ]
+    },
+    {
+      "name": "An Immense Power That Rampages through the Ocean",
+      "requirements": [
+        {"display": "Mega Gyarados ex", "ids": ["B1 052", "B1 255", "B1 285"]},
+        {"display": "Murkrow", "ids": ["B1 148"]},
+        {"display": "Wailmer", "ids": ["B1 056"]},
+        {"display": "Frillish", "ids": ["B1 068"]},
+        {"display": "Chewtle", "ids": ["B1 076"]}
+      ]
+    },
+    {
+      "name": "Bodies of Tightly Packed Fluff",
+      "requirements": [
+        {"display": "Mega Altaria ex", "ids": ["B1 102", "B1 259", "B1 286"]},
+        {"display": "Mareep", "ids": ["B1 082"]},
+        {"display": "Cottonee", "ids": ["B1 015"]},
+        {"display": "Swirlix", "ids": ["B1 117"]},
+        {"display": "Wooloo", "ids": ["B1 211"]}
+      ]
+    },
+    {
+      "name": "Rhythmic Connections",
+      "requirements": [
+        {"display": "Ludicolo", "ids": ["B1 233"]},
+        {"display": "Palpitoad", "ids": ["B1 064"]},
+        {"display": "Maractus", "ids": ["B1 019"]},
+        {"display": "Chatot", "ids": ["B1 198"]}
+      ]
+    },
+    {
+      "name": "A Trio of Forest Friends",
+      "requirements": [
+        {"display": "Pansage", "ids": ["B1 013"]},
+        {"display": "Pansear", "ids": ["B1 037"]},
+        {"display": "Panpour", "ids": ["B1 061"]}
+      ]
+    },
+    {
+      "name": "The Gallant Swords of Justice",
+      "requirements": [
+        {"display": "Keldeo", "ids": ["B1 070", "B1 235"]},
+        {"display": "Cobalion", "ids": ["B1 169"]},
+        {"display": "Terrakion", "ids": ["B1 137"]},
+        {"display": "Virizion", "ids": ["B1 020"]}
+      ]
+    },
+    {
+      "name": "Pokémon That Evolve from Fossils",
+      "requirements": [
+        {"display": "Cover Fossil", "ids": ["B1 216"]},
+        {"display": "Tirtouga", "ids": ["B1 066"]},
+        {"display": "Carracosta", "ids": ["B1 067"]},
+        {"display": "Plume Fossil", "ids": ["B1 214"]},
+        {"display": "Archen", "ids": ["B1 133"]},
+        {"display": "Archeops", "ids": ["B1 134", "B1 242"]}
+      ]
+    },
+    {
+      "name": "Smallest Meets Largest",
+      "requirements": [
+        {"display": "Joltik", "ids": ["B1 092"]},
+        {"display": "Wailord", "ids": ["B1 057"]}
+      ]
+    },
+    {
+      "name": "Category: Puppy Pokémon",
+      "requirements": [
+        {"display": "Growlithe", "ids": ["B1 028", "B1 230"]},
+        {"display": "Lillipup", "ids": ["B1 201"]},
+        {"display": "Yamper", "ids": ["B1 095"]}
+      ]
+    },
+    {
+      "name": "Nice...Hat?",
+      "requirements": [
+        {"display": "Ludicolo", "ids": ["B1 055", "B1 233"]},
+        {"display": "Breloom", "ids": ["B1 012"]},
+        {"display": "Honchkrow", "ids": ["B1 149", "B1 244"]},
+        {"display": "Mismagius", "ids": ["B1 100"]}
+      ]
+    },
+    {
+      "name": "Taking Flight in Different Forms",
+      "requirements": [
+        {"display": "Wurmple", "ids": ["B1 003"]},
+        {"display": "Silcoon", "ids": ["B1 004"]},
+        {"display": "Beautifly", "ids": ["B1 005", "B1 227"]},
+        {"display": "Cascoon", "ids": ["B1 006"]},
+        {"display": "Dustox", "ids": ["B1 007"]}
+      ]
+    },
+    {
+      "name": "One-Eyed Stares",
+      "requirements": [
+        {"display": "Trevenant", "ids": ["B1 024"]},
+        {"display": "Dusknoir", "ids": ["B1 105"]},
+        {"display": "Meltan", "ids": ["B1 173"]},
+        {"display": "Rolycoly", "ids": ["B1 145"]}
+      ]
+    },
+    {
+      "name": "Sudowoodo Blending In (x5)",
+      "requirements": [
+        {"display": "Trevenant", "ids": ["B1 024"]},
+        {"display": "Sudowoodo", "ids": ["B1 125"]}
+      ]
+    },
+    {
+      "name": "Warning: May Be Prickly",
+      "requirements": [
+        {"display": "Wurmple", "ids": ["B1 003"]},
+        {"display": "Skorupi", "ids": ["B1 152"]},
+        {"display": "Ferroseed", "ids": ["B1 166"]}
+      ]
+    },
+    {
+      "name": "Manes That Blaze and Shock",
+      "requirements": [
+        {"display": "Ponyta", "ids": ["B1 030"]},
+        {"display": "Blitzle", "ids": ["B1 090"]}
+      ]
+    },
+    {
+      "name": "A Couple of Arm-Crossers",
+      "requirements": [
+        {"display": "Krokorok", "ids": ["B1 131"]},
+        {"display": "Pancham", "ids": ["B1 138", "B1 243"]}
+      ]
+    },
+    {
+      "name": "Distinctive Eyes",
+      "requirements": [
+        {"display": "Spinda", "ids": ["B1 195"]},
+        {"display": "Sableye", "ids": ["B1 101"]}
+      ]
+    },
+    {
+      "name": "The Kahuna Stands Strong",
+      "requirements": [
+        {"display": "Hala", "ids": ["B1 222", "B1 267"]},
+        {"display": "Hariyama", "ids": ["B1 127"]},
+        {"display": "Crabominable", "ids": ["B1 140"]}
+      ]
+    },
+    {
+      "name": "A Bigger Splash Than the Sea",
+      "requirements": [
+        {"display": "Marlon", "ids": ["B1 221", "B1 266"]},
+        {"display": "Carracosta", "ids": ["B1 067"]},
+        {"display": "Jellicent", "ids": ["B1 069", "B1 234"]}
+      ]
+    },
+    {
+      "name": "The Alluring, Soulful Dancer",
+      "requirements": [
+        {"display": "Fantina", "ids": ["B1 224", "B1 269"]},
+        {"display": "Drifblim", "ids": ["B1 108"]},
+        {"display": "Mismagius", "ids": ["B1 100"]}
+      ]
+    },
+    {
+      "name": "Collect 1 Mega Evolution Pokémon ex Card",
+      "requirements": [
+        {"display": "Mega Pinsir ex", "ids": ["B1 002", "B1 251", "B1 272"]},
+        {"display": "Mega Blaziken ex", "ids": ["B1 036", "B1 254", "B1 284"]},
+        {"display": "Mega Gyarados ex", "ids": ["B1 052", "B1 255", "B1 285"]},
+        {"display": "Mega Ampharos ex", "ids": ["B1 085", "B1 258", "B1 277"]},
+        {"display": "Mega Altaria ex", "ids": ["B1 102", "B1 259", "B1 286"]},
+        {"display": "Mega Absol ex", "ids": ["B1 151", "B1 262", "B1 280"]}
+      ]
+    },
+    {
+      "name": "Collect 3 Mega Evolution Pokémon ex Card",
+      "requirements": [
+        {"display": "Mega Pinsir ex", "ids": ["B1 002", "B1 251", "B1 272"]},
+        {"display": "Mega Blaziken ex", "ids": ["B1 036", "B1 254", "B1 284"]},
+        {"display": "Mega Gyarados ex", "ids": ["B1 052", "B1 255", "B1 285"]},
+        {"display": "Mega Ampharos ex", "ids": ["B1 085", "B1 258", "B1 277"]},
+        {"display": "Mega Altaria ex", "ids": ["B1 102", "B1 259", "B1 286"]},
+        {"display": "Mega Absol ex", "ids": ["B1 151", "B1 262", "B1 280"]}
+      ]
+    },
+    {
+      "name": "Collect 3 Froakie cards",
+      "requirements": [
+        {"display": "Froakie", "ids": ["B1 071"]}
+      ]
+    },
+    {
+      "name": "Collect 3 Yamper cards",
+      "requirements": [
+        {"display": "Yamper", "ids": ["B1 095"]}
+      ]
+    },
+    {
+      "name": "Collect 5 Darkrai cards",
+      "requirements": [
+        {"display": "Darkrai", "ids": ["B1 154"]}
+      ]
+    },
+    {
+      "name": "Mega Rising Museum 1",
+      "requirements": [
+        {"display": "Beautifly", "ids": ["B1 227"]},
+        {"display": "Growlithe", "ids": ["B1 230"]},
+        {"display": "Keldeo", "ids": ["B1 235"]},
+        {"display": "Luxray", "ids": ["B1 237"]},
+        {"display": "Makuhita", "ids": ["B1 240"]},
+        {"display": "Archeops", "ids": ["B1 242"]},
+        {"display": "Corviknight", "ids": ["B1 246"]},
+        {"display": "Rufflet", "ids": ["B1 250"]}
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "Mega Gyarados",
+      "rarities": {
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89, 0.56],
+        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
+      }
+    },
+    {
+      "name": "Mega Blaziken",
+      "rarities": {
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89, 0.56],
+        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
+      }
+    },
+    {
+      "name": "Mega Altaria",
+      "rarities": {
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.89, 0.56],
+        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "☼": [0, 0, 0, 0.00714, 0.02857],
+        "☼☼": [0, 0, 0, 0.00333, 0.01333],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
+      }
+    }
+  ],
+  "cards": [
+    {"id": "B1 001", "name": "Pinsir", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 002", "name": "Mega Pinsir ex", "pack": "Mega Blaziken", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 003", "name": "Wurmple", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 004", "name": "Silcoon", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 005", "name": "Beautifly", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 006", "name": "Cascoon", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 007", "name": "Dustox", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 008", "name": "Seedot", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 009", "name": "Nuzleaf", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 010", "name": "Shiftry", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 011", "name": "Shroomish", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 012", "name": "Breloom", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 013", "name": "Pansage", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 014", "name": "Simisage", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 015", "name": "Cottonee", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 016", "name": "Whimsicott ex", "pack": "Mega Altaria", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 017", "name": "Petilil", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 018", "name": "Lilligant", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 019", "name": "Maractus", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 020", "name": "Virizion", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 021", "name": "Skiddo", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 022", "name": "Gogoat", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 023", "name": "Phantump", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 024", "name": "Trevenant", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 025", "name": "Grookey", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "B1 026", "name": "Thwackey", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 027", "name": "Rillaboom", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "B1 028", "name": "Growlithe", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 029", "name": "Arcanine", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 030", "name": "Ponyta", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 031", "name": "Rapidash ex", "pack": "Mega Blaziken", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 032", "name": "Ho-Oh", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 033", "name": "Torchic", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 034", "name": "Combusken", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 035", "name": "Blaziken", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 036", "name": "Mega Blaziken ex", "pack": "Mega Blaziken", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 037", "name": "Pansear", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 038", "name": "Simisear", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 039", "name": "Darumaka", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 040", "name": "Darmanitan", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 041", "name": "Litwick", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 042", "name": "Lampent", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 043", "name": "Chandelure", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 044", "name": "Heatmor", "pack": "All", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 045", "name": "Litleo", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "B1 046", "name": "Pyroar", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 047", "name": "Turtonator", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "B1 048", "name": "Psyduck", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 049", "name": "Golduck", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 050", "name": "Magikarp", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 051", "name": "Gyarados", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 052", "name": "Mega Gyarados ex", "pack": "Mega Gyarados", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 053", "name": "Lotad", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 054", "name": "Lombre", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 055", "name": "Ludicolo", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 056", "name": "Wailmer", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 057", "name": "Wailord", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 058", "name": "Corphish", "pack": "All", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 059", "name": "Crawdaunt", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 060", "name": "Luvdisc", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 061", "name": "Panpour", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 062", "name": "Simipour", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 063", "name": "Tympole", "pack": "All", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 064", "name": "Palpitoad", "pack": "All", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 065", "name": "Seismitoad", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 066", "name": "Tirtouga", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 067", "name": "Carracosta", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 068", "name": "Frillish", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 069", "name": "Jellicent", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 070", "name": "Keldeo", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 071", "name": "Froakie", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 072", "name": "Frogadier", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 073", "name": "Greninja ex", "pack": "Mega Gyarados", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 074", "name": "Bergmite", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 075", "name": "Avalugg", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 076", "name": "Chewtle", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 077", "name": "Drednaw", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 078", "name": "Arrokuda", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "B1 079", "name": "Barraskewda", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 080", "name": "Eiscue", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "B1 081", "name": "Jolteon ex", "pack": "Mega Gyarados", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 082", "name": "Mareep", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 083", "name": "Flaaffy", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 084", "name": "Ampharos", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 085", "name": "Mega Ampharos ex", "pack": "Mega Altaria", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 086", "name": "Shinx", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 087", "name": "Luxio", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 088", "name": "Luxray", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 089", "name": "Pachirisu", "pack": "All", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 090", "name": "Blitzle", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 091", "name": "Zebstrika", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 092", "name": "Joltik", "pack": "All", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 093", "name": "Galvantula", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 094", "name": "Dedenne", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 095", "name": "Yamper", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 096", "name": "Boltund", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "B1 097", "name": "Natu", "pack": "All", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 098", "name": "Xatu", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 099", "name": "Misdreavus", "pack": "All", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 100", "name": "Mismagius", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 101", "name": "Sableye", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 102", "name": "Mega Altaria ex", "pack": "Mega Altaria", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1 103", "name": "Duskull", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 104", "name": "Dusclops", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 105", "name": "Dusknoir", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 106", "name": "Jirachi", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 107", "name": "Drifloon", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 108", "name": "Drifblim", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 109", "name": "Chingling", "pack": "All", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 110", "name": "Yamask", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 111", "name": "Cofagrigus", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 112", "name": "Gothita", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 113", "name": "Gothorita", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 114", "name": "Gothitelle", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 115", "name": "Spritzee", "pack": "All", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 116", "name": "Aromatisse", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 117", "name": "Swirlix", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 118", "name": "Slurpuff", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 119", "name": "Carbink", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 120", "name": "Klefki", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "B1 121", "name": "Indeedee ex", "pack": "Mega Altaria", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1 122", "name": "Sandshrew", "pack": "All", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 123", "name": "Sandslash", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 124", "name": "Hitmonchan ex", "pack": "Mega Blaziken", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1 125", "name": "Sudowoodo", "pack": "All", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 126", "name": "Makuhita", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 127", "name": "Hariyama", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 128", "name": "Hippopotas", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 129", "name": "Hippowdon", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 130", "name": "Sandile", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 131", "name": "Krokorok", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 132", "name": "Krookodile", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 133", "name": "Archen", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 134", "name": "Archeops", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 135", "name": "Golett", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 136", "name": "Golurk", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 137", "name": "Terrakion", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 138", "name": "Pancham", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 139", "name": "Crabrawler", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 140", "name": "Crabominable", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 141", "name": "Stufful", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 142", "name": "Bewear", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 143", "name": "Sandygast", "pack": "All", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 144", "name": "Palossand", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 145", "name": "Rolycoly", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 146", "name": "Carkol", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 147", "name": "Coalossal", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "B1 148", "name": "Murkrow", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 149", "name": "Honchkrow", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 150", "name": "Absol", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 151", "name": "Mega Absol ex", "pack": "Mega Gyarados", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 152", "name": "Skorupi", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 153", "name": "Drapion", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 154", "name": "Darkrai", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 155", "name": "Deino", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 156", "name": "Zweilous", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 157", "name": "Hydreigon", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 158", "name": "Pangoro", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 159", "name": "Skrelp", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 160", "name": "Dragalge ex", "pack": "Mega Blaziken", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 161", "name": "Mareanie", "pack": "All", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 162", "name": "Toxapex", "pack": "All", "rarity": "♢♢", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 163", "name": "Impidimp", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 164", "name": "Morgrem", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 165", "name": "Grimmsnarl", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "B1 166", "name": "Ferroseed", "pack": "All", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "B1 167", "name": "Ferrothorn", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1 168", "name": "Durant", "pack": "All", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "B1 169", "name": "Cobalion", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1 170", "name": "Honedge", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "B1 171", "name": "Doublade", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1 172", "name": "Aegislash", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1 173", "name": "Meltan", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "B1 174", "name": "Melmetal ex", "pack": "Mega Gyarados", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1 175", "name": "Corviknight", "pack": "Mega Blaziken", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
+    {"id": "B1 176", "name": "Druddigon", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Dragon"},
+    {"id": "B1 177", "name": "Goomy", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Dragon"},
+    {"id": "B1 178", "name": "Sliggoo", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Dragon"},
+    {"id": "B1 179", "name": "Goodra", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Dragon"},
+    {"id": "B1 180", "name": "Pidgey", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 181", "name": "Pidgeotto", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 182", "name": "Pidgeot", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 183", "name": "Tauros ex", "pack": "Mega Altaria", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
+    {"id": "B1 184", "name": "Eevee", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 185", "name": "Aipom", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 186", "name": "Ambipom", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 187", "name": "Miltank", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 188", "name": "Zigzagoon", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 189", "name": "Linoone", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 190", "name": "Whismur", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 191", "name": "Loudred", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 192", "name": "Exploud", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 193", "name": "Skitty", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 194", "name": "Delcatty", "pack": "Mega Gyarados", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 195", "name": "Spinda", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 196", "name": "Swablu", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 197", "name": "Altaria", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 198", "name": "Chatot", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 199", "name": "Patrat", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 200", "name": "Watchog", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 201", "name": "Lillipup", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 202", "name": "Herdier", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 203", "name": "Stoutland", "pack": "Mega Altaria", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 204", "name": "Rufflet", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 205", "name": "Braviary", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 206", "name": "Furfrou", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 207", "name": "Furfrou", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 208", "name": "Furfrou", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 209", "name": "Rookidee", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 210", "name": "Corvisquire", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 211", "name": "Wooloo", "pack": "Mega Altaria", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 212", "name": "Dubwool", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "B1 213", "name": "Prank Spinner", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "B1 214", "name": "Plume Fossil", "pack": "Mega Blaziken", "rarity": "♢", "tags": [], "type": "Item"},
+    {"id": "B1 215", "name": "Hitting Hammer", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "B1 216", "name": "Cover Fossil", "pack": "Mega Gyarados", "rarity": "♢", "tags": [], "type": "Item"},
+    {"id": "B1 217", "name": "Flame Patch", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Item"},
+    {"id": "B1 218", "name": "Sitrus Berry", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
+    {"id": "B1 219", "name": "Heavy Helmet", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
+    {"id": "B1 220", "name": "Lucky Mittens", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
+    {"id": "B1 221", "name": "Marlon", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1 222", "name": "Hala", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1 223", "name": "May", "pack": "Mega Blaziken", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1 224", "name": "Fantina", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1 225", "name": "Copycat", "pack": "Mega Gyarados", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1 226", "name": "Lisia", "pack": "Mega Altaria", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "B1 227", "name": "Beautifly", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "B1 228", "name": "Skiddo", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "B1 229", "name": "Rillaboom", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Grass"},
+    {"id": "B1 230", "name": "Growlithe", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Fire"},
+    {"id": "B1 231", "name": "Chandelure", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Fire"},
+    {"id": "B1 232", "name": "Magikarp", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "B1 233", "name": "Ludicolo", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "B1 234", "name": "Jellicent", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "B1 235", "name": "Keldeo", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "B1 236", "name": "Eiscue", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "B1 237", "name": "Luxray", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Lightning"},
+    {"id": "B1 238", "name": "Cofagrigus", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Psychic"},
+    {"id": "B1 239", "name": "Gothita", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Psychic"},
+    {"id": "B1 240", "name": "Makuhita", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "B1 241", "name": "Hippowdon", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "B1 242", "name": "Archeops", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "B1 243", "name": "Pancham", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "B1 244", "name": "Honchkrow", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Darkness"},
+    {"id": "B1 245", "name": "Hydreigon", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Darkness"},
+    {"id": "B1 246", "name": "Corviknight", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Metal"},
+    {"id": "B1 247", "name": "Goomy", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Dragon"},
+    {"id": "B1 248", "name": "Delcatty", "pack": "Mega Gyarados", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "B1 249", "name": "Stoutland", "pack": "Mega Altaria", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "B1 250", "name": "Rufflet", "pack": "Mega Blaziken", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "B1 251", "name": "Mega Pinsir ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 252", "name": "Whimsicott ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 253", "name": "Rapidash ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 254", "name": "Mega Blaziken ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 255", "name": "Mega Gyarados ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 256", "name": "Greninja ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 257", "name": "Jolteon ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 258", "name": "Mega Ampharos ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 259", "name": "Mega Altaria ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1 260", "name": "Indeedee ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1 261", "name": "Hitmonchan ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1 262", "name": "Mega Absol ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 263", "name": "Dragalge ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 264", "name": "Melmetal ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1 265", "name": "Tauros ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "B1 266", "name": "Marlon", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1 267", "name": "Hala", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1 268", "name": "May", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1 269", "name": "Fantina", "pack": "Mega Altaria", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1 270", "name": "Copycat", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1 271", "name": "Lisia", "pack": "Mega Altaria", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "B1 272", "name": "Mega Pinsir ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 273", "name": "Whimsicott ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 274", "name": "Rapidash ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 275", "name": "Greninja ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 276", "name": "Jolteon ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 277", "name": "Mega Ampharos ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 278", "name": "Indeedee ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1 279", "name": "Hitmonchan ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1 280", "name": "Mega Absol ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 281", "name": "Dragalge ex", "pack": "Mega Blaziken", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
+    {"id": "B1 282", "name": "Melmetal ex", "pack": "Mega Gyarados", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1 283", "name": "Tauros ex", "pack": "Mega Altaria", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "B1 284", "name": "Mega Blaziken ex", "pack": "Mega Blaziken", "rarity": "☆☆☆", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 285", "name": "Mega Gyarados ex", "pack": "Mega Gyarados", "rarity": "☆☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 286", "name": "Mega Altaria ex", "pack": "Mega Altaria", "rarity": "☆☆☆", "tags": ["EX"], "type": "Psychic"},
+    {"id": "B1 287", "name": "Bellsprout", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1 288", "name": "Weepinbell", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1 289", "name": "Victreebel", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1 290", "name": "Rowlet", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1 291", "name": "Dartrix", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Grass"},
+    {"id": "B1 292", "name": "Moltres", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Fire"},
+    {"id": "B1 293", "name": "Litten", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Fire"},
+    {"id": "B1 294", "name": "Torracat", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Fire"},
+    {"id": "B1 295", "name": "Poliwag", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 296", "name": "Poliwhirl", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 297", "name": "Poliwrath", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 298", "name": "Articuno", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 299", "name": "Manaphy", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 300", "name": "Popplio", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 301", "name": "Brionne", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Water"},
+    {"id": "B1 302", "name": "Zapdos", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Lightning"},
+    {"id": "B1 303", "name": "Oricorio", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Lightning"},
+    {"id": "B1 304", "name": "Zeraora", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Lightning"},
+    {"id": "B1 305", "name": "Drowzee", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Psychic"},
+    {"id": "B1 306", "name": "Hypno", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Psychic"},
+    {"id": "B1 307", "name": "Geodude", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "B1 308", "name": "Graveler", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "B1 309", "name": "Golem", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "B1 310", "name": "Rockruff", "pack": "Mega Gyarados", "rarity": "☼", "tags": [], "type": "Fighting"},
+    {"id": "B1 311", "name": "Alolan Diglett", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Metal"},
+    {"id": "B1 312", "name": "Meowth", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1 313", "name": "Persian", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1 314", "name": "Doduo", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1 315", "name": "Dodrio", "pack": "Mega Blaziken", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1 316", "name": "Bidoof", "pack": "Mega Altaria", "rarity": "☼", "tags": [], "type": "Colorless"},
+    {"id": "B1 317", "name": "Decidueye ex", "pack": "Mega Blaziken", "rarity": "☼☼", "tags": ["EX"], "type": "Grass"},
+    {"id": "B1 318", "name": "Incineroar ex", "pack": "Mega Gyarados", "rarity": "☼☼", "tags": ["EX"], "type": "Fire"},
+    {"id": "B1 319", "name": "Palkia ex", "pack": "Mega Blaziken", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 320", "name": "Primarina ex", "pack": "Mega Altaria", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
+    {"id": "B1 321", "name": "Pikachu ex", "pack": "Mega Gyarados", "rarity": "☼☼", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 322", "name": "Tapu Koko ex", "pack": "Mega Blaziken", "rarity": "☼☼", "tags": ["EX"], "type": "Lightning"},
+    {"id": "B1 323", "name": "Lycanroc ex", "pack": "Mega Gyarados", "rarity": "☼☼", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1 324", "name": "Passimian ex", "pack": "Mega Altaria", "rarity": "☼☼", "tags": ["EX"], "type": "Fighting"},
+    {"id": "B1 325", "name": "Alolan Dugtrio ex", "pack": "Mega Blaziken", "rarity": "☼☼", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1 326", "name": "Dialga ex", "pack": "Mega Altaria", "rarity": "☼☼", "tags": ["EX"], "type": "Metal"},
+    {"id": "B1 327", "name": "Bibarel ex", "pack": "Mega Altaria", "rarity": "☼☼", "tags": ["EX"], "type": "Colorless"},
+    {"id": "B1 328", "name": "Arceus ex", "pack": "Mega Gyarados", "rarity": "☼☼", "tags": ["EX"], "type": "Colorless"},
+    {"id": "B1 329", "name": "Lilligant", "pack": "All", "rarity": "♛", "tags": [], "type": "Grass"},
+    {"id": "B1 330", "name": "Klefki", "pack": "All", "rarity": "♛", "tags": [], "type": "Psychic"},
+    {"id": "B1 331", "name": "Flame Patch", "pack": "All", "rarity": "♛", "tags": [], "type": "Item"}
+  ]
+}

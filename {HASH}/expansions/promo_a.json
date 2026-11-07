@@ -1,0 +1,220 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "Shop",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Gold Shop",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Premium Mission",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Event Mission",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Wonder Pick",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 1",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 2",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 3",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 4",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 5",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 6",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 7",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 8",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 9",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Volume 10",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    },
+    {
+      "name": "Campaign",
+      "rarities": {
+        "-": [0,0,0,0,0]
+      }
+    }
+  ],
+  "cards": [
+    {"id": "P-A 001", "name": "Potion", "pack": "Shop", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 002", "name": "X Speed", "pack": "Shop", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 003", "name": "Hand Scope", "pack": "Shop", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 004", "name": "Pokédex", "pack": "Shop", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 005", "name": "Poké Ball", "pack": "Shop", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 006", "name": "Red Card", "pack": "Shop", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 007", "name": "Professor's Research", "pack": "Shop", "rarity": "-", "tags": [], "type": "Supporter"},
+    {"id": "P-A 008", "name": "Pokédex", "pack": "Campaign", "rarity": "-", "tags": [], "type": "Item"},
+    {"id": "P-A 009", "name": "Pikachu", "pack": "Shop", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 010", "name": "Mewtwo", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 011", "name": "Chansey", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 012", "name": "Meowth", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 013", "name": "Butterfree", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 014", "name": "Lapras ex", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 015", "name": "Pikachu", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 016", "name": "Clefairy", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 017", "name": "Mankey", "pack": "Volume 1", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 018", "name": "Venusaur", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 019", "name": "Greninja", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 020", "name": "Haunter", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 021", "name": "Onix", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 022", "name": "Jigglypuff", "pack": "Volume 2", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 023", "name": "Bulbasaur", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 024", "name": "Magnemite", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 025", "name": "Moltres ex", "pack": "Premium Mission", "rarity": "-", "tags": ["EX"], "type": "Fire"},
+    {"id": "P-A 026", "name": "Pikachu", "pack": "Event Mission", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 027", "name": "Snivy", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 028", "name": "Volcarona", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Fire"},
+    {"id": "P-A 029", "name": "Blastoise", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 030", "name": "Eevee", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 031", "name": "Cinccino", "pack": "Volume 3", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 032", "name": "Charmander", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Fire"},
+    {"id": "P-A 033", "name": "Squirtle", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 034", "name": "Piplup", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 035", "name": "Turtwig", "pack": "Volume 4", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 036", "name": "Electivire", "pack": "Volume 4", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 037", "name": "Cresselia ex", "pack": "Volume 4", "rarity": "-", "tags": ["EX"], "type": "Psychic"},
+    {"id": "P-A 038", "name": "Misdreavus", "pack": "Volume 4", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 039", "name": "Skarmory", "pack": "Volume 4", "rarity": "-", "tags": [], "type": "Metal"},
+    {"id": "P-A 040", "name": "Chimchar", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Fire"},
+    {"id": "P-A 041", "name": "Togepi", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 042", "name": "Darkrai ex", "pack": "Premium Mission", "rarity": "-", "tags": ["EX"], "type": "Darkness"},
+    {"id": "P-A 043", "name": "Cherrim", "pack": "Volume 5", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 044", "name": "Raichu", "pack": "Volume 5", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 045", "name": "Nosepass", "pack": "Volume 5", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 046", "name": "Gible", "pack": "Volume 5", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 047", "name": "Staraptor", "pack": "Volume 5", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 048", "name": "Manaphy", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 049", "name": "Snorlax", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 050", "name": "Mewtwo ex", "pack": "Gold Shop", "rarity": "-", "tags": ["EX"], "type": "Psychic"},
+    {"id": "P-A 051", "name": "Cyclizar", "pack": "Campaign", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 052", "name": "Sprigatito", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 053", "name": "Floatzel", "pack": "Volume 6", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 054", "name": "Pawmot", "pack": "Volume 6", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 055", "name": "Machamp", "pack": "Volume 6", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 056", "name": "Ekans", "pack": "Volume 6", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 057", "name": "Bidoof", "pack": "Volume 6", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 058", "name": "Pachirisu", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 059", "name": "Riolu", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 060", "name": "Exeggcute", "pack": "Volume 7", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 061", "name": "Froakie", "pack": "Volume 7", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 062", "name": "Farfetch'd", "pack": "Volume 7", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 063", "name": "Rayquaza", "pack": "Volume 7", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 064", "name": "Rayquaza ex", "pack": "Volume 7", "rarity": "-", "tags": ["EX"], "type": "Colorless"},
+    {"id": "P-A 065", "name": "Rayquaza ex", "pack": "Event Mission", "rarity": "-", "tags": ["EX"], "type": "Colorless"},
+    {"id": "P-A 066", "name": "Mimikyu", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 067", "name": "Cosmog", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 068", "name": "Lycanroc", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 069", "name": "Alolan Exeggutor", "pack": "Volume 8", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 070", "name": "Alolan Ninetails", "pack": "Volume 8", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 071", "name": "Crabrawler", "pack": "Volume 8", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 072", "name": "Alolan Grimer", "pack": "Volume 8", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 073", "name": "Toucannon", "pack": "Volume 8", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 074", "name": "Zeraora", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 075", "name": "Kartana", "pack": "Volume 9", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 076", "name": "Blacephalon", "pack": "Volume 9", "rarity": "-", "tags": [], "type": "Fire"},
+    {"id": "P-A 077", "name": "Xurkitree", "pack": "Volume 9", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 078", "name": "Dawn Wings Necrozma", "pack": "Volume 9", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 079", "name": "Dusk Mane Necrozma", "pack": "Volume 9", "rarity": "-", "tags": [], "type": "Metal"},
+    {"id": "P-A 080", "name": "Stakataka", "pack": "Volume 9", "rarity": "-", "tags": [], "type": "Metal"},
+    {"id": "P-A 081", "name": "Ultra Necrozma ex", "pack": "Volume 9", "rarity": "-", "tags": ["EX"], "type": "Dragon"},
+    {"id": "P-A 082", "name": "Poipole", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 083", "name": "Stufful", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 084", "name": "Tapu Koko ex", "pack": "Premium Mission", "rarity": "-", "tags": ["EX"], "type": "Lightning"},
+    {"id": "P-A 085", "name": "Vanillite", "pack": "Volume 10", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 086", "name": "Jolteon", "pack": "Volume 10", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 087", "name": "Alcremie", "pack": "Volume 10", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 088", "name": "Dragonair", "pack": "Volume 10", "rarity": "-", "tags": [], "type": "Dragon"},
+    {"id": "P-A 089", "name": "Audino", "pack": "Volume 10", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 090", "name": "Togedemaru", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Metal"},
+    {"id": "P-A 091", "name": "Greedent", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 092", "name": "Eevee", "pack": "Event Mission", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 093", "name": "Cleffa", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 094", "name": "Horsea", "pack": "Volume 11", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 095", "name": "Chinchou", "pack": "Volume 11", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 096", "name": "Houndoom", "pack": "Volume 11", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 097", "name": "Kangaskhan", "pack": "Volume 11", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 098", "name": "Blissey ex", "pack": "Volume 11", "rarity": "-", "tags": ["EX"], "type": "Colorless"},
+    {"id": "P-A 099", "name": "Marill", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 100", "name": "Weavile", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 101", "name": "Latias", "pack": "Premium Mission", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 102", "name": "Tropius", "pack": "Volume 12", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 103", "name": "Poliwag", "pack": "Volume 12", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 104", "name": "Milotic", "pack": "Volume 12", "rarity": "-", "tags": [], "type": "Water"},
+    {"id": "P-A 105", "name": "Zorua", "pack": "Volume 12", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 106", "name": "Zoroark", "pack": "Volume 12", "rarity": "-", "tags": [], "type": "Darkness"},
+    {"id": "P-A 107", "name": "Miltank", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Normal"},
+    {"id": "P-A 108", "name": "Phanpy", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 109", "name": "Eevee ex", "pack": "???", "rarity": "-", "tags": ["EX"], "type": "Colorless"},
+    {"id": "P-A 110", "name": "Entei ex", "pack": "???", "rarity": "-", "tags": ["EX"], "type": "Fire"},
+    {"id": "P-A 111", "name": "Pikachu", "pack": "Volume 13", "rarity": "-", "tags": [], "type": "Lightning"},
+    {"id": "P-A 112", "name": "Raichu ex", "pack": "Volume 13", "rarity": "-", "tags": ["EX"], "type": "Lightning"},
+    {"id": "P-A 113", "name": "Phanpy", "pack": "Volume 13", "rarity": "-", "tags": [], "type": "Psychic"},
+    {"id": "P-A 114", "name": "Mimikyu", "pack": "Volume 13", "rarity": "-", "tags": [], "type": "Fighting"},
+    {"id": "P-A 115", "name": "Machamp", "pack": "Volume 13", "rarity": "-", "tags": [], "type": "Colorless"},
+    {"id": "P-A 116", "name": "Shaymin", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Grass"},
+    {"id": "P-A 117", "name": "Absol", "pack": "Wonder Pick", "rarity": "-", "tags": [], "type": "Darkness"}
+  ]
+}
