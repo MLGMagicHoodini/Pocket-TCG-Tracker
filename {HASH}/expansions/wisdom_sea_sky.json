@@ -1,279 +1,2165 @@
 {
-  "missions": [
-  ],
+  "missions": [],
   "packs": [
     {
       "name": "Ho-oh",
       "rarities": {
-        "♢": [1.0, 1.0, 1.0, 0, 0],
-        "♢♢": [0, 0, 0, 0.89, 0.56],
-        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
-        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
-        "☆": [0, 0, 0, 0.02572, 0.10288],
-        "☆☆": [0, 0, 0, 0.005, 0.02],
-        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
-        "☼": [0, 0, 0, 0.00714, 0.02857],
-        "☼☼": [0, 0, 0, 0.00333, 0.01333],
-        "♛": [0, 0, 0, 0.0004, 0.0016]
+        "♢": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "♢♢": [
+          0,
+          0,
+          0,
+          0.89,
+          0.56
+        ],
+        "♢♢♢": [
+          0,
+          0,
+          0,
+          0.04952,
+          0.1981
+        ],
+        "♢♢♢♢": [
+          0,
+          0,
+          0,
+          0.01666,
+          0.06664
+        ],
+        "☆": [
+          0,
+          0,
+          0,
+          0.02572,
+          0.10288
+        ],
+        "☆☆": [
+          0,
+          0,
+          0,
+          0.005,
+          0.02
+        ],
+        "☆☆☆": [
+          0,
+          0,
+          0,
+          0.00222,
+          0.00888
+        ],
+        "☼": [
+          0,
+          0,
+          0,
+          0.00714,
+          0.02857
+        ],
+        "☼☼": [
+          0,
+          0,
+          0,
+          0.00333,
+          0.01333
+        ],
+        "♛": [
+          0,
+          0,
+          0,
+          0.0004,
+          0.0016
+        ]
       }
     },
     {
       "name": "Lugia",
       "rarities": {
-        "♢": [1.0, 1.0, 1.0, 0, 0],
-        "♢♢": [0, 0, 0, 0.89, 0.56],
-        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
-        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
-        "☆": [0, 0, 0, 0.02572, 0.10288],
-        "☆☆": [0, 0, 0, 0.005, 0.02],
-        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
-        "☼": [0, 0, 0, 0.00714, 0.02857],
-        "☼☼": [0, 0, 0, 0.00333, 0.01333],
-        "♛": [0, 0, 0, 0.0004, 0.0016]
+        "♢": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "♢♢": [
+          0,
+          0,
+          0,
+          0.89,
+          0.56
+        ],
+        "♢♢♢": [
+          0,
+          0,
+          0,
+          0.04952,
+          0.1981
+        ],
+        "♢♢♢♢": [
+          0,
+          0,
+          0,
+          0.01666,
+          0.06664
+        ],
+        "☆": [
+          0,
+          0,
+          0,
+          0.02572,
+          0.10288
+        ],
+        "☆☆": [
+          0,
+          0,
+          0,
+          0.005,
+          0.02
+        ],
+        "☆☆☆": [
+          0,
+          0,
+          0,
+          0.00222,
+          0.00888
+        ],
+        "☼": [
+          0,
+          0,
+          0,
+          0.00714,
+          0.02857
+        ],
+        "☼☼": [
+          0,
+          0,
+          0,
+          0.00333,
+          0.01333
+        ],
+        "♛": [
+          0,
+          0,
+          0,
+          0.0004,
+          0.0016
+        ]
       }
     }
   ],
   "cards": [
-    {"id": "A4 001", "name": "Oddish", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 002", "name": "Gloom", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 003", "name": "Bellossom", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 004", "name": "Tangela", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 005", "name": "Tangrowth", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 006", "name": "Scyther", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 007", "name": "Pinsir", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 008", "name": "Chikorita", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 009", "name": "Bayleef", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 010", "name": "Meganium", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 011", "name": "Ledyba", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 012", "name": "Ledian", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 013", "name": "Hoppip", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 014", "name": "Skiploom", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 015", "name": "Jumpluff", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 016", "name": "Sunkern", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 017", "name": "Sunflora", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 018", "name": "Yanma", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 019", "name": "Yanmega", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 020", "name": "Pineco", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 021", "name": "Shuckle ex", "pack": "Lugia", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4 022", "name": "Heracross", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 023", "name": "Cherubi", "pack": "All", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4 024", "name": "Cherrim", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4 025", "name": "Vulpix", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4 026", "name": "Ninetales", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 027", "name": "Cyndaquil", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4 028", "name": "Quilava", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 029", "name": "Typhlosion", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 030", "name": "Slugma", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4 031", "name": "Magcargo", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 032", "name": "Magby", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 033", "name": "Entei", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 034", "name": "Ho-Oh ex", "pack": "Ho-oh", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4 035", "name": "Darumaka", "pack": "All", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4 036", "name": "Darmanitan", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4 037", "name": "Heatmor", "pack": "All", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4 038", "name": "Poliwag", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 039", "name": "Poliwhirl", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 040", "name": "Politoed", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 041", "name": "Horsea", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 042", "name": "Seadra", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 043", "name": "Kingdra ex", "pack": "Lugia", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4 044", "name": "Magikarp", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 045", "name": "Gyarados", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 046", "name": "Totodile", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 047", "name": "Croconaw", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 048", "name": "Feraligatr", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 049", "name": "Marill", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 050", "name": "Azumarill", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 051", "name": "Wooper", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 052", "name": "Quagsire", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 053", "name": "Qwilfish", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 054", "name": "Corsola", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 055", "name": "Remoraid", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 056", "name": "Octillery", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 057", "name": "Delibird", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 058", "name": "Mantine", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 059", "name": "Suicune", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 060", "name": "Corphish", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 061", "name": "Crawdaunt", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 062", "name": "Ducklett", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4 063", "name": "Swanna", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4 064", "name": "Chinchou", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 065", "name": "Lanturn ex", "pack": "Lugia", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4 066", "name": "Pichu", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 067", "name": "Mareep", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 068", "name": "Flaaffy", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 069", "name": "Ampharos", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 070", "name": "Elekid", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 071", "name": "Raikou", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 072", "name": "Emolga", "pack": "All", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4 073", "name": "Slowpoke", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 074", "name": "Slowking", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 075", "name": "Smoochum", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 076", "name": "Jynx", "pack": "All", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 077", "name": "Cleffa", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 078", "name": "Togepi", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 079", "name": "Togetic", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 080", "name": "Togekiss", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 081", "name": "Natu", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 082", "name": "Xatu", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 083", "name": "Espeon ex", "pack": "Lugia", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4 084", "name": "Unown", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 085", "name": "Unown", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 086", "name": "Wobbuffet", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 087", "name": "Girafarig", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 088", "name": "Snubbull", "pack": "All", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 089", "name": "Granbull", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 090", "name": "Munna", "pack": "All", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 091", "name": "Musharna", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4 092", "name": "Onix", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 093", "name": "Sudowoodo", "pack": "All", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 094", "name": "Gligar", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 095", "name": "Gliscor", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 096", "name": "Swinub", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 097", "name": "Piloswine", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 098", "name": "Mamoswine", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 099", "name": "Phanpy", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 100", "name": "Donphan ex", "pack": "Ho-oh", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4 101", "name": "Tyrogue", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 102", "name": "Hitmontop", "pack": "All", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 103", "name": "Larvitar", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 104", "name": "Pupitar", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 105", "name": "Binacle", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 106", "name": "Barbaracle", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4 107", "name": "Zubat", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 108", "name": "Golbat", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 109", "name": "Crobat ex", "pack": "Ho-oh", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 110", "name": "Spinarak", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 111", "name": "Ariados", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 112", "name": "Umbreon ex", "pack": "Ho-oh", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 113", "name": "Murkrow", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 114", "name": "Honchkrow", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 115", "name": "Sneasel", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 116", "name": "Weavile", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 117", "name": "Houndour", "pack": "All", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 118", "name": "Houndoom", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 119", "name": "Tyranitar", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 120", "name": "Absol", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4 121", "name": "Forretress", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4 122", "name": "Steelix", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4 123", "name": "Scizor", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4 124", "name": "Skarmory ex", "pack": "Ho-oh", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4 125", "name": "Mawile", "pack": "All", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A4 126", "name": "Klink", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A4 127", "name": "Klang", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4 128", "name": "Klinklang", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4 129", "name": "Spearow", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 130", "name": "Fearow", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 131", "name": "Chansey", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 132", "name": "Blissey", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 133", "name": "Kangaskhan", "pack": "Ho-oh", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 134", "name": "Eevee", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 135", "name": "Porygon", "pack": "Lugia", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 136", "name": "Porygon2", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 137", "name": "Porygon-Z", "pack": "Lugia", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 138", "name": "Sentret", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 139", "name": "Furret", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 140", "name": "Hoothoot", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 141", "name": "Noctowl", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 142", "name": "Aipom", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 143", "name": "Ambipom", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 144", "name": "Dunsparce", "pack": "All", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 145", "name": "Teddiursa", "pack": "Ho-oh", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 146", "name": "Ursaring", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 147", "name": "Stantler", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 148", "name": "Smeargle", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 149", "name": "Lugia ex", "pack": "Lugia", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4 150", "name": "Bouffalant", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4 151", "name": "Elemental Switch", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4 152", "name": "Squirt Bottle", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4 153", "name": "Steel Apron", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4 154", "name": "Dark Pendant", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4 155", "name": "Rescue Scarf", "pack": "All", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4 156", "name": "Will", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4 157", "name": "Lyra", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4 158", "name": "Silver", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4 159", "name": "Fisher", "pack": "Lugia", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4 160", "name": "Jasmine", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4 161", "name": "Hiker", "pack": "Ho-oh", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4 162", "name": "Chikorita", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Grass"},
-    {"id": "A4 163", "name": "Bellossom", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Grass"},
-    {"id": "A4 164", "name": "Heracross", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Grass"},
-    {"id": "A4 165", "name": "Cyndaquil", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Fire"},
-    {"id": "A4 166", "name": "Magby", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Fire"},
-    {"id": "A4 167", "name": "Totodile", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A4 168", "name": "Qwilfish", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A4 169", "name": "Octillery", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A4 170", "name": "Delibird", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A4 171", "name": "Pichu", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Lightning"},
-    {"id": "A4 172", "name": "Ampharos", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Lightning"},
-    {"id": "A4 173", "name": "Togepi", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Psychic"},
-    {"id": "A4 174", "name": "Xatu", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Psychic"},
-    {"id": "A4 175", "name": "Wobbuffet", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Psychic"},
-    {"id": "A4 176", "name": "Gligar", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Fighting"},
-    {"id": "A4 177", "name": "Spinarak", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Darkness"},
-    {"id": "A4 178", "name": "Murkrow", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Darkness"},
-    {"id": "A4 179", "name": "Tyranitar", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Darkness"},
-    {"id": "A4 180", "name": "Scizor", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Metal"},
-    {"id": "A4 181", "name": "Sentret", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A4 182", "name": "Hoothoot", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A4 183", "name": "Stantler", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A4 184", "name": "Smeargle", "pack": "Lugia", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A4 185", "name": "Blissey", "pack": "Ho-oh", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A4 186", "name": "Shuckle ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4 187", "name": "Ho-Oh ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4 188", "name": "Kingdra ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
-    {"id": "A4 189", "name": "Lanturn ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4 190", "name": "Espeon ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4 191", "name": "Donphan ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4 192", "name": "Crobat ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 193", "name": "Umbreon ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 194", "name": "Skarmory ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4 195", "name": "Lugia ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4 196", "name": "Will", "pack": "Lugia", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4 197", "name": "Lyra", "pack": "Lugia", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4 198", "name": "Silver", "pack": "Ho-oh", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4 199", "name": "Fisher", "pack": "Lugia", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4 200", "name": "Jasmine", "pack": "Ho-oh", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4 201", "name": "Hiker", "pack": "Ho-oh", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4 202", "name": "Shuckle ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4 203", "name": "Kingdra ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
-    {"id": "A4 204", "name": "Lanturn ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4 205", "name": "Espeon ex", "pack": "Lugia", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4 206", "name": "Donphan ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4 207", "name": "Crobat ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 208", "name": "Umbreon ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 209", "name": "Skarmory ex", "pack": "Ho-oh", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4 210", "name": "Ho-Oh ex", "pack": "Ho-oh", "rarity": "☆☆☆", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4 211", "name": "Lugia ex", "pack": "Lugia", "rarity": "☆☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4 212", "name": "Yanma", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Grass"},
-    {"id": "A4 213", "name": "Flareon", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Fire"},
-    {"id": "A4 214", "name": "Magikarp", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Water"},
-    {"id": "A4 215", "name": "Gyarados", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Water"},
-    {"id": "A4 216", "name": "Vaporeon", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Water"},
-    {"id": "A4 217", "name": "Magnemite", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Lightning"},
-    {"id": "A4 218", "name": "Magneton", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Lightning"},
-    {"id": "A4 219", "name": "Jolteon", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Lightning"},
-    {"id": "A4 220", "name": "Misdreavus", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Psychic"},
-    {"id": "A4 221", "name": "Mankey", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Fighting"},
-    {"id": "A4 222", "name": "Primeape", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Fighting"},
-    {"id": "A4 223", "name": "Nidoran♀", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 224", "name": "Nidorina", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 225", "name": "Nidoqueen", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 226", "name": "Nidoran♂", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 227", "name": "Nidorino", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 228", "name": "Nidoking", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 229", "name": "Sneasel", "pack": "Lugia", "rarity": "☼", "tags": [], "type": "Darkness"},
-    {"id": "A4 230", "name": "Lickitung", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Colorless"},
-    {"id": "A4 231", "name": "Eevee", "pack": "Ho-oh", "rarity": "☼", "tags": [], "type": "Colorless"},
-    {"id": "A4 232", "name": "Yanmega ex", "pack": "Ho-oh", "rarity": "☼☼", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4 233", "name": "Leafeon ex", "pack": "Ho-oh", "rarity": "☼☼", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4 234", "name": "Gyarados ex", "pack": "Lugia", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
-    {"id": "A4 235", "name": "Glaceon ex", "pack": "Lugia", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
-    {"id": "A4 236", "name": "Pachirisu ex", "pack": "Lugia", "rarity": "☼☼", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4 237", "name": "Mismagius ex", "pack": "Ho-oh", "rarity": "☼☼", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4 238", "name": "Weavile ex", "pack": "Lugia", "rarity": "☼☼", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4 239", "name": "Lickilicky ex", "pack": "Ho-oh", "rarity": "☼☼", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4 240", "name": "Ho-Oh ex", "pack": "All", "rarity": "♛", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4 241", "name": "Lugia ex", "pack": "Ho-oh", "rarity": "♛", "tags": ["EX"], "type": "Colorless"}
+    {
+      "id": "A4 001",
+      "name": "Oddish",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 002",
+      "name": "Gloom",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 003",
+      "name": "Bellossom",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 004",
+      "name": "Tangela",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 005",
+      "name": "Tangrowth",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 006",
+      "name": "Scyther",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 007",
+      "name": "Pinsir",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 008",
+      "name": "Chikorita",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 009",
+      "name": "Bayleef",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 010",
+      "name": "Meganium",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 011",
+      "name": "Ledyba",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 012",
+      "name": "Ledian",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 013",
+      "name": "Hoppip",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 014",
+      "name": "Skiploom",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 015",
+      "name": "Jumpluff",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 016",
+      "name": "Sunkern",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 017",
+      "name": "Sunflora",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 018",
+      "name": "Yanma",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 019",
+      "name": "Yanmega",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 020",
+      "name": "Pineco",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 021",
+      "name": "Shuckle ex",
+      "pack": "Lugia",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 022",
+      "name": "Heracross",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 023",
+      "name": "Cherubi",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 024",
+      "name": "Cherrim",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 025",
+      "name": "Vulpix",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 026",
+      "name": "Ninetales",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 027",
+      "name": "Cyndaquil",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 028",
+      "name": "Quilava",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 029",
+      "name": "Typhlosion",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 030",
+      "name": "Slugma",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 031",
+      "name": "Magcargo",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 032",
+      "name": "Magby",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 033",
+      "name": "Entei",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 034",
+      "name": "Ho-Oh ex",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 035",
+      "name": "Darumaka",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 036",
+      "name": "Darmanitan",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 037",
+      "name": "Heatmor",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 038",
+      "name": "Poliwag",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 039",
+      "name": "Poliwhirl",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 040",
+      "name": "Politoed",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 041",
+      "name": "Horsea",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 042",
+      "name": "Seadra",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 043",
+      "name": "Kingdra ex",
+      "pack": "Lugia",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4 044",
+      "name": "Magikarp",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 045",
+      "name": "Gyarados",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 046",
+      "name": "Totodile",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 047",
+      "name": "Croconaw",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 048",
+      "name": "Feraligatr",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 049",
+      "name": "Marill",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 050",
+      "name": "Azumarill",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 051",
+      "name": "Wooper",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 052",
+      "name": "Quagsire",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 053",
+      "name": "Qwilfish",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 054",
+      "name": "Corsola",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 055",
+      "name": "Remoraid",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 056",
+      "name": "Octillery",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 057",
+      "name": "Delibird",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 058",
+      "name": "Mantine",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 059",
+      "name": "Suicune",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 060",
+      "name": "Corphish",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 061",
+      "name": "Crawdaunt",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 062",
+      "name": "Ducklett",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 063",
+      "name": "Swanna",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 064",
+      "name": "Chinchou",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 065",
+      "name": "Lanturn ex",
+      "pack": "Lugia",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 066",
+      "name": "Pichu",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 067",
+      "name": "Mareep",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 068",
+      "name": "Flaaffy",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 069",
+      "name": "Ampharos",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 070",
+      "name": "Elekid",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 071",
+      "name": "Raikou",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 072",
+      "name": "Emolga",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 073",
+      "name": "Slowpoke",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 074",
+      "name": "Slowking",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 075",
+      "name": "Smoochum",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 076",
+      "name": "Jynx",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 077",
+      "name": "Cleffa",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 078",
+      "name": "Togepi",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 079",
+      "name": "Togetic",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 080",
+      "name": "Togekiss",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 081",
+      "name": "Natu",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 082",
+      "name": "Xatu",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 083",
+      "name": "Espeon ex",
+      "pack": "Lugia",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 084",
+      "name": "Unown",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 085",
+      "name": "Unown",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 086",
+      "name": "Wobbuffet",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 087",
+      "name": "Girafarig",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 088",
+      "name": "Snubbull",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 089",
+      "name": "Granbull",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 090",
+      "name": "Munna",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 091",
+      "name": "Musharna",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 092",
+      "name": "Onix",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 093",
+      "name": "Sudowoodo",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 094",
+      "name": "Gligar",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 095",
+      "name": "Gliscor",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 096",
+      "name": "Swinub",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 097",
+      "name": "Piloswine",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 098",
+      "name": "Mamoswine",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 099",
+      "name": "Phanpy",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 100",
+      "name": "Donphan ex",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 101",
+      "name": "Tyrogue",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 102",
+      "name": "Hitmontop",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 103",
+      "name": "Larvitar",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 104",
+      "name": "Pupitar",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 105",
+      "name": "Binacle",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 106",
+      "name": "Barbaracle",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 107",
+      "name": "Zubat",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 108",
+      "name": "Golbat",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 109",
+      "name": "Crobat ex",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 110",
+      "name": "Spinarak",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 111",
+      "name": "Ariados",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 112",
+      "name": "Umbreon ex",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 113",
+      "name": "Murkrow",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 114",
+      "name": "Honchkrow",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 115",
+      "name": "Sneasel",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 116",
+      "name": "Weavile",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 117",
+      "name": "Houndour",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 118",
+      "name": "Houndoom",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 119",
+      "name": "Tyranitar",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 120",
+      "name": "Absol",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 121",
+      "name": "Forretress",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 122",
+      "name": "Steelix",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 123",
+      "name": "Scizor",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 124",
+      "name": "Skarmory ex",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 125",
+      "name": "Mawile",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 126",
+      "name": "Klink",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 127",
+      "name": "Klang",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 128",
+      "name": "Klinklang",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 129",
+      "name": "Spearow",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 130",
+      "name": "Fearow",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 131",
+      "name": "Chansey",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 132",
+      "name": "Blissey",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 133",
+      "name": "Kangaskhan",
+      "pack": "Ho-oh",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 134",
+      "name": "Eevee",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 135",
+      "name": "Porygon",
+      "pack": "Lugia",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 136",
+      "name": "Porygon2",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 137",
+      "name": "Porygon-Z",
+      "pack": "Lugia",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 138",
+      "name": "Sentret",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 139",
+      "name": "Furret",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 140",
+      "name": "Hoothoot",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 141",
+      "name": "Noctowl",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 142",
+      "name": "Aipom",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 143",
+      "name": "Ambipom",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 144",
+      "name": "Dunsparce",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 145",
+      "name": "Teddiursa",
+      "pack": "Ho-oh",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 146",
+      "name": "Ursaring",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 147",
+      "name": "Stantler",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 148",
+      "name": "Smeargle",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 149",
+      "name": "Lugia ex",
+      "pack": "Lugia",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 150",
+      "name": "Bouffalant",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 151",
+      "name": "Elemental Switch",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4 152",
+      "name": "Squirt Bottle",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4 153",
+      "name": "Steel Apron",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4 154",
+      "name": "Dark Pendant",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4 155",
+      "name": "Rescue Scarf",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4 156",
+      "name": "Will",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 157",
+      "name": "Lyra",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 158",
+      "name": "Silver",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 159",
+      "name": "Fisher",
+      "pack": "Lugia",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 160",
+      "name": "Jasmine",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 161",
+      "name": "Hiker",
+      "pack": "Ho-oh",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 162",
+      "name": "Chikorita",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 163",
+      "name": "Bellossom",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 164",
+      "name": "Heracross",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 165",
+      "name": "Cyndaquil",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 166",
+      "name": "Magby",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 167",
+      "name": "Totodile",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 168",
+      "name": "Qwilfish",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 169",
+      "name": "Octillery",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 170",
+      "name": "Delibird",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 171",
+      "name": "Pichu",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 172",
+      "name": "Ampharos",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 173",
+      "name": "Togepi",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 174",
+      "name": "Xatu",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 175",
+      "name": "Wobbuffet",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 176",
+      "name": "Gligar",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 177",
+      "name": "Spinarak",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 178",
+      "name": "Murkrow",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 179",
+      "name": "Tyranitar",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 180",
+      "name": "Scizor",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 181",
+      "name": "Sentret",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 182",
+      "name": "Hoothoot",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 183",
+      "name": "Stantler",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 184",
+      "name": "Smeargle",
+      "pack": "Lugia",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 185",
+      "name": "Blissey",
+      "pack": "Ho-oh",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 186",
+      "name": "Shuckle ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 187",
+      "name": "Ho-Oh ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 188",
+      "name": "Kingdra ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4 189",
+      "name": "Lanturn ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 190",
+      "name": "Espeon ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 191",
+      "name": "Donphan ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 192",
+      "name": "Crobat ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 193",
+      "name": "Umbreon ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 194",
+      "name": "Skarmory ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 195",
+      "name": "Lugia ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 196",
+      "name": "Will",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 197",
+      "name": "Lyra",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 198",
+      "name": "Silver",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 199",
+      "name": "Fisher",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 200",
+      "name": "Jasmine",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 201",
+      "name": "Hiker",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4 202",
+      "name": "Shuckle ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 203",
+      "name": "Kingdra ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4 204",
+      "name": "Lanturn ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 205",
+      "name": "Espeon ex",
+      "pack": "Lugia",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 206",
+      "name": "Donphan ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 207",
+      "name": "Crobat ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 208",
+      "name": "Umbreon ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 209",
+      "name": "Skarmory ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4 210",
+      "name": "Ho-Oh ex",
+      "pack": "Ho-oh",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 211",
+      "name": "Lugia ex",
+      "pack": "Lugia",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 212",
+      "name": "Yanma",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 213",
+      "name": "Flareon",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 214",
+      "name": "Magikarp",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 215",
+      "name": "Gyarados",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 216",
+      "name": "Vaporeon",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4 217",
+      "name": "Magnemite",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 218",
+      "name": "Magneton",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 219",
+      "name": "Jolteon",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 220",
+      "name": "Misdreavus",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 221",
+      "name": "Mankey",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 222",
+      "name": "Primeape",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4 223",
+      "name": "Nidoran♀",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 224",
+      "name": "Nidorina",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 225",
+      "name": "Nidoqueen",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 226",
+      "name": "Nidoran♂",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 227",
+      "name": "Nidorino",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 228",
+      "name": "Nidoking",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 229",
+      "name": "Sneasel",
+      "pack": "Lugia",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 230",
+      "name": "Lickitung",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 231",
+      "name": "Eevee",
+      "pack": "Ho-oh",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 232",
+      "name": "Yanmega ex",
+      "pack": "Ho-oh",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 233",
+      "name": "Leafeon ex",
+      "pack": "Ho-oh",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4 234",
+      "name": "Gyarados ex",
+      "pack": "Lugia",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4 235",
+      "name": "Glaceon ex",
+      "pack": "Lugia",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4 236",
+      "name": "Pachirisu ex",
+      "pack": "Lugia",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4 237",
+      "name": "Mismagius ex",
+      "pack": "Ho-oh",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4 238",
+      "name": "Weavile ex",
+      "pack": "Lugia",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4 239",
+      "name": "Lickilicky ex",
+      "pack": "Ho-oh",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4 240",
+      "name": "Ho-Oh ex",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4 241",
+      "name": "Lugia ex",
+      "pack": "Ho-oh",
+      "rarity": "♛",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    }
   ]
 }

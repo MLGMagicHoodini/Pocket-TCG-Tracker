@@ -4,398 +4,3293 @@
     {
       "name": "Deluxe Pack ex",
       "rarities": {
-        "♢": [1.0, 1.0, 1.0, 0, 0],
-        "♢♢": [0, 0, 0, 0.89, 0.56],
-        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
-        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
-        "☆": [0, 0, 0, 0.02572, 0.10288],
-        "☆☆": [0, 0, 0, 0.005, 0.02],
-        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
-        "☼": [0, 0, 0, 0.00714, 0.02857],
-        "☼☼": [0, 0, 0, 0.00333, 0.01333],
-        "♛": [0, 0, 0, 0.0004, 0.0016]
+        "♢": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "♢♢": [
+          0,
+          0,
+          0,
+          0.89,
+          0.56
+        ],
+        "♢♢♢": [
+          0,
+          0,
+          0,
+          0.04952,
+          0.1981
+        ],
+        "♢♢♢♢": [
+          0,
+          0,
+          0,
+          0.01666,
+          0.06664
+        ],
+        "☆": [
+          0,
+          0,
+          0,
+          0.02572,
+          0.10288
+        ],
+        "☆☆": [
+          0,
+          0,
+          0,
+          0.005,
+          0.02
+        ],
+        "☆☆☆": [
+          0,
+          0,
+          0,
+          0.00222,
+          0.00888
+        ],
+        "☼": [
+          0,
+          0,
+          0,
+          0.00714,
+          0.02857
+        ],
+        "☼☼": [
+          0,
+          0,
+          0,
+          0.00333,
+          0.01333
+        ],
+        "♛": [
+          0,
+          0,
+          0,
+          0.0004,
+          0.0016
+        ]
       }
     }
   ],
   "cards": [
-    {"id": "A4b 001", "name": "Bulbasaur", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 002", "name": "Bulbasaur", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 003", "name": "Ivysaur", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 004", "name": "Ivysaur", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 005", "name": "Venusaur ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 006", "name": "Weedle", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 007", "name": "Weedle", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 008", "name": "Kakuna", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 009", "name": "Kakuna", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 010", "name": "Beedrill ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 011", "name": "Exeggcute", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 012", "name": "Exeggcute", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 013", "name": "Exeggutor ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 014", "name": "Hoppip", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 015", "name": "Hoppip", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 016", "name": "Skiploom", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 017", "name": "Skiploom", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 018", "name": "Jumpluff", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 019", "name": "Jumpluff", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 020", "name": "Yanma", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 021", "name": "Yanma", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 022", "name": "Yanmega ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 023", "name": "Shuckle ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 024", "name": "Celebi ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 025", "name": "Cherubi", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 026", "name": "Cherubi", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 027", "name": "Cherrim", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 028", "name": "Cherrim", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 029", "name": "Leafeon ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 030", "name": "Shaymin", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 031", "name": "Shaymin", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 032", "name": "Snivy", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 033", "name": "Snivy", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 034", "name": "Servine", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 035", "name": "Servine", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 036", "name": "Serperior", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 037", "name": "Serperior", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 038", "name": "Rowlet", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 039", "name": "Rowlet", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 040", "name": "Dartrix", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 041", "name": "Dartrix", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 042", "name": "Decidueye ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 043", "name": "Dhelmise ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 044", "name": "Buzzwole ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 045", "name": "Pheromosa", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 046", "name": "Pheromosa", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 047", "name": "Kartana", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 048", "name": "Kartana", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 049", "name": "Sprigatito", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 050", "name": "Sprigatito", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 051", "name": "Floragato", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 052", "name": "Floragato", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 053", "name": "Meowscarada", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 054", "name": "Meowscarada", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A4b 055", "name": "Charmander", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 056", "name": "Charmander", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 057", "name": "Charmeleon", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 058", "name": "Charmeleon", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 059", "name": "Charizard ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 060", "name": "Charizard ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 061", "name": "Growlithe", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 062", "name": "Growlithe", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 063", "name": "Arcanine ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 064", "name": "Flareon", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 065", "name": "Flareon", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 066", "name": "Flareon ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 067", "name": "Moltres ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 068", "name": "Ho-Oh ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 069", "name": "Torkoal", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 070", "name": "Torkoal", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 071", "name": "Chimchar", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 072", "name": "Chimchar", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 073", "name": "Monferno", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 074", "name": "Monferno", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 075", "name": "Infernape ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 076", "name": "Heatran", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 077", "name": "Heatran", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 078", "name": "Litten", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 079", "name": "Litten", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 080", "name": "Torracat", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 081", "name": "Torracat", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A4b 082", "name": "Incineroar ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 083", "name": "Squirtle", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 084", "name": "Squirtle", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 085", "name": "Wartortle", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 086", "name": "Wartortle", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 087", "name": "Blastoise ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 088", "name": "Horsea", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 089", "name": "Horsea", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 090", "name": "Seadra", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 091", "name": "Seadra", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 092", "name": "Kingdra ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 093", "name": "Staryu", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 094", "name": "Staryu", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 095", "name": "Starmie ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 096", "name": "Magikarp", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 097", "name": "Magikarp", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 098", "name": "Gyarados ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 099", "name": "Vaporeon", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 100", "name": "Vaporeon", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 101", "name": "Articuno ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 102", "name": "Corphish", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 103", "name": "Corphish", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 104", "name": "Crawdaunt", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 105", "name": "Crawdaunt", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 106", "name": "Glaceon ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 107", "name": "Palkia ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 108", "name": "Manaphy", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 109", "name": "Manaphy", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 110", "name": "Froakie", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 111", "name": "Froakie", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 112", "name": "Frogadier", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 113", "name": "Frogadier", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 114", "name": "Greninja", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 115", "name": "Greninja", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A4b 116", "name": "Popplio", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 117", "name": "Popplio", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 118", "name": "Brionne", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 119", "name": "Brionne", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 120", "name": "Primarina ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 121", "name": "Crabominable ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 122", "name": "Wishiwashi", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 123", "name": "Wishiwashi", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 124", "name": "Wishiwashi ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 125", "name": "Wiglett", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 126", "name": "Wiglett", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A4b 127", "name": "Wugtrio ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 128", "name": "Pikachu", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 129", "name": "Pikachu", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 130", "name": "Alolan Raichu ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 131", "name": "Pikachu ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 132", "name": "Pikachu ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 133", "name": "Magnemite", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 134", "name": "Magnemite", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 135", "name": "Magneton", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 136", "name": "Magneton", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 137", "name": "Magnezone", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 138", "name": "Magnezone", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 139", "name": "Zapdos ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 140", "name": "Chinchou", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 141", "name": "Chinchou", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 142", "name": "Lanturn ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 143", "name": "Pachirisu", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 144", "name": "Pachirisu", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 145", "name": "Pachirisu ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 146", "name": "Oricorio", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 147", "name": "Oricorio", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 148", "name": "Tapu Koko ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 149", "name": "Zeraora", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 150", "name": "Zeraora", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A4b 151", "name": "Gastly", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 152", "name": "Gastly", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 153", "name": "Haunter", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 154", "name": "Haunter", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 155", "name": "Gengar ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 156", "name": "Jynx", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 157", "name": "Jynx", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 158", "name": "Mewtwo ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 159", "name": "Mew ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 160", "name": "Espeon ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 161", "name": "Misdreavus", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 162", "name": "Misdreavus", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 163", "name": "Mismagius ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 164", "name": "Ralts", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 165", "name": "Ralts", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 166", "name": "Kirlia", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 167", "name": "Kirlia", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 168", "name": "Gardevoir", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 169", "name": "Gardevoir", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 170", "name": "Giratina", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 171", "name": "Giratina", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 172", "name": "Giratina ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 173", "name": "Swirlix", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 174", "name": "Swirlix", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 175", "name": "Slurpuff", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 176", "name": "Slurpuff", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 177", "name": "Sylveon ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 178", "name": "Oricorio", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 179", "name": "Oricorio", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 180", "name": "Cosmog", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 181", "name": "Cosmog", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 182", "name": "Cosmoem", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 183", "name": "Cosmoem", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 184", "name": "Lunala ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 185", "name": "Milcery", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 186", "name": "Milcery", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 187", "name": "Alcremie", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 188", "name": "Alcremie", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A4b 189", "name": "Machop", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 190", "name": "Machop", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 191", "name": "Machoke", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 192", "name": "Machoke", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 193", "name": "Machamp ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 194", "name": "Cubone", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 195", "name": "Cubone", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 196", "name": "Marowak ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 197", "name": "Aerodactyl ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 198", "name": "Sudowoodo", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 199", "name": "Sudowoodo", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 200", "name": "Phanpy", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 201", "name": "Phanpy", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 202", "name": "Donphan ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 203", "name": "Nosepass", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 204", "name": "Nosepass", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 205", "name": "Gible", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 206", "name": "Gible", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 207", "name": "Gabite", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 208", "name": "Gabite", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 209", "name": "Garchomp ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 210", "name": "Riolu", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 211", "name": "Riolu", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 212", "name": "Lucario", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 213", "name": "Lucario", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 214", "name": "Lucario ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 215", "name": "Gallade ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 216", "name": "Drilbur", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 217", "name": "Drilbur", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 218", "name": "Crabrawler", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 219", "name": "Crabrawler", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 220", "name": "Rockruff", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 221", "name": "Rockruff", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 222", "name": "Lycanroc ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 223", "name": "Passimian ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A4b 224", "name": "Marshadow", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 225", "name": "Marshadow", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A4b 226", "name": "Zubat", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 227", "name": "Zubat", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 228", "name": "Golbat", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 229", "name": "Golbat", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 230", "name": "Crobat", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 231", "name": "Crobat", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 232", "name": "Crobat ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 233", "name": "Alolan Grimer", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 234", "name": "Alolan Grimer", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 235", "name": "Alolan Muk ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 236", "name": "Paldean Wooper", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 237", "name": "Paldean Wooper", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 238", "name": "Paldean Clodsire ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 239", "name": "Umbreon", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 240", "name": "Umbreon", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 241", "name": "Umbreon ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 242", "name": "Sneasel", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 243", "name": "Sneasel", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 244", "name": "Weavile ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 245", "name": "Darkrai ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 246", "name": "Nihilego", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 247", "name": "Nihilego", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A4b 248", "name": "Guzzlord ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 249", "name": "Alolan Diglett", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 250", "name": "Alolan Diglett", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 251", "name": "Alolan Dugtrio ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 252", "name": "Skarmory ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 253", "name": "Probopass ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 254", "name": "Dialga ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 255", "name": "Excadrill", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 256", "name": "Excadrill", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 257", "name": "Klefki", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 258", "name": "Klefki", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 259", "name": "Solgaleo ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 260", "name": "Magearna", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 261", "name": "Magearna", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 262", "name": "Tinkatink", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 263", "name": "Tinkatink", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 264", "name": "Tinkatuff", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 265", "name": "Tinkatuff", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A4b 266", "name": "Tinkaton ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 267", "name": "Dratini", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Dragon"},
-    {"id": "A4b 268", "name": "Dratini", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Dragon"},
-    {"id": "A4b 269", "name": "Dragonair", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Dragon"},
-    {"id": "A4b 270", "name": "Dragonair", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Dragon"},
-    {"id": "A4b 271", "name": "Dragonite ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Dragon"},
-    {"id": "A4b 272", "name": "Pidgey", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 273", "name": "Pidgey", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 274", "name": "Pidgeotto", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 275", "name": "Pidgeotto", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 276", "name": "Pidgeot ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 277", "name": "Jigglypuff", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 278", "name": "Jigglypuff", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 279", "name": "Wigglytuff ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 280", "name": "Farfetch'd", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 281", "name": "Farfetch'd", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 282", "name": "Lickitung", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 283", "name": "Lickitung", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 284", "name": "Lickilicky ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 285", "name": "Eevee", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 286", "name": "Eevee", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 287", "name": "Eevee ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 288", "name": "Snorlax ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 289", "name": "Lugia ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 290", "name": "Skitty", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 291", "name": "Skitty", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 292", "name": "Delcatty", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 293", "name": "Delcatty", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 294", "name": "Bidoof", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 295", "name": "Bidoof", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 296", "name": "Bibarel ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 297", "name": "Shaymin", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 298", "name": "Shaymin", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 299", "name": "Arceus ex", "pack": "Deluxe Pack ex", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 300", "name": "Type: Null", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 301", "name": "Type: Null", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 302", "name": "Silvally", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 303", "name": "Silvally", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 304", "name": "Celesteela", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 305", "name": "Celesteela", "pack": "Deluxe Pack ex", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 306", "name": "Cyclizar", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 307", "name": "Cyclizar", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A4b 308", "name": "Eevee Bag", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 309", "name": "Eevee Bag", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 310", "name": "Elemental Switch", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 311", "name": "Elemental Switch", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 312", "name": "Old Amber", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Item"},
-    {"id": "A4b 313", "name": "Old Amber", "pack": "Deluxe Pack ex", "rarity": "♢", "tags": [], "type": "Item"},
-    {"id": "A4b 314", "name": "Rare Candy", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 315", "name": "Rare Candy", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 316", "name": "Pokemon Communication", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 317", "name": "Pokemon Communication", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Item"},
-    {"id": "A4b 318", "name": "Electrical Cord", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 319", "name": "Electrical Cord", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 320", "name": "Giant Cape", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 321", "name": "Giant Cape", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 322", "name": "Rocky Helmet", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 323", "name": "Rocky Helmet", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 324", "name": "Leaf Cape", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 325", "name": "Leaf Cape", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Pokémon Tool"},
-    {"id": "A4b 326", "name": "Cyrus", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 327", "name": "Cyrus", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 328", "name": "Erika", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 329", "name": "Erika", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 330", "name": "Irida", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 331", "name": "Irida", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 332", "name": "Lyra", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 333", "name": "Lyra", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 334", "name": "Giovanni", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 335", "name": "Giovanni", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 336", "name": "Silver", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 337", "name": "Silver", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 338", "name": "Sabrina", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 339", "name": "Sabrina", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 340", "name": "Iono", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 341", "name": "Iono", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 342", "name": "Dawn", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 343", "name": "Dawn", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 344", "name": "Mars", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 345", "name": "Mars", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 346", "name": "Leaf", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 347", "name": "Leaf", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 348", "name": "Lillie", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 349", "name": "Lillie", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 350", "name": "Lusamine", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 351", "name": "Lusamine", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 352", "name": "Red", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 353", "name": "Red", "pack": "Deluxe Pack ex", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A4b 354", "name": "Floragato", "pack": "Deluxe Pack ex", "rarity": "☆", "tags": [], "type": "Grass"},
-    {"id": "A4b 355", "name": "Crawdaunt", "pack": "Deluxe Pack ex", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A4b 356", "name": "Greninja", "pack": "Deluxe Pack ex", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A4b 357", "name": "Gardevoir", "pack": "Deluxe Pack ex", "rarity": "☆", "tags": [], "type": "Psychic"},
-    {"id": "A4b 358", "name": "Slurpuff", "pack": "Deluxe Pack ex", "rarity": "☆", "tags": [], "type": "Psychic"},
-    {"id": "A4b 359", "name": "Farfetch'd", "pack": "Deluxe Pack ex", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A4b 360", "name": "Buzzwole ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
-    {"id": "A4b 361", "name": "Charizard ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 362", "name": "Ho-Oh ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
-    {"id": "A4b 363", "name": "Palkia ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
-    {"id": "A4b 364", "name": "Pikachu ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 365", "name": "Mewtwo ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 366", "name": "Mew ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 367", "name": "Lunala ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 368", "name": "Dialga ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 369", "name": "Solgaleo ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
-    {"id": "A4b 370", "name": "Eevee ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 371", "name": "Lugia ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 372", "name": "Arceus ex", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A4b 373", "name": "Professor's Research", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4b 374", "name": "Lillie", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4b 375", "name": "Lusamine", "pack": "Deluxe Pack ex", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A4b 376", "name": "Pikachu ex", "pack": "Deluxe Pack ex", "rarity": "☆☆☆", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A4b 377", "name": "Giratina ex", "pack": "Deluxe Pack ex", "rarity": "☼☼", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A4b 378", "name": "Darkrai ex", "pack": "Deluxe Pack ex", "rarity": "☼☼", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A4b 379", "name": "Rare Candy", "pack": "Deluxe Pack ex", "rarity": "♛", "tags": [], "type": "Item"}
+    {
+      "id": "A4b 001",
+      "name": "Bulbasaur",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 002",
+      "name": "Bulbasaur",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 003",
+      "name": "Ivysaur",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 004",
+      "name": "Ivysaur",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 005",
+      "name": "Venusaur ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 006",
+      "name": "Weedle",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 007",
+      "name": "Weedle",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 008",
+      "name": "Kakuna",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 009",
+      "name": "Kakuna",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 010",
+      "name": "Beedrill ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 011",
+      "name": "Exeggcute",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 012",
+      "name": "Exeggcute",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 013",
+      "name": "Exeggutor ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 014",
+      "name": "Hoppip",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 015",
+      "name": "Hoppip",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 016",
+      "name": "Skiploom",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 017",
+      "name": "Skiploom",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 018",
+      "name": "Jumpluff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 019",
+      "name": "Jumpluff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 020",
+      "name": "Yanma",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 021",
+      "name": "Yanma",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 022",
+      "name": "Yanmega ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 023",
+      "name": "Shuckle ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 024",
+      "name": "Celebi ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 025",
+      "name": "Cherubi",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 026",
+      "name": "Cherubi",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 027",
+      "name": "Cherrim",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 028",
+      "name": "Cherrim",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 029",
+      "name": "Leafeon ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 030",
+      "name": "Shaymin",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 031",
+      "name": "Shaymin",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 032",
+      "name": "Snivy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 033",
+      "name": "Snivy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 034",
+      "name": "Servine",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 035",
+      "name": "Servine",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 036",
+      "name": "Serperior",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 037",
+      "name": "Serperior",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 038",
+      "name": "Rowlet",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 039",
+      "name": "Rowlet",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 040",
+      "name": "Dartrix",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 041",
+      "name": "Dartrix",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 042",
+      "name": "Decidueye ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 043",
+      "name": "Dhelmise ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 044",
+      "name": "Buzzwole ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 045",
+      "name": "Pheromosa",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 046",
+      "name": "Pheromosa",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 047",
+      "name": "Kartana",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 048",
+      "name": "Kartana",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 049",
+      "name": "Sprigatito",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 050",
+      "name": "Sprigatito",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 051",
+      "name": "Floragato",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 052",
+      "name": "Floragato",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 053",
+      "name": "Meowscarada",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 054",
+      "name": "Meowscarada",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 055",
+      "name": "Charmander",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 056",
+      "name": "Charmander",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 057",
+      "name": "Charmeleon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 058",
+      "name": "Charmeleon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 059",
+      "name": "Charizard ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 060",
+      "name": "Charizard ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 061",
+      "name": "Growlithe",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 062",
+      "name": "Growlithe",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 063",
+      "name": "Arcanine ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 064",
+      "name": "Flareon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 065",
+      "name": "Flareon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 066",
+      "name": "Flareon ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 067",
+      "name": "Moltres ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 068",
+      "name": "Ho-Oh ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 069",
+      "name": "Torkoal",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 070",
+      "name": "Torkoal",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 071",
+      "name": "Chimchar",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 072",
+      "name": "Chimchar",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 073",
+      "name": "Monferno",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 074",
+      "name": "Monferno",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 075",
+      "name": "Infernape ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 076",
+      "name": "Heatran",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 077",
+      "name": "Heatran",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 078",
+      "name": "Litten",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 079",
+      "name": "Litten",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 080",
+      "name": "Torracat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 081",
+      "name": "Torracat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 082",
+      "name": "Incineroar ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 083",
+      "name": "Squirtle",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 084",
+      "name": "Squirtle",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 085",
+      "name": "Wartortle",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 086",
+      "name": "Wartortle",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 087",
+      "name": "Blastoise ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 088",
+      "name": "Horsea",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 089",
+      "name": "Horsea",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 090",
+      "name": "Seadra",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 091",
+      "name": "Seadra",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 092",
+      "name": "Kingdra ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 093",
+      "name": "Staryu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 094",
+      "name": "Staryu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 095",
+      "name": "Starmie ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 096",
+      "name": "Magikarp",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 097",
+      "name": "Magikarp",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 098",
+      "name": "Gyarados ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 099",
+      "name": "Vaporeon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 100",
+      "name": "Vaporeon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 101",
+      "name": "Articuno ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 102",
+      "name": "Corphish",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 103",
+      "name": "Corphish",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 104",
+      "name": "Crawdaunt",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 105",
+      "name": "Crawdaunt",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 106",
+      "name": "Glaceon ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 107",
+      "name": "Palkia ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 108",
+      "name": "Manaphy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 109",
+      "name": "Manaphy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 110",
+      "name": "Froakie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 111",
+      "name": "Froakie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 112",
+      "name": "Frogadier",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 113",
+      "name": "Frogadier",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 114",
+      "name": "Greninja",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 115",
+      "name": "Greninja",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 116",
+      "name": "Popplio",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 117",
+      "name": "Popplio",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 118",
+      "name": "Brionne",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 119",
+      "name": "Brionne",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 120",
+      "name": "Primarina ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 121",
+      "name": "Crabominable ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 122",
+      "name": "Wishiwashi",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 123",
+      "name": "Wishiwashi",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 124",
+      "name": "Wishiwashi ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 125",
+      "name": "Wiglett",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 126",
+      "name": "Wiglett",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 127",
+      "name": "Wugtrio ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 128",
+      "name": "Pikachu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 129",
+      "name": "Pikachu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 130",
+      "name": "Alolan Raichu ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 131",
+      "name": "Pikachu ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 132",
+      "name": "Pikachu ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 133",
+      "name": "Magnemite",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 134",
+      "name": "Magnemite",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 135",
+      "name": "Magneton",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 136",
+      "name": "Magneton",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 137",
+      "name": "Magnezone",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 138",
+      "name": "Magnezone",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 139",
+      "name": "Zapdos ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 140",
+      "name": "Chinchou",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 141",
+      "name": "Chinchou",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 142",
+      "name": "Lanturn ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 143",
+      "name": "Pachirisu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 144",
+      "name": "Pachirisu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 145",
+      "name": "Pachirisu ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 146",
+      "name": "Oricorio",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 147",
+      "name": "Oricorio",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 148",
+      "name": "Tapu Koko ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 149",
+      "name": "Zeraora",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 150",
+      "name": "Zeraora",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 151",
+      "name": "Gastly",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 152",
+      "name": "Gastly",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 153",
+      "name": "Haunter",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 154",
+      "name": "Haunter",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 155",
+      "name": "Gengar ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 156",
+      "name": "Jynx",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 157",
+      "name": "Jynx",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 158",
+      "name": "Mewtwo ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 159",
+      "name": "Mew ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 160",
+      "name": "Espeon ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 161",
+      "name": "Misdreavus",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 162",
+      "name": "Misdreavus",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 163",
+      "name": "Mismagius ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 164",
+      "name": "Ralts",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 165",
+      "name": "Ralts",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 166",
+      "name": "Kirlia",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 167",
+      "name": "Kirlia",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 168",
+      "name": "Gardevoir",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 169",
+      "name": "Gardevoir",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 170",
+      "name": "Giratina",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 171",
+      "name": "Giratina",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 172",
+      "name": "Giratina ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 173",
+      "name": "Swirlix",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 174",
+      "name": "Swirlix",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 175",
+      "name": "Slurpuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 176",
+      "name": "Slurpuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 177",
+      "name": "Sylveon ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 178",
+      "name": "Oricorio",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 179",
+      "name": "Oricorio",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 180",
+      "name": "Cosmog",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 181",
+      "name": "Cosmog",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 182",
+      "name": "Cosmoem",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 183",
+      "name": "Cosmoem",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 184",
+      "name": "Lunala ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 185",
+      "name": "Milcery",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 186",
+      "name": "Milcery",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 187",
+      "name": "Alcremie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 188",
+      "name": "Alcremie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 189",
+      "name": "Machop",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 190",
+      "name": "Machop",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 191",
+      "name": "Machoke",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 192",
+      "name": "Machoke",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 193",
+      "name": "Machamp ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 194",
+      "name": "Cubone",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 195",
+      "name": "Cubone",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 196",
+      "name": "Marowak ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 197",
+      "name": "Aerodactyl ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 198",
+      "name": "Sudowoodo",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 199",
+      "name": "Sudowoodo",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 200",
+      "name": "Phanpy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 201",
+      "name": "Phanpy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 202",
+      "name": "Donphan ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 203",
+      "name": "Nosepass",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 204",
+      "name": "Nosepass",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 205",
+      "name": "Gible",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 206",
+      "name": "Gible",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 207",
+      "name": "Gabite",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 208",
+      "name": "Gabite",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 209",
+      "name": "Garchomp ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 210",
+      "name": "Riolu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 211",
+      "name": "Riolu",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 212",
+      "name": "Lucario",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 213",
+      "name": "Lucario",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 214",
+      "name": "Lucario ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 215",
+      "name": "Gallade ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 216",
+      "name": "Drilbur",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 217",
+      "name": "Drilbur",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 218",
+      "name": "Crabrawler",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 219",
+      "name": "Crabrawler",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 220",
+      "name": "Rockruff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 221",
+      "name": "Rockruff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 222",
+      "name": "Lycanroc ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 223",
+      "name": "Passimian ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 224",
+      "name": "Marshadow",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 225",
+      "name": "Marshadow",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A4b 226",
+      "name": "Zubat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 227",
+      "name": "Zubat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 228",
+      "name": "Golbat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 229",
+      "name": "Golbat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 230",
+      "name": "Crobat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 231",
+      "name": "Crobat",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 232",
+      "name": "Crobat ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 233",
+      "name": "Alolan Grimer",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 234",
+      "name": "Alolan Grimer",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 235",
+      "name": "Alolan Muk ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 236",
+      "name": "Paldean Wooper",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 237",
+      "name": "Paldean Wooper",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 238",
+      "name": "Paldean Clodsire ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 239",
+      "name": "Umbreon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 240",
+      "name": "Umbreon",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 241",
+      "name": "Umbreon ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 242",
+      "name": "Sneasel",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 243",
+      "name": "Sneasel",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 244",
+      "name": "Weavile ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 245",
+      "name": "Darkrai ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 246",
+      "name": "Nihilego",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 247",
+      "name": "Nihilego",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 248",
+      "name": "Guzzlord ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 249",
+      "name": "Alolan Diglett",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 250",
+      "name": "Alolan Diglett",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 251",
+      "name": "Alolan Dugtrio ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 252",
+      "name": "Skarmory ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 253",
+      "name": "Probopass ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 254",
+      "name": "Dialga ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 255",
+      "name": "Excadrill",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 256",
+      "name": "Excadrill",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 257",
+      "name": "Klefki",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 258",
+      "name": "Klefki",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 259",
+      "name": "Solgaleo ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 260",
+      "name": "Magearna",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 261",
+      "name": "Magearna",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 262",
+      "name": "Tinkatink",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 263",
+      "name": "Tinkatink",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 264",
+      "name": "Tinkatuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 265",
+      "name": "Tinkatuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 266",
+      "name": "Tinkaton ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 267",
+      "name": "Dratini",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "A4b 268",
+      "name": "Dratini",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "A4b 269",
+      "name": "Dragonair",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "A4b 270",
+      "name": "Dragonair",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "A4b 271",
+      "name": "Dragonite ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "A4b 272",
+      "name": "Pidgey",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 273",
+      "name": "Pidgey",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 274",
+      "name": "Pidgeotto",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 275",
+      "name": "Pidgeotto",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 276",
+      "name": "Pidgeot ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 277",
+      "name": "Jigglypuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 278",
+      "name": "Jigglypuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 279",
+      "name": "Wigglytuff ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 280",
+      "name": "Farfetch'd",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 281",
+      "name": "Farfetch'd",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 282",
+      "name": "Lickitung",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 283",
+      "name": "Lickitung",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 284",
+      "name": "Lickilicky ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 285",
+      "name": "Eevee",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 286",
+      "name": "Eevee",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 287",
+      "name": "Eevee ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 288",
+      "name": "Snorlax ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 289",
+      "name": "Lugia ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 290",
+      "name": "Skitty",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 291",
+      "name": "Skitty",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 292",
+      "name": "Delcatty",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 293",
+      "name": "Delcatty",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 294",
+      "name": "Bidoof",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 295",
+      "name": "Bidoof",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 296",
+      "name": "Bibarel ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 297",
+      "name": "Shaymin",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 298",
+      "name": "Shaymin",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 299",
+      "name": "Arceus ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 300",
+      "name": "Type: Null",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 301",
+      "name": "Type: Null",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 302",
+      "name": "Silvally",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 303",
+      "name": "Silvally",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 304",
+      "name": "Celesteela",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 305",
+      "name": "Celesteela",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 306",
+      "name": "Cyclizar",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 307",
+      "name": "Cyclizar",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 308",
+      "name": "Eevee Bag",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 309",
+      "name": "Eevee Bag",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 310",
+      "name": "Elemental Switch",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 311",
+      "name": "Elemental Switch",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 312",
+      "name": "Old Amber",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 313",
+      "name": "Old Amber",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 314",
+      "name": "Rare Candy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 315",
+      "name": "Rare Candy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 316",
+      "name": "Pokemon Communication",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 317",
+      "name": "Pokemon Communication",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "A4b 318",
+      "name": "Electrical Cord",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 319",
+      "name": "Electrical Cord",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 320",
+      "name": "Giant Cape",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 321",
+      "name": "Giant Cape",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 322",
+      "name": "Rocky Helmet",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 323",
+      "name": "Rocky Helmet",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 324",
+      "name": "Leaf Cape",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 325",
+      "name": "Leaf Cape",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "A4b 326",
+      "name": "Cyrus",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 327",
+      "name": "Cyrus",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 328",
+      "name": "Erika",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 329",
+      "name": "Erika",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 330",
+      "name": "Irida",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 331",
+      "name": "Irida",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 332",
+      "name": "Lyra",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 333",
+      "name": "Lyra",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 334",
+      "name": "Giovanni",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 335",
+      "name": "Giovanni",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 336",
+      "name": "Silver",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 337",
+      "name": "Silver",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 338",
+      "name": "Sabrina",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 339",
+      "name": "Sabrina",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 340",
+      "name": "Iono",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 341",
+      "name": "Iono",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 342",
+      "name": "Dawn",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 343",
+      "name": "Dawn",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 344",
+      "name": "Mars",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 345",
+      "name": "Mars",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 346",
+      "name": "Leaf",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 347",
+      "name": "Leaf",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 348",
+      "name": "Lillie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 349",
+      "name": "Lillie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 350",
+      "name": "Lusamine",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 351",
+      "name": "Lusamine",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 352",
+      "name": "Red",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 353",
+      "name": "Red",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 354",
+      "name": "Floragato",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 355",
+      "name": "Crawdaunt",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 356",
+      "name": "Greninja",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 357",
+      "name": "Gardevoir",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 358",
+      "name": "Slurpuff",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 359",
+      "name": "Farfetch'd",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 360",
+      "name": "Buzzwole ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A4b 361",
+      "name": "Charizard ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 362",
+      "name": "Ho-Oh ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A4b 363",
+      "name": "Palkia ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A4b 364",
+      "name": "Pikachu ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 365",
+      "name": "Mewtwo ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 366",
+      "name": "Mew ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 367",
+      "name": "Lunala ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 368",
+      "name": "Dialga ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 369",
+      "name": "Solgaleo ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A4b 370",
+      "name": "Eevee ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 371",
+      "name": "Lugia ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 372",
+      "name": "Arceus ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A4b 373",
+      "name": "Professor's Research",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 374",
+      "name": "Lillie",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 375",
+      "name": "Lusamine",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A4b 376",
+      "name": "Pikachu ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A4b 377",
+      "name": "Giratina ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A4b 378",
+      "name": "Darkrai ex",
+      "pack": "Deluxe Pack ex",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A4b 379",
+      "name": "Rare Candy",
+      "pack": "Deluxe Pack ex",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Item"
+    }
   ]
 }
