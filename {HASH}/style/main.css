@@ -21,13 +21,24 @@ tr {
     width: 25px;
 }
 
+/* The tab bar wraps onto several rows now that there are many sets, so it must take up its real
+   height in the page flow (sticky) instead of being fixed over the content. */
 #expansion-buttons {
-    position: fixed;
-    margin-top: -40px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 #expansion-bodies {
-    margin-top: 40px;
+    /* contains the floated columns so the page (and the sticky bar) has the full content height */
+    display: flow-root;
+}
+
+@media only screen and (max-width: 991px) {
+    /* On small screens the multi-row bar would eat the viewport, so let it scroll away */
+    #expansion-buttons {
+        position: static;
+    }
 }
 
 @media only screen and (min-width: 992px) {
