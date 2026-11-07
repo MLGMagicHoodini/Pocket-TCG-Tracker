@@ -730,9 +730,22 @@ function generateSpecialTab(element, name, label, packMeta) {
     element.appendChild(button);
 }
 
+/**
+ * Older data had card ids like "B2 0012" (typo). Normalise those to "B2 012" in saved data.
+ * @param ids array of card ids
+ */
+function normalizeCardIds(ids) {
+    return [...new Set(ids.map(id => id.replace(/^(\S+) 0(\d{3})$/, "$1 $2")))];
+}
+
 function load() {
     if (localStorage.getItem("cards") === null) {
         localStorage.setItem("cards", JSON.stringify([]));
+    }
+    try {
+        localStorage.setItem("cards", JSON.stringify(normalizeCardIds(JSON.parse(localStorage.getItem("cards")))));
+    } catch (err) {
+        console.warn("Unable to normalise saved cards", err);
     }
     if (localStorage.getItem("filter") === null) {
         localStorage.setItem("filter", JSON.stringify([]));
@@ -861,8 +874,8 @@ function loadCards(e) {
             let cards = e.target.result;
 
             // Parse to make sure there's no obvious errors
-            let parsed = JSON.parse(cards);
-            localStorage.setItem("cards", cards);
+            let parsed = normalizeCardIds(JSON.parse(cards));
+            localStorage.setItem("cards", JSON.stringify(parsed));
 
             parsed.forEach((id) => {
                 let checkbox = document.getElementById(id);

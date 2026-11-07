@@ -36,8 +36,13 @@ async function load(name) {
 }
 
 /** Converts the dataset's rarity label to the symbols used by this app. Returns null if unknown. */
+// The dataset uses letter codes for newer sets (verified against the rarity counts of existing sets)
+const CODES = { C: "\u2662", U: "\u2662\u2662", R: "\u2662\u2662\u2662", RR: "\u2662\u2662\u2662\u2662",
+  AR: "\u2606", SR: "\u2606\u2606", SAR: "\u2606\u2606", IM: "\u2606\u2606\u2606", UR: "\u265b",
+  S: "\u263c", SSR: "\u263c\u263c" };
 function mapRarity(label) {
   const s = String(label ?? "").trim();
+  if (CODES[s]) return CODES[s];
   if (/crown|♛/i.test(s)) return "♛";
   const count = (re) => (s.match(re) || []).length;
   const diamonds = count(/[◊♢◇]/g), stars = count(/[☆★]/g), shiny = count(/[✵☼]/g);
@@ -60,9 +65,9 @@ console.log(`dataset has ${setList.length} sets: ${setList.map((x) => x.code ?? 
 const expansions = JSON.parse(readFileSync(`${D}/expansions.json`, "utf8"));
 
 // Dataset set codes that differ from the ids used in this app
-const SET_ALIASES = { "PROMO-A": "P-A", "PROMO-B": "P-B" };
+const SET_ALIASES = { "PROMO-A": "P-A", "PROMO-B": "P-B", "PROMO-C": "P-C" };
 // Promo sets use "-" as rarity in this app (they have no rarity/pull-rate system)
-const NO_RARITY_SETS = new Set(["P-A", "P-B"]);
+const NO_RARITY_SETS = new Set(["P-A", "P-B", "P-C", "SP1"]);
 /** "Vol. 3" / "B Series Vol. 3" -> "Volume 3" (naming used by the existing data) */
 const normalizePack = (n) => String(n).replace(/^.*?\bVol\.?\s*(\d+)$/i, "Volume $1");
 
@@ -83,7 +88,7 @@ for (const set of setList) {
   else {
     isNew = true;
     const name = typeof set.name === "string" ? set.name : set.name?.en ?? code;
-    meta = { name, id: code, location: `{HASH}/expansions/${code.toLowerCase()}.json`, standard: set.count ?? setCards.length };
+    meta = { name, id: code, location: `{HASH}/expansions/${code.toLowerCase()}.json`, standard: setCards.length };
     data = { missions: [], packs: packNames.map((name) => ({ name, rarities: {} })), cards: [] };
   }
 
@@ -111,6 +116,11 @@ for (const set of setList) {
   // Only touch files that actually gained cards, so existing hand-formatted data stays untouched
   if (data.cards.length === before) continue; // nothing new (also never register an empty new set)
   if (isNew) {
+    if (!NO_RARITY_SETS.has(code)) {
+      // "standard" = highest card number that is a diamond rarity (everything above is a secret/alt-art card)
+      const nums = data.cards.filter((c) => /^\u2662+$/.test(c.rarity)).map((c) => parseInt(c.id.slice(-3), 10));
+      if (nums.length) meta.standard = Math.max(...nums);
+    }
     createdSets++;
     expansions.push(meta);
     console.log(`+ new set ${code} "${meta.name}" (${data.cards.length} cards, packs: ${packNames.join(", ") || "none"})`);
