@@ -4,130 +4,1021 @@
     {
       "name": "Shining Revelry",
       "rarities": {
-        "♢": [1.0, 1.0, 1.0, 0, 0],
-        "♢♢": [0, 0, 0, 0.89, 0.56],
-        "♢♢♢": [0, 0, 0, 0.04952, 0.1981],
-        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
-        "☆": [0, 0, 0, 0.02572, 0.10288],
-        "☆☆": [0, 0, 0, 0.005, 0.02],
-        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
-        "☼": [0, 0, 0, 0.00714, 0.02857],
-        "☼☼": [0, 0, 0, 0.00333, 0.01333],
-        "♛": [0, 0, 0, 0.0004, 0.0016]
+        "♢": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "♢♢": [
+          0,
+          0,
+          0,
+          0.89,
+          0.56
+        ],
+        "♢♢♢": [
+          0,
+          0,
+          0,
+          0.04952,
+          0.1981
+        ],
+        "♢♢♢♢": [
+          0,
+          0,
+          0,
+          0.01666,
+          0.06664
+        ],
+        "☆": [
+          0,
+          0,
+          0,
+          0.02572,
+          0.10288
+        ],
+        "☆☆": [
+          0,
+          0,
+          0,
+          0.005,
+          0.02
+        ],
+        "☆☆☆": [
+          0,
+          0,
+          0,
+          0.00222,
+          0.00888
+        ],
+        "☼": [
+          0,
+          0,
+          0,
+          0.00714,
+          0.02857
+        ],
+        "☼☼": [
+          0,
+          0,
+          0,
+          0.00333,
+          0.01333
+        ],
+        "♛": [
+          0,
+          0,
+          0,
+          0.0004,
+          0.0016
+        ]
       }
     }
   ],
   "cards": [
-    {"id": "A2b 001", "name": "Weedle", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A2b 002", "name": "Kakuna", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A2b 003", "name": "Beedrill ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
-    {"id": "A2b 004", "name": "Pinsir", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A2b 005", "name": "Sprigatito", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Grass"},
-    {"id": "A2b 006", "name": "Floragato", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Grass"},
-    {"id": "A2b 007", "name": "Meowscarada", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
-    {"id": "A2b 008", "name": "Charmander", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A2b 009", "name": "Charmeleon", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A2b 010", "name": "Charizard ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fire"},
-    {"id": "A2b 011", "name": "Magmar", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fire"},
-    {"id": "A2b 012", "name": "Magmortar", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
-    {"id": "A2b 013", "name": "Paldean Tauros", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Fire"},
-    {"id": "A2b 014", "name": "Tentacool", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A2b 015", "name": "Tentacruel", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A2b 016", "name": "Buizel", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A2b 017", "name": "Floatzel", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A2b 018", "name": "Wiglett", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Water"},
-    {"id": "A2b 019", "name": "Wugtrio ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
-    {"id": "A2b 020", "name": "Dondozo", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Water"},
-    {"id": "A2b 021", "name": "Tatsugiri", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Water"},
-    {"id": "A2b 022", "name": "Pikachu ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A2b 023", "name": "Voltorb", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A2b 024", "name": "Electrode", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A2b 025", "name": "Pachirisu", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A2b 026", "name": "Pawmi", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Lightning"},
-    {"id": "A2b 027", "name": "Pawmo", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A2b 028", "name": "Pawmot", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
-    {"id": "A2b 029", "name": "Abra", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 030", "name": "Kadabra", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 031", "name": "Alakazam", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 032", "name": "Mr. Mime", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 033", "name": "Drifloon", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 034", "name": "Drifblim", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 035", "name": "Giratina ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A2b 036", "name": "Gimmighoul", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Psychic"},
-    {"id": "A2b 037", "name": "Machop", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 038", "name": "Machoke", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 039", "name": "Machamp", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 040", "name": "Hitmonlee", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 041", "name": "Hitmonchan", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 042", "name": "Riolu", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 043", "name": "Lucario ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A2b 044", "name": "Flamigo", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Fighting"},
-    {"id": "A2b 045", "name": "Ekans", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A2b 046", "name": "Arbok", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A2b 047", "name": "Paldean Wooper", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A2b 048", "name": "Paldean Clodsire ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A2b 049", "name": "Spiritomb", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A2b 050", "name": "Shroodle", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Darkness"},
-    {"id": "A2b 051", "name": "Grafaiai", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
-    {"id": "A2b 052", "name": "Tinkatink", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A2b 053", "name": "Tinkatuff", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A2b 054", "name": "Tinkaton ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
-    {"id": "A2b 055", "name": "Varoom", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Metal"},
-    {"id": "A2b 056", "name": "Revavroom", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Metal"},
-    {"id": "A2b 057", "name": "Gholdengo", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
-    {"id": "A2b 058", "name": "Rattata", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 059", "name": "Raticate", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 060", "name": "Jigglypuff", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 061", "name": "Wigglytuff", "pack": "Shining Revelry", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 062", "name": "Lickitung", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 063", "name": "Lickilicky", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 064", "name": "Bidoof", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 065", "name": "Bibarel ex", "pack": "Shining Revelry", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A2b 066", "name": "Buneary", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 067", "name": "Lopunny", "pack": "Shining Revelry", "rarity": "♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 068", "name": "Cyclizar", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Colorless"},
-    {"id": "A2b 069", "name": "Iono", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A2b 070", "name": "Pokémon Center Lady", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A2b 071", "name": "Red", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A2b 072", "name": "Team Rocket Grunt", "pack": "Shining Revelry", "rarity": "♢♢", "tags": [], "type": "Supporter"},
-    {"id": "A2b 073", "name": "Meowscarada", "pack": "Shining Revelry", "rarity": "☆", "tags": [], "type": "Grass"},
-    {"id": "A2b 074", "name": "Buizel", "pack": "Shining Revelry", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A2b 075", "name": "Tatsugiri", "pack": "Shining Revelry", "rarity": "☆", "tags": [], "type": "Water"},
-    {"id": "A2b 076", "name": "Grafaiai", "pack": "Shining Revelry", "rarity": "☆", "tags": [], "type": "Darkness"},
-    {"id": "A2b 077", "name": "Gholdengo", "pack": "Shining Revelry", "rarity": "☆", "tags": [], "type": "Metal"},
-    {"id": "A2b 078", "name": "Wigglytuff", "pack": "Shining Revelry", "rarity": "☆", "tags": [], "type": "Colorless"},
-    {"id": "A2b 079", "name": "Beedrill ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
-    {"id": "A2b 080", "name": "Charizard ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Fire"},
-    {"id": "A2b 081", "name": "Wugtrio ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
-    {"id": "A2b 082", "name": "Pikachu ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A2b 083", "name": "Giratina ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A2b 084", "name": "Lucario ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A2b 085", "name": "Paldean Clodsire ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A2b 086", "name": "Tinkaton ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
-    {"id": "A2b 087", "name": "Bibarel ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A2b 088", "name": "Iono", "pack": "Shining Revelry", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A2b 089", "name": "Pokémon Center Lady", "pack": "Shining Revelry", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A2b 090", "name": "Red", "pack": "Shining Revelry", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A2b 091", "name": "Team Rocket Grunt", "pack": "Shining Revelry", "rarity": "☆☆", "tags": [], "type": "Supporter"},
-    {"id": "A2b 092", "name": "Pikachu ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Lightning"},
-    {"id": "A2b 093", "name": "Paldean Clodsire ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Darkness"},
-    {"id": "A2b 094", "name": "Tinkaton ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
-    {"id": "A2b 095", "name": "Bibarel ex", "pack": "Shining Revelry", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
-    {"id": "A2b 096", "name": "Giratina ex", "pack": "Shining Revelry", "rarity": "☆☆☆", "tags": ["EX"], "type": "Psychic"},
-    {"id": "A2b 097", "name": "Weedle", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Grass"},
-    {"id": "A2b 098", "name": "Kakuna", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Grass"},
-    {"id": "A2b 099", "name": "Charmander", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Fire"},
-    {"id": "A2b 100", "name": "Charmeleon", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Fire"},
-    {"id": "A2b 101", "name": "Wiglett", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Water"},
-    {"id": "A2b 102", "name": "Dondozo", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Water"},
-    {"id": "A2b 103", "name": "Pachirisu", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Lightning"},
-    {"id": "A2b 104", "name": "Riolu", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Fighting"},
-    {"id": "A2b 105", "name": "Varoom", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Metal"},
-    {"id": "A2b 106", "name": "Revavroom", "pack": "Shining Revelry", "rarity": "☼", "tags": [], "type": "Metal"},
-    {"id": "A2b 107", "name": "Beedrill ex", "pack": "Shining Revelry", "rarity": "☼☼", "tags": ["EX"], "type": "Grass"},
-    {"id": "A2b 108", "name": "Charizard ex", "pack": "Shining Revelry", "rarity": "☼☼", "tags": ["EX"], "type": "Fire"},
-    {"id": "A2b 109", "name": "Wugtrio ex", "pack": "Shining Revelry", "rarity": "☼☼", "tags": ["EX"], "type": "Water"},
-    {"id": "A2b 110", "name": "Lucario ex", "pack": "Shining Revelry", "rarity": "☼☼", "tags": ["EX"], "type": "Fighting"},
-    {"id": "A2b 111", "name": "Poké Ball", "pack": "Shining Revelry", "rarity": "♛", "tags": [], "type": "Item"}
+    {
+      "id": "A2b 001",
+      "name": "Weedle",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 002",
+      "name": "Kakuna",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 003",
+      "name": "Beedrill ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 004",
+      "name": "Pinsir",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 005",
+      "name": "Sprigatito",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 006",
+      "name": "Floragato",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 007",
+      "name": "Meowscarada",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 008",
+      "name": "Charmander",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 009",
+      "name": "Charmeleon",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 010",
+      "name": "Charizard ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 011",
+      "name": "Magmar",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 012",
+      "name": "Magmortar",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 013",
+      "name": "Paldean Tauros",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 014",
+      "name": "Tentacool",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 015",
+      "name": "Tentacruel",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 016",
+      "name": "Buizel",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 017",
+      "name": "Floatzel",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 018",
+      "name": "Wiglett",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 019",
+      "name": "Wugtrio ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 020",
+      "name": "Dondozo",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 021",
+      "name": "Tatsugiri",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 022",
+      "name": "Pikachu ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 023",
+      "name": "Voltorb",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 024",
+      "name": "Electrode",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 025",
+      "name": "Pachirisu",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 026",
+      "name": "Pawmi",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 027",
+      "name": "Pawmo",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 028",
+      "name": "Pawmot",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 029",
+      "name": "Abra",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 030",
+      "name": "Kadabra",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 031",
+      "name": "Alakazam",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 032",
+      "name": "Mr. Mime",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 033",
+      "name": "Drifloon",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 034",
+      "name": "Drifblim",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 035",
+      "name": "Giratina ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 036",
+      "name": "Gimmighoul",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 037",
+      "name": "Machop",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 038",
+      "name": "Machoke",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 039",
+      "name": "Machamp",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 040",
+      "name": "Hitmonlee",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 041",
+      "name": "Hitmonchan",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 042",
+      "name": "Riolu",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 043",
+      "name": "Lucario ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 044",
+      "name": "Flamigo",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 045",
+      "name": "Ekans",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 046",
+      "name": "Arbok",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 047",
+      "name": "Paldean Wooper",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 048",
+      "name": "Paldean Clodsire ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 049",
+      "name": "Spiritomb",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 050",
+      "name": "Shroodle",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 051",
+      "name": "Grafaiai",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 052",
+      "name": "Tinkatink",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 053",
+      "name": "Tinkatuff",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 054",
+      "name": "Tinkaton ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 055",
+      "name": "Varoom",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 056",
+      "name": "Revavroom",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 057",
+      "name": "Gholdengo",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 058",
+      "name": "Rattata",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 059",
+      "name": "Raticate",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 060",
+      "name": "Jigglypuff",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 061",
+      "name": "Wigglytuff",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 062",
+      "name": "Lickitung",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 063",
+      "name": "Lickilicky",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 064",
+      "name": "Bidoof",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 065",
+      "name": "Bibarel ex",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 066",
+      "name": "Buneary",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 067",
+      "name": "Lopunny",
+      "pack": "Shining Revelry",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 068",
+      "name": "Cyclizar",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 069",
+      "name": "Iono",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 070",
+      "name": "Pokémon Center Lady",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 071",
+      "name": "Red",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 072",
+      "name": "Team Rocket Grunt",
+      "pack": "Shining Revelry",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 073",
+      "name": "Meowscarada",
+      "pack": "Shining Revelry",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 074",
+      "name": "Buizel",
+      "pack": "Shining Revelry",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 075",
+      "name": "Tatsugiri",
+      "pack": "Shining Revelry",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 076",
+      "name": "Grafaiai",
+      "pack": "Shining Revelry",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 077",
+      "name": "Gholdengo",
+      "pack": "Shining Revelry",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 078",
+      "name": "Wigglytuff",
+      "pack": "Shining Revelry",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 079",
+      "name": "Beedrill ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 080",
+      "name": "Charizard ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 081",
+      "name": "Wugtrio ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 082",
+      "name": "Pikachu ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 083",
+      "name": "Giratina ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 084",
+      "name": "Lucario ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 085",
+      "name": "Paldean Clodsire ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 086",
+      "name": "Tinkaton ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 087",
+      "name": "Bibarel ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 088",
+      "name": "Iono",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 089",
+      "name": "Pokémon Center Lady",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 090",
+      "name": "Red",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 091",
+      "name": "Team Rocket Grunt",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "A2b 092",
+      "name": "Pikachu ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 093",
+      "name": "Paldean Clodsire ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "A2b 094",
+      "name": "Tinkaton ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 095",
+      "name": "Bibarel ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "A2b 096",
+      "name": "Giratina ex",
+      "pack": "Shining Revelry",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "A2b 097",
+      "name": "Weedle",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 098",
+      "name": "Kakuna",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 099",
+      "name": "Charmander",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 100",
+      "name": "Charmeleon",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 101",
+      "name": "Wiglett",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 102",
+      "name": "Dondozo",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 103",
+      "name": "Pachirisu",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "A2b 104",
+      "name": "Riolu",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 105",
+      "name": "Varoom",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 106",
+      "name": "Revavroom",
+      "pack": "Shining Revelry",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "A2b 107",
+      "name": "Beedrill ex",
+      "pack": "Shining Revelry",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "A2b 108",
+      "name": "Charizard ex",
+      "pack": "Shining Revelry",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "A2b 109",
+      "name": "Wugtrio ex",
+      "pack": "Shining Revelry",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "A2b 110",
+      "name": "Lucario ex",
+      "pack": "Shining Revelry",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "A2b 111",
+      "name": "Poké Ball",
+      "pack": "Shining Revelry",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Item"
+    }
   ]
 }
