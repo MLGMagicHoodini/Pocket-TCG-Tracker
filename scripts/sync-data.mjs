@@ -46,48 +46,80 @@ const sets = await load("sets.json");
 const setList = Array.isArray(sets) ? sets : Object.values(sets).flat(); // may be grouped by series
 const expansions = JSON.parse(readFileSync(`${D}/expansions.json`, "utf8"));
 
+// Dataset set codes that differ from the ids used in this app
+const SET_ALIASES = { "PROMO-A": "P-A", "PROMO-B": "P-B" };
+// Promo sets use "-" as rarity in this app (they have no rarity/pull-rate system)
+const NO_RARITY_SETS = new Set(["P-A", "P-B"]);
+/** "Vol. 3" / "B Series Vol. 3" -> "Volume 3" (naming used by the existing data) */
+const normalizePack = (n) => String(n).replace(/^.*?\bVol\.?\s*(\d+)$/i, "Volume $1");
+
 const problems = [];
 let added = 0, createdSets = 0;
 
 for (const set of setList) {
-  const code = set.code ?? set.id;
-  const setCards = cards.filter((c) => c.set === code);
+  const datasetCode = set.code ?? set.id;
+  const code = SET_ALIASES[datasetCode] ?? datasetCode;
+  const setCards = cards.filter((c) => c.set === datasetCode);
   if (!setCards.length) continue;
 
-  const packNames = (set.packs ?? []).map((p) => (typeof p === "string" ? p : p.name?.en ?? p.name));
+  const packNames = (set.packs ?? []).map((p) => normalizePack(typeof p === "string" ? p : p.name?.en ?? p.name));
   let meta = expansions.find((e) => e.id === code);
   const file = meta ? meta.location.replace("{HASH}", D) : `${D}/expansions/${code.toLowerCase()}.json`;
-  let data;
+  let data, isNew = false;
   if (meta) data = JSON.parse(readFileSync(file, "utf8"));
   else {
-    createdSets++;
+    isNew = true;
     const name = typeof set.name === "string" ? set.name : set.name?.en ?? code;
     meta = { name, id: code, location: `{HASH}/expansions/${code.toLowerCase()}.json`, standard: set.count ?? setCards.length };
-    expansions.push(meta);
     data = { missions: [], packs: packNames.map((name) => ({ name, rarities: {} })), cards: [] };
-    console.log(`+ new set ${code} "${name}" (${setCards.length} cards, packs: ${packNames.join(", ") || "none"})`);
   }
 
   const have = new Set(data.cards.map((c) => c.id));
+  const before = data.cards.length;
+  const newCards = [], newPacks = [];
   for (const c of setCards) {
     const id = `${code} ${String(c.number).padStart(3, "0")}`;
     if (have.has(id)) continue;
-    const rarity = mapRarity(c.rarity);
+    const rarity = NO_RARITY_SETS.has(code) ? "-" : mapRarity(c.rarity);
     if (!rarity) { problems.push(`${id} ${c.name}: unknown rarity ${JSON.stringify(c.rarity)}`); continue; }
-    const inPacks = c.packs ?? [];
+    const inPacks = (c.packs ?? []).map(normalizePack);
     let pack = "All";
     if (inPacks.length === 1 && packNames.length > 1) pack = inPacks[0];
     else if (inPacks.length > 1 && inPacks.length < packNames.length) {
       pack = inPacks[0];
       problems.push(`${id} ${c.name}: in packs [${inPacks}] but only one can be stored; used "${pack}"`);
     }
-    data.cards.push({ id, name: c.name, pack, rarity, tags: /\bex\b/i.test(c.name) ? ["EX"] : [], type: mapType(c) });
+    for (const pn of inPacks) if (!data.packs.some((p) => p.name === pn)) { newPacks.push(pn); data.packs.push({ name: pn, rarities: {} }); }
+    const card = { id, name: c.name, pack, rarity, tags: /\bex\b/i.test(c.name) ? ["EX"] : [], type: mapType(c) };
+    newCards.push(card);
+    data.cards.push(card);
     added++;
   }
-  data.cards.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
-  if (!dry) writeFileSync(file, JSON.stringify(data, null, 2) + "\n");
+  // Only touch files that actually gained cards, so existing hand-formatted data stays untouched
+  if (data.cards.length === before) continue; // nothing new (also never register an empty new set)
+  if (isNew) {
+    createdSets++;
+    expansions.push(meta);
+    console.log(`+ new set ${code} "${meta.name}" (${data.cards.length} cards, packs: ${packNames.join(", ") || "none"})`);
+  } else console.log(`~ ${code}: +${data.cards.length - before} cards`);
+  if (dry) continue;
+  newCards.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+  const cardLine = (c) => "    " + JSON.stringify(c).replace(/":/g, '": ').replace(/,"/g, ', "');
+  let text = isNew ? null : readFileSync(file, "utf8");
+  const packsEnd = '\n  ],\n  "cards": [';
+  if (text && text.includes(packsEnd) && text.trimEnd().endsWith("\n  ]\n}")) {
+    // Insert text in place so the existing hand-formatted file keeps its layout (small git diffs)
+    if (newPacks.length)
+      text = text.replace(packsEnd, newPacks.map((n) => `,\n    {"name": ${JSON.stringify(n)}, "rarities": {}}`).join("") + packsEnd);
+    const end = text.lastIndexOf("\n  ]\n}");
+    text = text.slice(0, end) + newCards.map((c) => ",\n" + cardLine(c)).join("") + text.slice(end);
+    writeFileSync(file, text);
+  } else {
+    data.cards.sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+    writeFileSync(file, JSON.stringify(data, null, 2) + "\n");
+  }
 }
-if (!dry) writeFileSync(`${D}/expansions.json`, "[\n" + expansions.map((e) => "  " + JSON.stringify(e)).join(",\n") + "\n]\n");
+if (!dry && createdSets > 0) writeFileSync(`${D}/expansions.json`, "[\n" + expansions.map((e) => "  " + JSON.stringify(e)).join(",\n") + "\n]\n");
 
 problems.forEach((p) => console.warn("warn:", p));
 console.log(`${dry ? "[dry run] " : ""}${createdSets} new sets, ${added} new cards, ${problems.length} warnings`);
