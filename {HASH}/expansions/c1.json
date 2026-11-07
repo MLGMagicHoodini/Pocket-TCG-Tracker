@@ -1,0 +1,1847 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "Dual Fusion Mega Mewtwo X",
+      "rarities": {}
+    },
+    {
+      "name": "Dual Fusion Pikachu",
+      "rarities": {}
+    }
+  ],
+  "cards": [
+    {
+      "id": "C1 001",
+      "name": "Bulbasaur",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 002",
+      "name": "Ivysaur",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 003",
+      "name": "Venusaur",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 004",
+      "name": "Exeggcute",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 005",
+      "name": "Alolan Exeggutor ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 006",
+      "name": "Pinsir",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 007",
+      "name": "Combee",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 008",
+      "name": "Vespiquen",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 009",
+      "name": "Deerling",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 010",
+      "name": "Sawsbuck",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 011",
+      "name": "Foongus",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 012",
+      "name": "Amoonguss",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 013",
+      "name": "Genesect",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 014",
+      "name": "Cutiefly",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 015",
+      "name": "Ribombee",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 016",
+      "name": "Charmander",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 017",
+      "name": "Charmeleon",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 018",
+      "name": "Charizard",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 019",
+      "name": "Volcanion",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 020",
+      "name": "Salandit",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 021",
+      "name": "Salazzle",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 022",
+      "name": "Scorbunny",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 023",
+      "name": "Raboot",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 024",
+      "name": "Cinderace",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 025",
+      "name": "Fuecoco ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 026",
+      "name": "Charcadet",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 027",
+      "name": "Armarouge",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 028",
+      "name": "Ceruledge",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 029",
+      "name": "Squirtle",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 030",
+      "name": "Wartortle",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 031",
+      "name": "Blastoise",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 032",
+      "name": "Seel",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 033",
+      "name": "Dewgong",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 034",
+      "name": "Shellder",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 035",
+      "name": "Cloyster",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 036",
+      "name": "Jynx",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 037",
+      "name": "Lapras",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 038",
+      "name": "Palkia",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 039",
+      "name": "Basculin",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 040",
+      "name": "Froakie",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 041",
+      "name": "Frogadier",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 042",
+      "name": "Mega Greninja ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "C1 043",
+      "name": "Pikachu ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 044",
+      "name": "Voltorb",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 045",
+      "name": "Electrode",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 046",
+      "name": "Stunfisk",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 047",
+      "name": "Zeraora",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 048",
+      "name": "Pawmi",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 049",
+      "name": "Pawmo",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 050",
+      "name": "Pawmot",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 051",
+      "name": "Jigglypuff",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 052",
+      "name": "Wigglytuff",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 053",
+      "name": "Abra",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 054",
+      "name": "Kadabra",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 055",
+      "name": "Alakazam",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 056",
+      "name": "Mega Mewtwo X ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 057",
+      "name": "Mew ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 058",
+      "name": "Marill",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 059",
+      "name": "Azumarill",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 060",
+      "name": "Espeon",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 061",
+      "name": "Wobbuffet",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 062",
+      "name": "Deoxys",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 063",
+      "name": "Mimikyu",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 064",
+      "name": "Cosmog",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 065",
+      "name": "Cosmoem",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 066",
+      "name": "Lunala",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 067",
+      "name": "Diglett",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 068",
+      "name": "Dugtrio",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 069",
+      "name": "Rhyhorn",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 070",
+      "name": "Rhydon",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 071",
+      "name": "Rhyperior",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 072",
+      "name": "Sudowoodo",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 073",
+      "name": "Paldean Wooper",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 074",
+      "name": "Paldean Clodsire",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 075",
+      "name": "Larvitar",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 076",
+      "name": "Pupitar",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 077",
+      "name": "Barboach",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 078",
+      "name": "Whiscash",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 079",
+      "name": "Rockruff",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 080",
+      "name": "Lycanroc ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 081",
+      "name": "Gastly",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 082",
+      "name": "Haunter",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 083",
+      "name": "Gengar",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 084",
+      "name": "Umbreon",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 085",
+      "name": "Mega Tyranitar ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 086",
+      "name": "Seviper",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 087",
+      "name": "Zorua",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 088",
+      "name": "Zoroark",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 089",
+      "name": "Nickit",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 090",
+      "name": "Thievul",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 091",
+      "name": "Mega Skarmory ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 092",
+      "name": "Dialga",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 093",
+      "name": "Ferroseed",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 094",
+      "name": "Ferrothorn",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 095",
+      "name": "Solgaleo",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 096",
+      "name": "Meltan",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 097",
+      "name": "Melmetal",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 098",
+      "name": "Dratini",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 099",
+      "name": "Dragonair",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 100",
+      "name": "Mega Dragonite ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 101",
+      "name": "Giratina ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 102",
+      "name": "Pidgey",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 103",
+      "name": "Pidgeotto",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 104",
+      "name": "Pidgeot",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 105",
+      "name": "Spearow",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 106",
+      "name": "Fearow",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 107",
+      "name": "Eevee",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 108",
+      "name": "Porygon",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 109",
+      "name": "Porygon2",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 110",
+      "name": "Porygon-Z",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 111",
+      "name": "Snorlax",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 112",
+      "name": "Zangoose",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 113",
+      "name": "Bidoof",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 114",
+      "name": "Bibarel",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 115",
+      "name": "Buneary",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 116",
+      "name": "Lopunny",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 117",
+      "name": "Stufful",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 118",
+      "name": "Bewear ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 119",
+      "name": "Sweet Honey",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "C1 120",
+      "name": "Super Potion",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "C1 121",
+      "name": "Max Repel",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "C1 122",
+      "name": "Full Heal",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "C1 123",
+      "name": "Eviolite",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "C1 124",
+      "name": "Light Ball",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "C1 125",
+      "name": "Lorelei",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 126",
+      "name": "Blue’s Provocation",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 127",
+      "name": "Serena’s Choice",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 128",
+      "name": "Rika",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 129",
+      "name": "Poké Mart Guy",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 130",
+      "name": "Rising Star",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 131",
+      "name": "Abandoned Station",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 132",
+      "name": "Venusaur",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 133",
+      "name": "Exeggcute",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 134",
+      "name": "Deerling",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 135",
+      "name": "Ribombee",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 136",
+      "name": "Charizard",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 137",
+      "name": "Raboot",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 138",
+      "name": "Ceruledge",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 139",
+      "name": "Blastoise",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 140",
+      "name": "Palkia",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 141",
+      "name": "Frogadier",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 142",
+      "name": "Pawmot",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 143",
+      "name": "Mimikyu",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 144",
+      "name": "Cosmoem",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 145",
+      "name": "Larvitar",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 146",
+      "name": "Pupitar",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 147",
+      "name": "Paldean Clodsire",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 148",
+      "name": "Gengar",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 149",
+      "name": "Dialga",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 150",
+      "name": "Melmetal",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 151",
+      "name": "Bidoof",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 152",
+      "name": "Sweet Honey",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "C1 153",
+      "name": "Alolan Exeggutor ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 154",
+      "name": "Fuecoco ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 155",
+      "name": "Mega Greninja ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "C1 156",
+      "name": "Pikachu ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 157",
+      "name": "Mega Mewtwo X ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 158",
+      "name": "Mew ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 159",
+      "name": "Lycanroc ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 160",
+      "name": "Mega Tyranitar ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 161",
+      "name": "Mega Skarmory ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 162",
+      "name": "Mega Dragonite ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 163",
+      "name": "Giratina ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 164",
+      "name": "Bewear ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 165",
+      "name": "Lorelei",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 166",
+      "name": "Blue’s Provocation",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 167",
+      "name": "Serena’s Choice",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 168",
+      "name": "Rika",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 169",
+      "name": "Poké Mart Guy",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 170",
+      "name": "Rising Star",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "C1 171",
+      "name": "Alolan Exeggutor ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 172",
+      "name": "Fuecoco ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 173",
+      "name": "Mega Greninja ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "C1 174",
+      "name": "Pikachu ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 175",
+      "name": "Mega Mewtwo X ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 176",
+      "name": "Mew ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 177",
+      "name": "Lycanroc ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 178",
+      "name": "Mega Tyranitar ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 179",
+      "name": "Mega Skarmory ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 180",
+      "name": "Mega Dragonite ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 181",
+      "name": "Giratina ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 182",
+      "name": "Bewear ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 183",
+      "name": "Pikachu ex",
+      "pack": "All",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 184",
+      "name": "Jigglypuff",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☆☆☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 185",
+      "name": "Mega Mewtwo X ex",
+      "pack": "All",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 186",
+      "name": "Umbreon",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☆☆☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 187",
+      "name": "Celebi",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 188",
+      "name": "Treecko",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 189",
+      "name": "Grovyle",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 190",
+      "name": "Cyndaquil",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 191",
+      "name": "Quilava",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 192",
+      "name": "Seel",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 193",
+      "name": "Dewgong",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "C1 194",
+      "name": "Pachirisu",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 195",
+      "name": "Abra",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 196",
+      "name": "Kadabra",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 197",
+      "name": "Alakazam",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 198",
+      "name": "Lunala",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "C1 199",
+      "name": "Rhyhorn",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 200",
+      "name": "Rhydon",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 201",
+      "name": "Morpeko",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "C1 202",
+      "name": "Solgaleo",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "C1 203",
+      "name": "Spearow",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 204",
+      "name": "Fearow",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 205",
+      "name": "Hisuian Zorua",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 206",
+      "name": "Stufful",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 207",
+      "name": "Mega Sceptile ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "C1 208",
+      "name": "Typhlosion ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 209",
+      "name": "Mega Gallade ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 210",
+      "name": "Lycanroc ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "C1 211",
+      "name": "Mega Dragonite ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    },
+    {
+      "id": "C1 212",
+      "name": "Mega Audino ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 213",
+      "name": "Hisuian Zoroark ex",
+      "pack": "Dual Fusion Pikachu",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 214",
+      "name": "Bewear ex",
+      "pack": "Dual Fusion Mega Mewtwo X",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "C1 215",
+      "name": "Fuecoco ex",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "C1 216",
+      "name": "Pawmot",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "C1 217",
+      "name": "Giratina ex",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "First Partners",
+      "rarities": {}
+    }
+  ],
+  "cards": [
+    {
+      "id": "SP1 0-1",
+      "name": "Mew",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "SP1 0-2",
+      "name": "Mew",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "SP1 0-3",
+      "name": "Mew",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "SP1 001",
+      "name": "Bulbasaur",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 002",
+      "name": "Charmander",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 003",
+      "name": "Squirtle",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 004",
+      "name": "Chikorita",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 005",
+      "name": "Cyndaquil",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 006",
+      "name": "Totodile",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 007",
+      "name": "Treecko",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 008",
+      "name": "Torchic",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 009",
+      "name": "Mudkip",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 010",
+      "name": "Turtwig",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 011",
+      "name": "Chimchar",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 012",
+      "name": "Piplup",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 013",
+      "name": "Snivy",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 014",
+      "name": "Tepig",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 015",
+      "name": "Oshawott",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 016",
+      "name": "Chespin",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 017",
+      "name": "Fennekin",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 018",
+      "name": "Froakie",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 019",
+      "name": "Rowlet",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 020",
+      "name": "Litten",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 021",
+      "name": "Popplio",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 022",
+      "name": "Grookey",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 023",
+      "name": "Scorbunny",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 024",
+      "name": "Sobble",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "SP1 025",
+      "name": "Sprigatito",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "SP1 026",
+      "name": "Fuecoco",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "SP1 027",
+      "name": "Quaxly",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    }
+  ]
+}

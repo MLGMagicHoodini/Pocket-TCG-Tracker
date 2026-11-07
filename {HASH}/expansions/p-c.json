@@ -1,0 +1,119 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "Volume 1",
+      "rarities": {}
+    }
+  ],
+  "cards": [
+    {
+      "id": "P-C 001",
+      "name": "Pikachu",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "P-C 002",
+      "name": "Mega Mewtwo Y ex",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 003",
+      "name": "Deoxys",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 004",
+      "name": "Inkay",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 005",
+      "name": "Malamar",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 006",
+      "name": "Cosmog",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 007",
+      "name": "Cosmoem",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 008",
+      "name": "Lunala",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 009",
+      "name": "Genome Converter Y",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "P-C 010",
+      "name": "Stantler",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "P-C 011",
+      "name": "Alcremie",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "P-C 012",
+      "name": "Delibird",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "P-C 013",
+      "name": "Mega Dragonite ex",
+      "pack": "All",
+      "rarity": "-",
+      "tags": [
+        "EX"
+      ],
+      "type": "Dragon"
+    }
+  ]
+}

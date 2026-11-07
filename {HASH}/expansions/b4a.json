@@ -1,0 +1,935 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "Team Rocket",
+      "rarities": {}
+    }
+  ],
+  "cards": [
+    {
+      "id": "B4a 001",
+      "name": "Volbeat",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B4a 002",
+      "name": "Illumise",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B4a 003",
+      "name": "Snivy",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B4a 004",
+      "name": "Servine",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B4a 005",
+      "name": "Serperior",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B4a 006",
+      "name": "Team Rocket’s Magmar",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 007",
+      "name": "Team Rocket’s Moltres ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 008",
+      "name": "Team Rocket’s Houndour",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 009",
+      "name": "Team Rocket’s Houndoom",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 010",
+      "name": "Fennekin",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 011",
+      "name": "Braixen",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 012",
+      "name": "Delphox",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 013",
+      "name": "Team Rocket’s Lapras",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 014",
+      "name": "Team Rocket’s Articuno ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 015",
+      "name": "Wingull",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 016",
+      "name": "Pelipper",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 017",
+      "name": "Hisuian Basculin",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 018",
+      "name": "Hisuian Basculegion",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 019",
+      "name": "Team Rocket’s Voltorb",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 020",
+      "name": "Team Rocket’s Electrode",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 021",
+      "name": "Team Rocket’s Zapdos ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 022",
+      "name": "Blitzle",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 023",
+      "name": "Zebstrika",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 024",
+      "name": "Team Rocket’s Pincurchin",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 025",
+      "name": "Team Rocket’s Slowpoke",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 026",
+      "name": "Team Rocket’s Slowking ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 027",
+      "name": "Team Rocket’s Drowzee",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 028",
+      "name": "Team Rocket’s Hypno",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 029",
+      "name": "Team Rocket’s Mr. Mime",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 030",
+      "name": "Team Rocket’s Mewtwo",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 031",
+      "name": "Espurr",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 032",
+      "name": "Meowstic",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 033",
+      "name": "Oranguru",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 034",
+      "name": "Gimmighoul",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 035",
+      "name": "Cubone",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B4a 036",
+      "name": "Marowak",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B4a 037",
+      "name": "Landorus",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B4a 038",
+      "name": "Team Rocket’s Ekans",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 039",
+      "name": "Team Rocket’s Arbok",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 040",
+      "name": "Team Rocket’s Grimer",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 041",
+      "name": "Team Rocket’s Muk",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 042",
+      "name": "Team Rocket’s Koffing",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 043",
+      "name": "Team Rocket’s Weezing ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 044",
+      "name": "Team Rocket’s Sneasel",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 045",
+      "name": "Togedemaru",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 046",
+      "name": "Cufant",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 047",
+      "name": "Copperajah",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 048",
+      "name": "Team Rocket’s Tinkatink",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 049",
+      "name": "Team Rocket’s Tinkatuff",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 050",
+      "name": "Team Rocket’s Tinkaton",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 051",
+      "name": "Gholdengo",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 052",
+      "name": "Gible",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B4a 053",
+      "name": "Gabite",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B4a 054",
+      "name": "Garchomp",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B4a 055",
+      "name": "Duraludon",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B4a 056",
+      "name": "Archaludon",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B4a 057",
+      "name": "Regidrago",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B4a 058",
+      "name": "Team Rocket’s Rattata",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 059",
+      "name": "Team Rocket’s Raticate ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 060",
+      "name": "Team Rocket’s Meowth",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 061",
+      "name": "Team Rocket’s Persian",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 062",
+      "name": "Team Rocket’s Kecleon",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 063",
+      "name": "Happiny",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 064",
+      "name": "Furfrou",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 065",
+      "name": "Lechonk",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 066",
+      "name": "Oinkologne",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 067",
+      "name": "Team Rocket’s Thieving Machine",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "B4a 068",
+      "name": "Team Rocket’s Goo-zooka",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Item"
+    },
+    {
+      "id": "B4a 069",
+      "name": "Team Rocket’s Researcher",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 070",
+      "name": "Team Rocket’s Master Plan",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 071",
+      "name": "Team Rocket’s Boss",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 072",
+      "name": "Arcade",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 073",
+      "name": "Delphox",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 074",
+      "name": "Team Rocket’s Hypno",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 075",
+      "name": "Team Rocket’s Tinkaton",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 076",
+      "name": "Team Rocket’s Kecleon",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 077",
+      "name": "Happiny",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 078",
+      "name": "Lechonk",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 079",
+      "name": "Team Rocket’s Moltres ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 080",
+      "name": "Team Rocket’s Articuno ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 081",
+      "name": "Team Rocket’s Zapdos ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 082",
+      "name": "Team Rocket’s Slowking ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 083",
+      "name": "Team Rocket’s Weezing ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 084",
+      "name": "Team Rocket’s Raticate ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 085",
+      "name": "Team Rocket’s Researcher",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 086",
+      "name": "Team Rocket’s Master Plan",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 087",
+      "name": "Team Rocket’s Boss",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 088",
+      "name": "Team Rocket’s Moltres ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 089",
+      "name": "Team Rocket’s Articuno ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 090",
+      "name": "Team Rocket’s Zapdos ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 091",
+      "name": "Team Rocket’s Slowking ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 092",
+      "name": "Team Rocket’s Weezing ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Darkness"
+    },
+    {
+      "id": "B4a 093",
+      "name": "Team Rocket’s Raticate ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 094",
+      "name": "Team Rocket’s Master Plan",
+      "pack": "All",
+      "rarity": "☆☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B4a 095",
+      "name": "Vulpix",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 096",
+      "name": "Ninetales",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 097",
+      "name": "Goldeen",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 098",
+      "name": "Seaking",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B4a 099",
+      "name": "Toxel",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 100",
+      "name": "Sinistea",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 101",
+      "name": "Polteageist",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 102",
+      "name": "Mawile",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 103",
+      "name": "Taillow",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 104",
+      "name": "Swellow",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B4a 105",
+      "name": "Mega Charizard Y ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "B4a 106",
+      "name": "Toxtricity ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B4a 107",
+      "name": "Mimikyu ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B4a 108",
+      "name": "Mega Mawile ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 109",
+      "name": "Gholdengo",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B4a 110",
+      "name": "Team Rocket’s Goo-zooka",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Item"
+    }
+  ]
+}
