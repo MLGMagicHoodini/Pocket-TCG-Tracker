@@ -4,865 +4,113 @@
     {
       "name": "Arceus",
       "rarities": {
-        "♢": [
-          1,
-          1,
-          1,
-          0,
-          0
-        ],
-        "♢♢": [
-          0,
-          0,
-          0,
-          0.9,
-          0.6
-        ],
-        "♢♢♢": [
-          0,
-          0,
-          0,
-          0.05,
-          0.2
-        ],
-        "♢♢♢♢": [
-          0,
-          0,
-          0,
-          0.01666,
-          0.06664
-        ],
-        "☆": [
-          0,
-          0,
-          0,
-          0.02572,
-          0.10288
-        ],
-        "☆☆": [
-          0,
-          0,
-          0,
-          0.005,
-          0.02
-        ],
-        "☆☆☆": [
-          0,
-          0,
-          0,
-          0.00222,
-          0.00888
-        ],
-        "♛": [
-          0,
-          0,
-          0,
-          0.0004,
-          0.0016
-        ]
+        "♢": [1.0, 1.0, 1.0, 0, 0],
+        "♢♢": [0, 0, 0, 0.9, 0.6],
+        "♢♢♢": [0, 0, 0, 0.05, 0.2],
+        "♢♢♢♢": [0, 0, 0, 0.01666, 0.06664],
+        "☆": [0, 0, 0, 0.02572, 0.10288],
+        "☆☆": [0, 0, 0, 0.005, 0.02],
+        "☆☆☆": [0, 0, 0, 0.00222, 0.00888],
+        "♛": [0, 0, 0, 0.0004, 0.0016]
       }
     }
   ],
   "cards": [
-    {
-      "id": "A2a 001",
-      "name": "Heracross",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 002",
-      "name": "Burmy",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 003",
-      "name": "Mothim",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 004",
-      "name": "Combee",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 005",
-      "name": "Vespiquen",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 006",
-      "name": "Cherubi",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 007",
-      "name": "Cherrim",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 008",
-      "name": "Cherrim",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 009",
-      "name": "Carnivine",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 010",
-      "name": "Leafeon ex",
-      "pack": "Arceus",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 011",
-      "name": "Houndour",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A2a 012",
-      "name": "Houndoom",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A2a 013",
-      "name": "Heatran",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A2a 014",
-      "name": "Marill",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 015",
-      "name": "Azumarill",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 016",
-      "name": "Barboach",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 017",
-      "name": "Whiscash",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 018",
-      "name": "Snorunt",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 019",
-      "name": "Froslass",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 020",
-      "name": "Snover",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 021",
-      "name": "Abomasnow",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 022",
-      "name": "Glaceon ex",
-      "pack": "Arceus",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 023",
-      "name": "Origin Forme Palkia",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 024",
-      "name": "Phione",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 025",
-      "name": "Pikachu",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A2a 026",
-      "name": "Raichu",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A2a 027",
-      "name": "Electrike",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A2a 028",
-      "name": "Manectric",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Lightning"
-    },
-    {
-      "id": "A2a 029",
-      "name": "Clefairy",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 030",
-      "name": "Clefable",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 031",
-      "name": "Gastly",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 032",
-      "name": "Haunter",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 033",
-      "name": "Gengar",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 034",
-      "name": "Unown",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 035",
-      "name": "Rotom",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 036",
-      "name": "Sudowoodo",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 037",
-      "name": "Phanpy",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 038",
-      "name": "Donphan",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 039",
-      "name": "Larvitar",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 040",
-      "name": "Pupitar",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 041",
-      "name": "Tyranitar",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 042",
-      "name": "Nosepass",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 043",
-      "name": "Meditite",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 044",
-      "name": "Medicham",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 045",
-      "name": "Gible",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 046",
-      "name": "Gabite",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 047",
-      "name": "Garchomp ex",
-      "pack": "Arceus",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 048",
-      "name": "Zubat",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A2a 049",
-      "name": "Golbat",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A2a 050",
-      "name": "Crobat",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A2a 051",
-      "name": "Croagunk",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A2a 052",
-      "name": "Toxicroak",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Darkness"
-    },
-    {
-      "id": "A2a 053",
-      "name": "Magnemite",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 054",
-      "name": "Magneton",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 055",
-      "name": "Magnezone",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 056",
-      "name": "Mawile",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 057",
-      "name": "Probopass ex",
-      "pack": "Arceus",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 058",
-      "name": "Bronzor",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 059",
-      "name": "Bronzong",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 060",
-      "name": "Origin Forme Dialga",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 061",
-      "name": "Giratina",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Dragon"
-    },
-    {
-      "id": "A2a 062",
-      "name": "Eevee",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 063",
-      "name": "Snorlax",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 064",
-      "name": "Hoothoot",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 065",
-      "name": "Noctowl",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 066",
-      "name": "Starly",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 067",
-      "name": "Staravia",
-      "pack": "Arceus",
-      "rarity": "♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 068",
-      "name": "Staraptor",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 069",
-      "name": "Shaymin",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 070",
-      "name": "Arceus",
-      "pack": "Arceus",
-      "rarity": "♢♢♢",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 071",
-      "name": "Arceus ex",
-      "pack": "Arceus",
-      "rarity": "♢♢♢♢",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 072",
-      "name": "Irida",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 073",
-      "name": "Celestic Town Elder",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 074",
-      "name": "Barry",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 075",
-      "name": "Adaman",
-      "pack": "Arceus",
-      "rarity": "♢♢",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 076",
-      "name": "Houndoom",
-      "pack": "Arceus",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Fire"
-    },
-    {
-      "id": "A2a 077",
-      "name": "Marill",
-      "pack": "Arceus",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 078",
-      "name": "Unown",
-      "pack": "Arceus",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Psychic"
-    },
-    {
-      "id": "A2a 079",
-      "name": "Sudowoodo",
-      "pack": "Arceus",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 080",
-      "name": "Magnemite",
-      "pack": "Arceus",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 081",
-      "name": "Shaymin",
-      "pack": "Arceus",
-      "rarity": "☆",
-      "tags": [],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 082",
-      "name": "Leafeon ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 083",
-      "name": "Glaceon ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 084",
-      "name": "Garchomp ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 085",
-      "name": "Probopass ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 086",
-      "name": "Arceus ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 087",
-      "name": "Irida",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 088",
-      "name": "Celestic Town Elder",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 089",
-      "name": "Barry",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 090",
-      "name": "Adaman",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [],
-      "type": "Supporter"
-    },
-    {
-      "id": "A2a 091",
-      "name": "Leafeon ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Grass"
-    },
-    {
-      "id": "A2a 092",
-      "name": "Glaceon ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Water"
-    },
-    {
-      "id": "A2a 093",
-      "name": "Garchomp ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Fighting"
-    },
-    {
-      "id": "A2a 094",
-      "name": "Probopass ex",
-      "pack": "Arceus",
-      "rarity": "☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Metal"
-    },
-    {
-      "id": "A2a 095",
-      "name": "Arceus ex",
-      "pack": "Arceus",
-      "rarity": "☆☆☆",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    },
-    {
-      "id": "A2a 096",
-      "name": "Arceus ex",
-      "pack": "Arceus",
-      "rarity": "♛",
-      "tags": [
-        "EX"
-      ],
-      "type": "Colorless"
-    }
+    {"id": "A2a 001", "name": "Heracross", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 002", "name": "Burmy", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 003", "name": "Mothim", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 004", "name": "Combee", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 005", "name": "Vespiquen", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 006", "name": "Cherubi", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 007", "name": "Cherrim", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 008", "name": "Cherrim", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 009", "name": "Carnivine", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Grass"},
+    {"id": "A2a 010", "name": "Leafeon ex", "pack": "Arceus", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Grass"},
+    {"id": "A2a 011", "name": "Houndour", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fire"},
+    {"id": "A2a 012", "name": "Houndoom", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Fire"},
+    {"id": "A2a 013", "name": "Heatran", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Fire"},
+    {"id": "A2a 014", "name": "Marill", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A2a 015", "name": "Azumarill", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A2a 016", "name": "Barboach", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A2a 017", "name": "Whiscash", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A2a 018", "name": "Snorunt", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A2a 019", "name": "Froslass", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A2a 020", "name": "Snover", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Water"},
+    {"id": "A2a 021", "name": "Abomasnow", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A2a 022", "name": "Glaceon ex", "pack": "Arceus", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Water"},
+    {"id": "A2a 023", "name": "Origin Forme Palkia", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Water"},
+    {"id": "A2a 024", "name": "Phione", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Water"},
+    {"id": "A2a 025", "name": "Pikachu", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A2a 026", "name": "Raichu", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A2a 027", "name": "Electrike", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Lightning"},
+    {"id": "A2a 028", "name": "Manectric", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Lightning"},
+    {"id": "A2a 029", "name": "Clefairy", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 030", "name": "Clefable", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 031", "name": "Gastly", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 032", "name": "Haunter", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 033", "name": "Gengar", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 034", "name": "Unown", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 035", "name": "Rotom", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Psychic"},
+    {"id": "A2a 036", "name": "Sudowoodo", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 037", "name": "Phanpy", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 038", "name": "Donphan", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 039", "name": "Larvitar", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 040", "name": "Pupitar", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 041", "name": "Tyranitar", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 042", "name": "Nosepass", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 043", "name": "Meditite", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 044", "name": "Medicham", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 045", "name": "Gible", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 046", "name": "Gabite", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Fighting"},
+    {"id": "A2a 047", "name": "Garchomp ex", "pack": "Arceus", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A2a 048", "name": "Zubat", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A2a 049", "name": "Golbat", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A2a 050", "name": "Crobat", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A2a 051", "name": "Croagunk", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Darkness"},
+    {"id": "A2a 052", "name": "Toxicroak", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Darkness"},
+    {"id": "A2a 053", "name": "Magnemite", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 054", "name": "Magneton", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 055", "name": "Magnezone", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 056", "name": "Mawile", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 057", "name": "Probopass ex", "pack": "Arceus", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Metal"},
+    {"id": "A2a 058", "name": "Bronzor", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 059", "name": "Bronzong", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 060", "name": "Origin Forme Dialga", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Metal"},
+    {"id": "A2a 061", "name": "Giratina", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Dragon"},
+    {"id": "A2a 062", "name": "Eevee", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 063", "name": "Snorlax", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 064", "name": "Hoothoot", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 065", "name": "Noctowl", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 066", "name": "Starly", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 067", "name": "Staravia", "pack": "Arceus", "rarity": "♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 068", "name": "Staraptor", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 069", "name": "Shaymin", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 070", "name": "Arceus", "pack": "Arceus", "rarity": "♢♢♢", "tags": [], "type": "Colorless"},
+    {"id": "A2a 071", "name": "Arceus ex", "pack": "Arceus", "rarity": "♢♢♢♢", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A2a 072", "name": "Irida", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A2a 073", "name": "Celestic Town Elder", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A2a 074", "name": "Barry", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A2a 075", "name": "Adaman", "pack": "Arceus", "rarity": "♢♢", "tags": [], "type": "Supporter"},
+    {"id": "A2a 076", "name": "Houndoom", "pack": "Arceus", "rarity": "☆", "tags": [], "type": "Fire"},
+    {"id": "A2a 077", "name": "Marill", "pack": "Arceus", "rarity": "☆", "tags": [], "type": "Water"},
+    {"id": "A2a 078", "name": "Unown", "pack": "Arceus", "rarity": "☆", "tags": [], "type": "Psychic"},
+    {"id": "A2a 079", "name": "Sudowoodo", "pack": "Arceus", "rarity": "☆", "tags": [], "type": "Fighting"},
+    {"id": "A2a 080", "name": "Magnemite", "pack": "Arceus", "rarity": "☆", "tags": [], "type": "Metal"},
+    {"id": "A2a 081", "name": "Shaymin", "pack": "Arceus", "rarity": "☆", "tags": [], "type": "Colorless"},
+    {"id": "A2a 082", "name": "Leafeon ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "A2a 083", "name": "Glaceon ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A2a 084", "name": "Garchomp ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A2a 085", "name": "Probopass ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+    {"id": "A2a 086", "name": "Arceus ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A2a 087", "name": "Irida", "pack": "Arceus", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A2a 088", "name": "Celestic Town Elder", "pack": "Arceus", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A2a 089", "name": "Barry", "pack": "Arceus", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A2a 090", "name": "Adaman", "pack": "Arceus", "rarity": "☆☆", "tags": [], "type": "Supporter"},
+    {"id": "A2a 091", "name": "Leafeon ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Grass"},
+    {"id": "A2a 092", "name": "Glaceon ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Water"},
+    {"id": "A2a 093", "name": "Garchomp ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Fighting"},
+    {"id": "A2a 094", "name": "Probopass ex", "pack": "Arceus", "rarity": "☆☆", "tags": ["EX"], "type": "Metal"},
+    {"id": "A2a 095", "name": "Arceus ex", "pack": "Arceus", "rarity": "☆☆☆", "tags": ["EX"], "type": "Colorless"},
+    {"id": "A2a 096", "name": "Arceus ex", "pack": "Arceus", "rarity": "♛", "tags": ["EX"], "type": "Colorless"}
   ]
 }
