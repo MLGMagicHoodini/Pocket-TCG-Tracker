@@ -14,13 +14,25 @@ const D = "{HASH}";
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
 const fromDir = args.includes("--from") ? args[args.indexOf("--from") + 1] : null;
-const CDN = "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/";
+// GitHub main is usually newer than the npm package, so try it first; jsDelivr is the fallback.
+const SOURCES = [
+  "https://raw.githubusercontent.com/flibustier/pokemon-tcg-pocket-database/main/dist/",
+  "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-database@latest/dist/",
+];
 
 async function load(name) {
   if (fromDir) return JSON.parse(readFileSync(`${fromDir}/${name}`, "utf8"));
-  const res = await fetch(CDN + name);
-  if (!res.ok) throw new Error(`Failed to download ${CDN + name}: HTTP ${res.status}`);
-  return res.json();
+  const errors = [];
+  for (const base of SOURCES) {
+    try {
+      const res = await fetch(base + name);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+      console.log(`loaded ${name} from ${base}`);
+      return json;
+    } catch (e) { errors.push(`${base + name}: ${e.message}`); }
+  }
+  throw new Error("Could not download " + name + "\n  " + errors.join("\n  "));
 }
 
 /** Converts the dataset's rarity label to the symbols used by this app. Returns null if unknown. */
@@ -44,6 +56,7 @@ const mapType = (c) => TYPES[String(c.element ?? c.type ?? "").toLowerCase()] ??
 const cards = await load("cards.extra.json").catch(() => load("cards.json"));
 const sets = await load("sets.json");
 const setList = Array.isArray(sets) ? sets : Object.values(sets).flat(); // may be grouped by series
+console.log(`dataset has ${setList.length} sets: ${setList.map((x) => x.code ?? x.id).join(", ")}`);
 const expansions = JSON.parse(readFileSync(`${D}/expansions.json`, "utf8"));
 
 // Dataset set codes that differ from the ids used in this app

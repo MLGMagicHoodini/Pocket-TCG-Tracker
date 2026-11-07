@@ -16,5 +16,6 @@
   {"name":  "Crimson Blaze", "id": "B1a", "location":  "{HASH}/expansions/crimson_blaze.json", "standard": 69},
   {"name":  "Fantastical Parade", "id": "B2", "location":  "{HASH}/expansions/fantastical_parade.json", "standard": 155},
   {"name":  "Paldean Wonders", "id": "B2a", "location":  "{HASH}/expansions/paldean_wonders.json", "standard": 93},
-  {"name":  "Mega Shine", "id": "B2b", "location":  "{HASH}/expansions/mega_shine.json", "standard": 69}
+  {"name":  "Mega Shine", "id": "B2b", "location":  "{HASH}/expansions/mega_shine.json", "standard": 69},
+  {"name":  "Pulsing Aura", "id": "B3", "location":  "{HASH}/expansions/pulsing_aura.json", "standard": 155}
 ]
