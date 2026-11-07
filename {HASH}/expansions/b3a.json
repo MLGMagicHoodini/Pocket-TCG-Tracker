@@ -1,0 +1,921 @@
+{
+  "missions": [],
+  "packs": [
+    {
+      "name": "Paradox Drive",
+      "rarities": {}
+    }
+  ],
+  "cards": [
+    {
+      "id": "B3a 001",
+      "name": "Surskit",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B3a 002",
+      "name": "Masquerain",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B3a 003",
+      "name": "Brute Bonnet",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B3a 004",
+      "name": "Slither Wing",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B3a 005",
+      "name": "Iron Moth",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B3a 006",
+      "name": "Psyduck",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 007",
+      "name": "Golduck",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 008",
+      "name": "Vaporeon",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 009",
+      "name": "Buizel",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 010",
+      "name": "Floatzel",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 011",
+      "name": "Snom",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 012",
+      "name": "Frosmoth",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 013",
+      "name": "Iron Bundle ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 014",
+      "name": "Pawmi",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 015",
+      "name": "Pawmo",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 016",
+      "name": "Pawmot",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 017",
+      "name": "Iron Hands",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 018",
+      "name": "Iron Thorns",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 019",
+      "name": "Miraidon ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 020",
+      "name": "Espeon",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 021",
+      "name": "Flittle",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 022",
+      "name": "Espathra",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 023",
+      "name": "Greavard",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 024",
+      "name": "Houndstone",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 025",
+      "name": "Scream Tail",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 026",
+      "name": "Flutter Mane ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 027",
+      "name": "Iron Valiant",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 028",
+      "name": "Iron Leaves",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 029",
+      "name": "Iron Boulder",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 030",
+      "name": "Iron Crown",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 031",
+      "name": "Nacli",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 032",
+      "name": "Naclstack",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 033",
+      "name": "Garganacl",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 034",
+      "name": "Great Tusk",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 035",
+      "name": "Sandy Shocks",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 036",
+      "name": "Koraidon ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 037",
+      "name": "Umbreon",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 038",
+      "name": "Sneasel",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 039",
+      "name": "Weavile",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 040",
+      "name": "Sableye",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 041",
+      "name": "Pawniard",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 042",
+      "name": "Bisharp",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 043",
+      "name": "Kingambit",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 044",
+      "name": "Glimmet",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 045",
+      "name": "Glimmora",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 046",
+      "name": "Iron Jugulis",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 047",
+      "name": "Roaring Moon",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 048",
+      "name": "Corviknight",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B3a 049",
+      "name": "Cufant",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B3a 050",
+      "name": "Copperajah",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B3a 051",
+      "name": "Iron Treads",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B3a 052",
+      "name": "Altaria",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B3a 053",
+      "name": "Walking Wake",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B3a 054",
+      "name": "Gouging Fire",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B3a 055",
+      "name": "Raging Bolt",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B3a 056",
+      "name": "Eevee",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 057",
+      "name": "Girafarig",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 058",
+      "name": "Farigiraf",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 059",
+      "name": "Dunsparce",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 060",
+      "name": "Dudunsparce",
+      "pack": "All",
+      "rarity": "♢♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 061",
+      "name": "Swablu",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 062",
+      "name": "Rufflet",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 063",
+      "name": "Braviary",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 064",
+      "name": "Hawlucha",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 065",
+      "name": "Rookidee",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 066",
+      "name": "Corvisquire",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 067",
+      "name": "Flamigo",
+      "pack": "All",
+      "rarity": "♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 068",
+      "name": "Terapagos ex",
+      "pack": "All",
+      "rarity": "♢♢♢♢",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 069",
+      "name": "Ancient Booster Energy Capsule",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "B3a 070",
+      "name": "Future Booster Energy Capsule",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Pokémon Tool"
+    },
+    {
+      "id": "B3a 071",
+      "name": "Juliana",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B3a 072",
+      "name": "Professor Sada",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B3a 073",
+      "name": "Professor Turo",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B3a 074",
+      "name": "Area Zero",
+      "pack": "All",
+      "rarity": "♢♢",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 075",
+      "name": "Snom",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 076",
+      "name": "Flittle",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 077",
+      "name": "Iron Boulder",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 078",
+      "name": "Glimmora",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Darkness"
+    },
+    {
+      "id": "B3a 079",
+      "name": "Raging Bolt",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Dragon"
+    },
+    {
+      "id": "B3a 080",
+      "name": "Hawlucha",
+      "pack": "All",
+      "rarity": "☆",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 081",
+      "name": "Iron Bundle ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 082",
+      "name": "Miraidon ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 083",
+      "name": "Flutter Mane ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 084",
+      "name": "Koraidon ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 085",
+      "name": "Terapagos ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 086",
+      "name": "Juliana",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B3a 087",
+      "name": "Professor Sada",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B3a 088",
+      "name": "Professor Turo",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [],
+      "type": "Supporter"
+    },
+    {
+      "id": "B3a 089",
+      "name": "Iron Bundle ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Water"
+    },
+    {
+      "id": "B3a 090",
+      "name": "Miraidon ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 091",
+      "name": "Flutter Mane ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 092",
+      "name": "Koraidon ex",
+      "pack": "All",
+      "rarity": "☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 093",
+      "name": "Terapagos ex",
+      "pack": "All",
+      "rarity": "☆☆☆",
+      "tags": [
+        "EX"
+      ],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 094",
+      "name": "Rellor",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Grass"
+    },
+    {
+      "id": "B3a 095",
+      "name": "Charcadet",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fire"
+    },
+    {
+      "id": "B3a 096",
+      "name": "Tadbulb",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 097",
+      "name": "Rabsca",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 098",
+      "name": "Diglett",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 099",
+      "name": "Dugtrio",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 100",
+      "name": "Klawf",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Fighting"
+    },
+    {
+      "id": "B3a 101",
+      "name": "Orthworm",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Metal"
+    },
+    {
+      "id": "B3a 102",
+      "name": "Swablu",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 103",
+      "name": "Altaria",
+      "pack": "All",
+      "rarity": "☼",
+      "tags": [],
+      "type": "Colorless"
+    },
+    {
+      "id": "B3a 104",
+      "name": "Meowscarada ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Grass"
+    },
+    {
+      "id": "B3a 105",
+      "name": "Armarouge ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Fire"
+    },
+    {
+      "id": "B3a 106",
+      "name": "Bellibolt ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Lightning"
+    },
+    {
+      "id": "B3a 107",
+      "name": "Mega Altaria ex",
+      "pack": "All",
+      "rarity": "☼☼",
+      "tags": [
+        "EX"
+      ],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 108",
+      "name": "Iron Valiant",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Psychic"
+    },
+    {
+      "id": "B3a 109",
+      "name": "Roaring Moon",
+      "pack": "All",
+      "rarity": "♛",
+      "tags": [],
+      "type": "Darkness"
+    }
+  ]
+}
