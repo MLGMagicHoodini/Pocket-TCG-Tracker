@@ -62,6 +62,31 @@ const cards = await load("cards.extra.json").catch(() => load("cards.json"));
 const sets = await load("sets.json");
 const setList = Array.isArray(sets) ? sets : Object.values(sets).flat(); // may be grouped by series
 console.log(`dataset has ${setList.length} sets: ${setList.map((x) => x.code ?? x.id).join(", ")}`);
+// Pull rates are optional: if they can't be loaded, new sets simply get no odds columns.
+const pullRates = await load("pullRates.json").catch((e) => { console.warn("warn: no pull rates:", e.message); return {}; });
+
+/**
+ * Builds the app's per-slot rarity table ({symbol: [slot1..slot5]}, fractions) from the dataset's
+ * "Regular Pack" (the app ignores the 0.05% rare/god packs). Returns null if it doesn't fit 5 slots.
+ */
+function buildRates(datasetCode) {
+  const pack = pullRates[datasetCode]?.["Regular Pack"];
+  if (!pack?.slots) return null;
+  const keys = Object.keys(pack.slots).sort((a, b) => Number(a) - Number(b));
+  if (keys.length !== 5) { problems.push(`${datasetCode}: Regular Pack has ${keys.length} slots, expected 5; no rates added`); return null; }
+  const out = {};
+  keys.forEach((k, i) => {
+    for (const [code, pct] of Object.entries(pack.slots[k])) {
+      const sym = CODES[code];
+      if (!sym) { if (!unknownRateCodes.has(code)) { unknownRateCodes.add(code); problems.push(`${datasetCode}: unknown rate code "${code}" ignored`); } continue; }
+      out[sym] ??= [0, 0, 0, 0, 0];
+      out[sym][i] = Math.round((out[sym][i] + pct / 100) * 1e6) / 1e6;
+    }
+  });
+  return out;
+}
+const unknownRateCodes = new Set();
+
 const expansions = JSON.parse(readFileSync(`${D}/expansions.json`, "utf8"));
 
 // Dataset set codes that differ from the ids used in this app
@@ -114,7 +139,12 @@ for (const set of setList) {
     added++;
   }
   // Only touch files that actually gained cards, so existing hand-formatted data stays untouched
-  if (data.cards.length === before) continue; // nothing new (also never register an empty new set)
+  // Fill in pull rates for packs that have none (never overwrites existing rates)
+  const emptyPacks = data.packs.filter((p) => !p.rarities || Object.keys(p.rarities).length === 0);
+  const rates = emptyPacks.length && !NO_RARITY_SETS.has(code) ? buildRates(datasetCode) : null;
+  const ratesAdded = !!rates;
+  if (rates) emptyPacks.forEach((p) => (p.rarities = structuredClone(rates)));
+  if (data.cards.length === before && !ratesAdded) continue; // nothing new (also never register an empty new set)
   if (isNew) {
     if (!NO_RARITY_SETS.has(code)) {
       // "standard" = highest card number that is a diamond rarity (everything above is a secret/alt-art card)
@@ -130,7 +160,7 @@ for (const set of setList) {
   const cardLine = (c) => "    " + JSON.stringify(c).replace(/":/g, '": ').replace(/,"/g, ', "');
   let text = isNew ? null : readFileSync(file, "utf8");
   const packsEnd = '\n  ],\n  "cards": [';
-  if (text && text.includes(packsEnd) && text.trimEnd().endsWith("\n  ]\n}")) {
+  if (!ratesAdded && text && text.includes(packsEnd) && text.trimEnd().endsWith("\n  ]\n}")) {
     // Insert text in place so the existing hand-formatted file keeps its layout (small git diffs)
     if (newPacks.length)
       text = text.replace(packsEnd, newPacks.map((n) => `,\n    {"name": ${JSON.stringify(n)}, "rarities": {}}`).join("") + packsEnd);
