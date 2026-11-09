@@ -68,6 +68,13 @@
         <form action="javascript:saveCards()">
             <input type="submit" value="Save data to file">
         </form>
+        <h3>Sync to another device</h3>
+        <p>Copy a link that contains your collection, send it to your phone (message, email, notes) and open it there.
+            It asks before replacing anything. The data is inside the link itself and is not sent to any server.
+            Links only contain what you own when you copy them, so copy a fresh one after changes.</p>
+        <button type="button" onclick="copySyncLink()">Copy sync link</button>
+        <br>
+        <input id="sync-link" type="text" readonly style="width: 100%; max-width: 40em;" onfocus="this.select()">
     </div>
     <div id="Issues" class="setting-body" style="display: none;">
         <h3>Known Issues</h3>

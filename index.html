@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <script>
+        // Apply the saved/system theme before first paint to avoid a flash of the wrong theme
+        try {
+            var t = JSON.parse(localStorage.getItem("theme"));
+            if (t !== "light" && t !== "dark") {
+                t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            }
+            document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+        }
+    </script>
     <link rel="stylesheet" href="{HASH}/style/main.css">
     <link rel="stylesheet" href="{HASH}/style/packs.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

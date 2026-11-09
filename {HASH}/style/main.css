@@ -187,3 +187,178 @@ tr {
     text-align: center;
     line-height: 30px;
 }
+/* Series bar (A / B / C / Promos) above the set tabs */
+.series-break {
+    clear: both;
+}
+
+.serieslink {
+    font-weight: bold;
+}
+
+.selected-series {
+    border-bottom: 3px solid #b0346a;
+}
+
+/* ---------- theme ---------- */
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+    --panel: #f1f1f1;
+    --accent: #b0346a;
+    color-scheme: light;
+}
+
+html[data-theme="dark"] {
+    --bg: #15171c;
+    --fg: #e8e8ec;
+    --panel: #23262e;
+    color-scheme: dark;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+[class*="col-"] {
+    border-color: var(--bg);
+}
+
+/* Dark mode: darken the coloured pack rows and panels with an overlay so text stays readable */
+html[data-theme="dark"] tr[class*="-pack"],
+html[data-theme="dark"] .missiontab,
+html[data-theme="dark"] .collapseBar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55));
+}
+
+html[data-theme="dark"] .missiontab button,
+html[data-theme="dark"] .collapseBar {
+    color: var(--fg);
+}
+
+html[data-theme="dark"] .missiontab button:hover {
+    background-color: #444;
+}
+
+html[data-theme="dark"] .missiontab button.active {
+    background-color: #555;
+}
+
+html[data-theme="dark"] input[type="text"],
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+    background-color: var(--panel);
+    color: var(--fg);
+    border: 1px solid #555;
+}
+
+html[data-theme="dark"] .w3-grey,
+html[data-theme="dark"] .w3-light-grey {
+    background-color: var(--panel) !important;
+    color: var(--fg) !important;
+}
+
+html[data-theme="dark"] tr {
+    border-bottom-color: #444;
+}
+
+/* ---------- progress bars ---------- */
+.progress {
+    height: 4px;
+    min-width: 40px;
+    margin-top: 2px;
+    border-radius: 2px;
+    background: rgba(128, 128, 128, 0.35);
+    overflow: hidden;
+}
+
+.progress > div {
+    height: 100%;
+    background: #2e86de;
+}
+
+.progress > div.complete {
+    background: #3cb371;
+}
+
+.expansionlink .progress {
+    margin-top: 3px;
+}
+
+/* ---------- filter chips ---------- */
+.filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 6px 4px;
+}
+
+.chip {
+    border: 1px solid #888;
+    border-radius: 14px;
+    background: transparent;
+    color: inherit;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chip.chip-on {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+}
+
+/* ---------- best pack ---------- */
+tr.best-pack td:first-child {
+    font-weight: bold;
+}
+
+tr.best-pack {
+    outline: 2px solid #f5b301;
+    outline-offset: -2px;
+}
+
+/* ---------- phones ---------- */
+@media only screen and (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+
+    .w3-bar .w3-bar-item {
+        padding: 8px 10px;
+    }
+
+    .summary-table {
+        display: block;
+        overflow-x: auto;
+        font-size: 14px;
+    }
+
+    .expansion-table {
+        font-size: 15px;
+    }
+
+    .expansion-table tr {
+        height: 34px;
+    }
+
+    .chip {
+        padding: 6px 12px;
+    }
+
+    .filter-input {
+        width: 60%;
+        font-size: 16px;
+    }
+}
+
+html[data-theme="dark"] .missiontab {
+    background-color: #6b3434;
+    background-image: none;
+}
+
+html[data-theme="dark"] .missionlinks.complete-mission {
+    background-color: #2f6b44;
+}

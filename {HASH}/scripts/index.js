@@ -15,12 +15,214 @@ const craft_cost = {
     "\u263c\u263c": 1350
 }
 
+
+/* ---------- small helpers ---------- */
+function readPref(key, fallback) {
+    try {
+        const v = localStorage.getItem(key);
+        return v === null ? fallback : JSON.parse(v);
+    } catch (err) {
+        return fallback;
+    }
+}
+
+function writePref(key, value) {
+    try {
+        localStorage.setItem(key, JSON.stringify(value));
+    } catch (err) {
+        console.warn("Unable to save setting", key, err);
+    }
+}
+
+/* ---------- theme ---------- */
+function effectiveTheme() {
+    const saved = readPref("theme", null);
+    if (saved === "light" || saved === "dark") return saved;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function applyTheme() {
+    document.documentElement.setAttribute("data-theme", effectiveTheme());
+    const btn = document.getElementById("theme-toggle");
+    if (btn) {
+        btn.textContent = effectiveTheme() === "dark" ? "\u2600 Light" : "\u263e Dark";
+    }
+}
+
+function toggleTheme() {
+    writePref("theme", effectiveTheme() === "dark" ? "light" : "dark");
+    applyTheme();
+}
+
+/* ---------- list-only view filters (rarity chips, hide owned) ---------- */
+const RARITY_CHIPS = ["\u2662", "\u2662\u2662", "\u2662\u2662\u2662", "\u2662\u2662\u2662\u2662", "\u2606", "\u2606\u2606",
+    "\u2606\u2606\u2606", "\u263c", "\u263c\u263c", "\u265b", "EX"];
+
+/**
+ * Applies the rarity chips and "hide owned" toggle. Only affects the card list, never the pack statistics.
+ */
+function passesViewFilter(card, local) {
+    if (readPref("hide-owned", false) && local.indexOf(card["id"]) !== -1) {
+        return false;
+    }
+    const wanted = readPref("rarity-filter", []);
+    if (wanted.length === 0) {
+        return true;
+    }
+    if (wanted.includes(card["rarity"])) {
+        return true;
+    }
+    return wanted.includes("EX") && Array.isArray(card["tags"]) && card["tags"].includes("EX");
+}
+
+/* ---------- progress bars ---------- */
+function progressBar(have, total) {
+    const bar = document.createElement("div");
+    bar.className = "progress";
+    const fill = document.createElement("div");
+    fill.style.width = (total > 0 ? Math.min(100, have / total * 100) : 0) + "%";
+    if (total > 0 && have >= total) {
+        fill.className = "complete";
+    }
+    bar.appendChild(fill);
+    return bar;
+}
+
+const expansionCards = {}; // set name -> array of card ids, filled at startup for the tab progress bars
+
+function refreshTabProgress() {
+    const local = new Set(readPref("cards", []));
+    document.querySelectorAll(".expansionlink[data-name]").forEach(btn => {
+        const ids = expansionCards[btn.dataset.name];
+        if (!ids) return;
+        const have = ids.filter(id => local.has(id)).length;
+        const old = btn.querySelector(".progress");
+        if (old) old.remove();
+        btn.appendChild(progressBar(have, ids.length));
+        btn.title = `${btn.dataset.name}: ${have} / ${ids.length}`;
+    });
+}
+
+function loadAllExpansionCards(expansions) {
+    return Promise.all(expansions.filter(e => typeof e["location"] === "string").map(e =>
+        fetch(e["location"]).then(r => r.ok ? r.json() : null).then(json => {
+            if (json) {
+                expansionCards[e["name"]] = json["cards"].filter(c => c["unreleased"] !== true).map(c => c["id"]);
+            }
+        }).catch(() => {})
+    )).then(refreshTabProgress);
+}
+
+/* ---------- sync link (PC -> phone) ---------- */
+/**
+ * Compact text form of the owned list: "A1:1_10.12;B1:5" (ranges of card numbers per set).
+ */
+function encodeOwned(ids) {
+    const bySet = {};
+    ids.forEach(id => {
+        const i = id.lastIndexOf(" ");
+        if (i < 0) return;
+        (bySet[id.slice(0, i)] ??= []).push(id.slice(i + 1));
+    });
+    return Object.entries(bySet).map(([set, nums]) => {
+        const plain = nums.filter(n => /^\d{3}$/.test(n)).map(Number).sort((a, b) => a - b);
+        const other = nums.filter(n => !/^\d{3}$/.test(n));
+        const parts = [];
+        for (let i = 0; i < plain.length;) {
+            let j = i;
+            while (j + 1 < plain.length && plain[j + 1] === plain[j] + 1) j++;
+            parts.push(j > i + 1 ? `${plain[i]}_${plain[j]}` : plain.slice(i, j + 1).join("."));
+            i = j + 1;
+        }
+        return `${set}:${parts.concat(other).join(".")}`;
+    }).join(";");
+}
+
+function decodeOwned(text) {
+    const ids = [];
+    text.split(";").forEach(chunk => {
+        const i = chunk.lastIndexOf(":");
+        if (i < 0) return;
+        const set = chunk.slice(0, i);
+        chunk.slice(i + 1).split(".").filter(Boolean).forEach(part => {
+            const m = /^(\d+)_(\d+)$/.exec(part);
+            if (m) {
+                for (let n = Number(m[1]); n <= Number(m[2]); n++) ids.push(`${set} ${String(n).padStart(3, "0")}`);
+            } else if (/^\d+$/.test(part)) {
+                ids.push(`${set} ${part.padStart(3, "0")}`);
+            } else {
+                ids.push(`${set} ${part}`);
+            }
+        });
+    });
+    return ids;
+}
+
+function syncLink() {
+    return location.origin + location.pathname + "#sync=" + encodeURIComponent(encodeOwned(readPref("cards", [])));
+}
+
+function copySyncLink() {
+    const link = syncLink();
+    const info = document.getElementById("info");
+    const done = () => { if (info) info.textContent = `Sync link copied (${readPref("cards", []).length} cards). Open it on your other device.`; };
+    const out = document.getElementById("sync-link");
+    if (out) out.value = link;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(link).then(done).catch(() => { if (out) out.select(); });
+    } else if (out) {
+        out.select();
+    }
+}
+
+/**
+ * If the page was opened from a sync link, offer to import it (never silently).
+ */
+function handleSyncHash() {
+    if (!location.hash.startsWith("#sync=")) return;
+    let ids;
+    try {
+        ids = normalizeCardIds(decodeOwned(decodeURIComponent(location.hash.slice(6))));
+    } catch (err) {
+        return;
+    }
+    history.replaceState(null, "", location.pathname + location.search);
+    const current = readPref("cards", []);
+    if (confirm(`Import ${ids.length} cards from this sync link?\n\nThis REPLACES the ${current.length} cards currently saved in this browser.`)) {
+        writePref("cards", ids);
+        location.reload();
+    }
+}
+
 /**
  * Generates HTML data for the expansion tabs at the top of the screen
  * @param expansionMetadata
  */
+function seriesOf(expansionMetadata) {
+    const id = expansionMetadata["id"];
+    if (/^(P-|SP)/i.test(id)) return "Promos";
+    const m = /^([A-Z])/i.exec(id);
+    return m ? `${m[1].toUpperCase()} Series` : "Other";
+}
+
+/**
+ * Shows only the set tabs of one series (the series bar stays on top)
+ * @param series Name of the series to show
+ */
+function showSeries(series) {
+    document.querySelectorAll(".expansionlink[data-series]").forEach(btn => {
+        btn.style.display = btn.dataset.series === series ? "" : "none";
+    });
+    document.querySelectorAll(".serieslink").forEach(btn => {
+        btn.classList.toggle("selected-series", btn.dataset.series === series);
+    });
+    localStorage.setItem("last-series", series);
+}
+
 function generateTabs(expansionMetadata) {
     const button = document.createElement("button");
+    button.dataset.series = seriesOf(expansionMetadata);
+    button.dataset.name = expansionMetadata["name"];
     const buttonLabel = document.createElement("a");
     buttonLabel.textContent = expansionMetadata["name"];
     buttonLabel.classList.add("desktop-only");
@@ -78,6 +280,7 @@ function onCardOwnershipChange(ownedBox, expansionMetadata) {
     }
     localStorage.setItem("cards", JSON.stringify(local));
     generateExpansionDetails(expansionMetadata);
+    refreshTabProgress();
 }
 
 /**
@@ -133,7 +336,7 @@ function checkFilter(card, expansionMetadata) {
 function createCardRows(json, expansionMeta, expansionList, counter, local) {
     json['cards'].forEach((card) => {
         expansionMeta['rarities'][card['rarity']] += 1
-        if (checkFilter(card, expansionMeta)) {
+        if (checkFilter(card, expansionMeta) && passesViewFilter(card, local)) {
             let row = expansionList.insertRow();
             row.classList = card["pack"].replaceAll(" ", "-").toLowerCase() + "-pack"
             if (counter % 2 === 0) {
@@ -214,6 +417,8 @@ function generateExpansionList(expansionMeta) {
     resetCell.title = "Click to reset filters";
     resetCell.onclick = (ev) => {
         localStorage.setItem("filter", JSON.stringify([]));
+        writePref("rarity-filter", []);
+        writePref("hide-owned", false);
         generateExpansionBodies(expansionMeta);
     }
     let resetIcon = document.createElement("i");
@@ -342,6 +547,20 @@ function collectPackData(expansionData, info, expansionMeta) {
 }
 
 /**
+ * Adds an "owned / total" cell to a row. The percentage is available as a tooltip.
+ * @param row Table row to add the cell to
+ * @param stats Object with `have` and `cards` arrays
+ */
+function ownedCell(row, stats) {
+    const have = stats['have'].length;
+    const total = stats['cards'].length;
+    const cell = row.insertCell();
+    cell.textContent = `${have} / ${total}`;
+    cell.title = total > 0 ? `${(have / total * 100).toFixed(1)}% owned` : "";
+    cell.appendChild(progressBar(have, total));
+}
+
+/**
  * Generates HTML for the pack overview on the top right of expansion pages.
  * @param expansionData Overall expansion data
  * @param info Data for each pack in the expansion
@@ -355,7 +574,7 @@ function generateExpansionOverview(expansionData, info, detailsDiv) {
     packSummary.id = "pack-summary";
     let headerRow = packSummary.insertRow();
     headerRow.insertCell().textContent = "";
-    headerRow.insertCell().textContent = "% Owned";
+    headerRow.insertCell().textContent = "# Owned";
     headerRow.insertCell().textContent = "# Missing";
     if (Object.keys(info[expansionData['packs'][0]['name']]['data']['rarities']).length > 0) {
         headerRow.insertCell().textContent = "% Chance of New Card";
@@ -365,7 +584,7 @@ function generateExpansionOverview(expansionData, info, detailsDiv) {
     let allRow = packSummary.insertRow();
     allRow.classList = "even-row all-pack";
     allRow.insertCell().textContent = "Total";
-    allRow.insertCell().textContent = String(info['total']['have'].length / info['total']['cards'].length * 100).substring(0, 5) + "%";
+    ownedCell(allRow, info['total']);
     allRow.insertCell().textContent = String(info['total']['cards'].length - info['total']['have'].length);
     if (Object.keys(info[expansionData['packs'][0]['name']]['data']['rarities']).length > 0) {
         allRow.insertCell().textContent = "N/A";
@@ -376,7 +595,7 @@ function generateExpansionOverview(expansionData, info, detailsDiv) {
         let anyRow = packSummary.insertRow();
         anyRow.classList = "odd-row all-pack";
         anyRow.insertCell().textContent = "Any Packs";
-        anyRow.insertCell().textContent = String(info['any']['have'].length / info['any']['cards'].length * 100).substring(0, 5) + "%";
+        ownedCell(anyRow, info['any']);
         anyRow.insertCell().textContent = String(info['any']['cards'].length - info['any']['have'].length);
         if (Object.keys(info[expansionData['packs'][0]['name']]['data']['rarities']).length > 0) {
             anyRow.insertCell().textContent = "N/A";
@@ -384,11 +603,29 @@ function generateExpansionOverview(expansionData, info, detailsDiv) {
         }
     }
 
+    // Which pack gives the best chance of a new card? (only meaningful with pull rates and several packs)
+    const chanceOf = (name) => {
+        const r = info[name]['rarity'];
+        return 1 - ((1 - r[0]) * (1 - r[1]) * (1 - r[2]) * (1 - r[3]) * (1 - r[4]));
+    };
+    let bestPack = null;
+    if (expansionData['packs'].length > 1 && Object.keys(info[expansionData['packs'][0]['name']]['data']['rarities']).length > 0) {
+        const ranked = expansionData['packs'].map(p => [p['name'], chanceOf(p['name'])]).sort((a, b) => b[1] - a[1]);
+        if (ranked[0][1] > ranked[1][1] + 1e-9 && info[ranked[0][0]]['cards'].length > info[ranked[0][0]]['have'].length) {
+            bestPack = ranked[0][0];
+        }
+    }
+
     expansionData['packs'].forEach((pack) => {
         let row = packSummary.insertRow();
         row.classList = "even-row " + pack["name"].replaceAll(" ", "-").toLowerCase() + "-pack";
-        row.insertCell().textContent = pack["name"];
-        row.insertCell().textContent = String(info[pack['name']]['have'].length / info[pack['name']]['cards'].length * 100).substring(0, 5) + "%";
+        const nameCell = row.insertCell();
+        nameCell.textContent = pack["name"] + (pack["name"] === bestPack ? " \u2605" : "");
+        if (pack["name"] === bestPack) {
+            nameCell.title = "Best pack to open: highest chance of a new card";
+            row.classList.add("best-pack");
+        }
+        ownedCell(row, info[pack['name']]);
         row.insertCell().textContent = String(info[pack['name']]['cards'].length - info[pack['name']]['have'].length);
         if (Object.keys(info[expansionData['packs'][0]['name']]['data']['rarities']).length > 0) {
             let chance = 1 - ((1 - info[pack['name']]['rarity'][0]) * (1 - info[pack['name']]['rarity'][1]) * (1 - info[pack['name']]['rarity'][2]) * (1 - info[pack['name']]['rarity'][3]) * (1 - info[pack['name']]['rarity'][4]));
@@ -690,6 +927,33 @@ function generateExpansionSearch(expansionMeta) {
     }
     filterForm.appendChild(filterText);
     filterDiv.appendChild(filterForm);
+
+    // Rarity chips + hide owned (these only change the card list, not the pack statistics)
+    const chips = document.createElement("div");
+    chips.className = "filter-chips";
+    const selected = readPref("rarity-filter", []);
+    RARITY_CHIPS.forEach(r => {
+        const chip = document.createElement("button");
+        chip.type = "button";
+        chip.className = "chip" + (selected.includes(r) ? " chip-on" : "");
+        chip.textContent = r;
+        chip.onclick = () => {
+            const now = readPref("rarity-filter", []);
+            writePref("rarity-filter", now.includes(r) ? now.filter(x => x !== r) : now.concat(r));
+            generateExpansionBodies(expansionMeta);
+        };
+        chips.appendChild(chip);
+    });
+    const hide = document.createElement("button");
+    hide.type = "button";
+    hide.className = "chip" + (readPref("hide-owned", false) ? " chip-on" : "");
+    hide.textContent = "Hide owned";
+    hide.onclick = () => {
+        writePref("hide-owned", !readPref("hide-owned", false));
+        generateExpansionBodies(expansionMeta);
+    };
+    chips.appendChild(hide);
+    filterDiv.appendChild(chips);
     expansionDiv.appendChild(filterDiv);
 }
 
@@ -739,6 +1003,8 @@ function normalizeCardIds(ids) {
 }
 
 function load() {
+    applyTheme();
+    handleSyncHash();
     if (localStorage.getItem("cards") === null) {
         localStorage.setItem("cards", JSON.stringify([]));
     }
@@ -767,12 +1033,35 @@ function load() {
     }).then(json => {
         generateSpecialTab(element, "Settings", "fa-gear", json);
         //generateSpecialTab(element, "Overview", "fa-star", json);
+        // Series bar (A / B / C / Promos) on one row, the sets of the selected series on the next
+        const seriesNames = [...new Set(json.map(seriesOf))].sort((a, b) => (a === "Promos") - (b === "Promos") || a.localeCompare(b));
+        seriesNames.forEach(name => {
+            const sbtn = document.createElement("button");
+            sbtn.textContent = name;
+            sbtn.dataset.series = name;
+            sbtn.className = "w3-bar-item w3-button serieslink";
+            sbtn.onclick = () => showSeries(name);
+            element.appendChild(sbtn);
+        });
+        const themeBtn = document.createElement("button");
+        themeBtn.id = "theme-toggle";
+        themeBtn.className = "w3-bar-item w3-button";
+        themeBtn.style.float = "right";
+        themeBtn.onclick = toggleTheme;
+        element.appendChild(themeBtn);
+        applyTheme();
+        const rowBreak = document.createElement("div");
+        rowBreak.className = "series-break";
+        element.appendChild(rowBreak);
         json.forEach(expansion => {
             generateTabs(expansion);
             if (localStorage.getItem("last-expansion") === expansion["name"]) {
                 generateExpansionBodies(expansion);
             }
         })
+        loadAllExpansionCards(json);
+        const last = json.find(e => e["name"] === localStorage.getItem("last-expansion"));
+        showSeries(last ? seriesOf(last) : seriesNames.filter(n => n !== "Promos").pop() ?? seriesNames[0]);
         if (localStorage.getItem("last-expansion") === "Overview") {
             generateExpansionBodies({"name": "Overview", "location": json, "standard": 0});
         }
@@ -875,6 +1164,13 @@ function loadCards(e) {
 
             // Parse to make sure there's no obvious errors
             let parsed = normalizeCardIds(JSON.parse(cards));
+            const current = readPref("cards", []).length;
+            if (!confirm(`Load ${parsed.length} cards from this file?\n\nThis REPLACES the ${current} cards currently saved in this browser.`)) {
+                document.getElementById("info").textContent = "";
+                document.getElementById("error").textContent = "Import cancelled.";
+                e.target.value = "";
+                return;
+            }
             localStorage.setItem("cards", JSON.stringify(parsed));
 
             parsed.forEach((id) => {
@@ -886,6 +1182,7 @@ function loadCards(e) {
 
             document.getElementById("error").textContent = "";
             document.getElementById("info").textContent = "Loaded data successfully.";
+            refreshTabProgress();
         }
         reader.readAsText(file);
     } catch (err) {
