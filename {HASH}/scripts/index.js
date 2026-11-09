@@ -421,9 +421,9 @@ function generateExpansionList(expansionMeta) {
         writePref("hide-owned", false);
         generateExpansionBodies(expansionMeta);
     }
-    let resetIcon = document.createElement("i");
-    resetIcon.className = "fa-solid fa-filter-circle-xmark";
-    resetCell.appendChild(resetIcon);
+    resetCell.textContent = "\u2715";
+    resetCell.style.cursor = "pointer";
+    resetCell.title = "Click to reset all filters";
     headerRow.insertCell().textContent = "ID";
     headerRow.insertCell().textContent = "";
     headerRow.insertCell().textContent = "Name";
@@ -979,9 +979,8 @@ function generateExpansionBodies(expansionMetadata) {
 
 function generateSpecialTab(element, name, label, packMeta) {
     const button = document.createElement("button");
-    const buttonLabel = document.createElement("i");
-    buttonLabel.className = "fa-solid " + label;
-    button.appendChild(buttonLabel);
+    // Plain text label: the FontAwesome kit is locked to specific domains, so icons vanished on new hosts
+    button.textContent = (label || "") + " " + name;
     button.classList.add("w3-bar-item");
     button.classList.add("w3-button");
     button.classList.add("expansionlink");
@@ -1031,8 +1030,8 @@ function load() {
         }
         return response.json();
     }).then(json => {
-        generateSpecialTab(element, "Settings", "fa-gear", json);
-        //generateSpecialTab(element, "Overview", "fa-star", json);
+        generateSpecialTab(element, "Settings", "\u2699", json);
+        //generateSpecialTab(element, "Overview", "\u2605", json);
         // Series bar (A / B / C / Promos) on one row, the sets of the selected series on the next
         const seriesNames = [...new Set(json.map(seriesOf))].sort((a, b) => (a === "Promos") - (b === "Promos") || a.localeCompare(b));
         seriesNames.forEach(name => {
