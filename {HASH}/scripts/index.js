@@ -89,6 +89,8 @@ function progressBar(have, total) {
 }
 
 const expansionCards = {}; // set name -> array of card ids, filled at startup for the tab progress bars
+const expansionData = {};  // set name -> full set data (cards, packs), filled at startup
+let expansionsReady = Promise.resolve();
 
 function refreshTabProgress() {
     const local = new Set(readPref("cards", []));
@@ -104,9 +106,10 @@ function refreshTabProgress() {
 }
 
 function loadAllExpansionCards(expansions) {
-    return Promise.all(expansions.filter(e => typeof e["location"] === "string").map(e =>
+    return expansionsReady = Promise.all(expansions.filter(e => typeof e["location"] === "string").map(e =>
         fetch(e["location"]).then(r => r.ok ? r.json() : null).then(json => {
             if (json) {
+                expansionData[e["name"]] = json;
                 expansionCards[e["name"]] = json["cards"].filter(c => c["unreleased"] !== true).map(c => c["id"]);
             }
         }).catch(() => {})
@@ -192,6 +195,104 @@ function handleSyncHash() {
         writePref("cards", ids);
         location.reload();
     }
+}
+
+
+/* ---------- "Best to open": which set is worth opening packs for right now ---------- */
+/**
+ * For one set, the chance of a new card from each pack (cards you already own excluded).
+ */
+function packChances(data, owned) {
+    const pools = poolCounts(data);
+    const slots = {};
+    data["packs"].forEach(p => slots[p["name"]] = [0, 0, 0, 0, 0]);
+    let missing = 0;
+    data["cards"].forEach(card => {
+        if (!isCountedCard(card) || owned.has(card["id"])) return;
+        missing++;
+        cardPacks(card, data).forEach(name => {
+            const rates = data["packs"].find(p => p["name"] === name)?.["rarities"]?.[card["rarity"]];
+            const pool = pools[name]?.[card["rarity"]];
+            if (rates && pool) {
+                for (let i = 0; i < 5; i++) slots[name][i] += rates[i] / pool;
+            }
+        });
+    });
+    return {
+        missing,
+        packs: data["packs"].map(p => ({
+            name: p["name"],
+            hasRates: Object.keys(p["rarities"] ?? {}).length > 0,
+            chance: chanceFromSlots(slots[p["name"]])
+        }))
+    };
+}
+
+function showBestToOpen() {
+    document.querySelectorAll(".expansionlink, #best-tab").forEach(b => b.classList.remove("selected-tab"));
+    document.getElementById("best-tab")?.classList.add("selected-tab");
+    const body = document.getElementById("expansion-bodies");
+    body.innerHTML = "<p>Loading...</p>";
+    expansionsReady.then(() => {
+        const owned = new Set(readPref("cards", []));
+        const rows = [];
+        const noRates = [];
+        Object.entries(expansionData).forEach(([name, data]) => {
+            if (/^(P-|SP)/i.test(data["cards"][0]?.["id"] ?? "")) return; // promo sets have no pull odds
+            const r = packChances(data, owned);
+            const withRates = r.packs.filter(p => p.hasRates);
+            if (withRates.length === 0) {
+                if (r.missing > 0) noRates.push(name);
+                return;
+            }
+            if (r.missing === 0) return; // completed
+            const best = Math.max(...withRates.map(p => p.chance));
+            const winners = withRates.filter(p => p.chance >= best - 1e-9);
+            rows.push({
+                name, best, missing: r.missing,
+                pack: winners.length === withRates.length ? (withRates.length > 1 ? "Any pack" : withRates[0].name) : winners.map(p => p.name).join(" / "),
+                ten: 1 - Math.pow(1 - best, 10)
+            });
+        });
+        rows.sort((a, b) => b.best - a.best);
+
+        body.innerHTML = "";
+        const wrap = document.createElement("div");
+        wrap.className = "best-wrap";
+        const intro = document.createElement("p");
+        intro.textContent = "Sets ranked by the chance that a single pack of the best pack in that set gives you at least one card you don't own yet. Completed sets are hidden.";
+        wrap.appendChild(intro);
+        const table = document.createElement("table");
+        table.className = "best-table";
+        const head = table.insertRow();
+        ["#", "Set", "Best pack", "New card (1 pack)", "New card (10 packs)", "Missing"].forEach(h => head.insertCell().textContent = h);
+        rows.forEach((r, i) => {
+            const row = table.insertRow();
+            row.className = "best-row " + (i % 2 === 0 ? "even-row" : "odd-row");
+            row.style.cursor = "pointer";
+            row.title = "Open this set";
+            row.insertCell().textContent = String(i + 1);
+            row.insertCell().textContent = r.name;
+            row.insertCell().textContent = r.pack;
+            row.insertCell().textContent = (r.best * 100).toFixed(2) + "%";
+            row.insertCell().textContent = (r.ten * 100).toFixed(2) + "%";
+            row.insertCell().textContent = String(r.missing);
+            row.onclick = () => {
+                const btn = document.querySelector(`.expansionlink[data-name="${CSS.escape(r.name)}"]`);
+                if (btn) {
+                    showSeries(btn.dataset.series);
+                    btn.click();
+                }
+            };
+        });
+        wrap.appendChild(table);
+        if (noRates.length) {
+            const note = document.createElement("p");
+            note.textContent = "No pull rates available yet (not ranked): " + noRates.join(", ");
+            wrap.appendChild(note);
+        }
+        body.appendChild(wrap);
+    });
 }
 
 /**
@@ -338,7 +439,7 @@ function createCardRows(json, expansionMeta, expansionList, counter, local) {
         expansionMeta['rarities'][card['rarity']] += 1
         if (checkFilter(card, expansionMeta) && passesViewFilter(card, local)) {
             let row = expansionList.insertRow();
-            row.classList = card["pack"].replaceAll(" ", "-").toLowerCase() + "-pack"
+            row.classList = [].concat(card["pack"])[0].replaceAll(" ", "-").toLowerCase() + "-pack"
             if (counter % 2 === 0) {
                 row.classList.add("even-row");
             } else {
@@ -365,7 +466,7 @@ function createCardRows(json, expansionMeta, expansionList, counter, local) {
             typeImage.classList = "cardbox"
             typeCell.appendChild(typeImage);
             row.insertCell().textContent = card["name"];
-            row.insertCell().textContent = card["pack"];
+            row.insertCell().textContent = [].concat(card["pack"]).join(" + ");
             row.insertCell().textContent = card["rarity"];
             counter++;
         }
@@ -494,8 +595,51 @@ function generateExpansionList(expansionMeta) {
  * @param info The object collected data is stored in
  * @param expansionMeta
  */
+/**
+ * Names of the packs a card can be pulled from. `pack` is "All" (every pack of the set), a pack name,
+ * or an array of pack names (card that appears in several, but not all, packs).
+ */
+function cardPacks(card, expansionData) {
+    const pack = card["pack"];
+    if (pack === "All") {
+        return expansionData["packs"].map(p => p["name"]);
+    }
+    return Array.isArray(pack) ? pack : [pack];
+}
+
+/** Cards that count towards pull odds (unreleased cards only when the setting shows them). */
+function isCountedCard(card) {
+    return !(card["unreleased"] === true && localStorage.getItem("hidden-cards") === "false");
+}
+
+/**
+ * For every pack: how many cards of each rarity can drop from it. A card's chance in a pack is
+ * (slot rate of its rarity) / (number of cards of that rarity in THAT pack's pool).
+ */
+function poolCounts(expansionData) {
+    const counts = {};
+    expansionData["packs"].forEach(p => counts[p["name"]] = {});
+    expansionData["cards"].forEach(card => {
+        if (!isCountedCard(card)) return;
+        cardPacks(card, expansionData).forEach(name => {
+            if (name in counts) {
+                counts[name][card["rarity"]] = (counts[name][card["rarity"]] ?? 0) + 1;
+            }
+        });
+    });
+    return counts;
+}
+
+/**
+ * Chance of at least one new card from a single pack, given the per-slot new-card probabilities.
+ */
+function chanceFromSlots(slots) {
+    return 1 - [0, 1, 2, 3, 4].reduce((acc, i) => acc * (1 - slots[i]), 1);
+}
+
 function collectPackData(expansionData, info, expansionMeta) {
     let local = JSON.parse(localStorage.getItem("cards"));
+    const pools = poolCounts(expansionData);
     expansionData['packs'].forEach((pack) => {
         info[pack['name']] = {cards: [], have: [], rarity: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0}, data: pack};
     })
@@ -505,43 +649,32 @@ function collectPackData(expansionData, info, expansionMeta) {
     }
     expansionData['cards'].forEach((card) => {
         if (checkFilter(card, expansionMeta)) {
+            const owned = local.indexOf(card['id']) !== -1;
             info['total']['cards'].push(card['id']);
-            if (local.indexOf(card['id']) !== -1) {
+            if (owned) {
                 info['total']['have'].push(card['id']);
-            }
-
-            if (card['pack'] in info) {
-                info[card['pack']]['cards'].push(card['id']);
-                if (local.indexOf(card['id']) !== -1) {
-                    info[card['pack']]['have'].push(card['id']);
-                } else {
-                    let chance = info[card['pack']]['data']['rarities'][card['rarity']];
-                    if (chance !== undefined) {
-                        for (let i = 0; i < 5; i++) {
-                            info[card['pack']]['rarity'][i] += chance[i] / expansionMeta['rarities'][card['rarity']];
-                        }
-                    }
-                }
             }
             if (card['pack'] === "All") {
                 info['any']['cards'].push(card['id']);
-                if (local.indexOf(card['id']) !== -1) {
+                if (owned) {
                     info['any']['have'].push(card['id']);
                 }
-                expansionData['packs'].forEach((pack) => {
-                    info[pack['name']]['cards'].push(card['id']);
-                    if (local.indexOf(card['id']) !== -1) {
-                        info[pack['name']]['have'].push(card['id']);
-                    } else {
-                        let chance = info[pack['name']]['data']['rarities'][card['rarity']];
-                        if (chance !== undefined) {
-                            for (let i = 0; i < 5; i++) {
-                                info[pack['name']]['rarity'][i] += chance[i] / expansionMeta['rarities'][card['rarity']];
-                            }
+            }
+            cardPacks(card, expansionData).forEach((name) => {
+                if (!(name in info)) return; // e.g. "Mission" cards are not in any pack
+                info[name]['cards'].push(card['id']);
+                if (owned) {
+                    info[name]['have'].push(card['id']);
+                } else {
+                    const chance = info[name]['data']['rarities'][card['rarity']];
+                    const pool = pools[name][card['rarity']];
+                    if (chance !== undefined && pool) {
+                        for (let i = 0; i < 5; i++) {
+                            info[name]['rarity'][i] += chance[i] / pool;
                         }
                     }
-                })
-            }
+                }
+            })
         }
     })
 }
@@ -604,10 +737,7 @@ function generateExpansionOverview(expansionData, info, detailsDiv) {
     }
 
     // Which pack gives the best chance of a new card? (only meaningful with pull rates and several packs)
-    const chanceOf = (name) => {
-        const r = info[name]['rarity'];
-        return 1 - ((1 - r[0]) * (1 - r[1]) * (1 - r[2]) * (1 - r[3]) * (1 - r[4]));
-    };
+    const chanceOf = (name) => chanceFromSlots(info[name]['rarity']);
     let bestPack = null;
     if (expansionData['packs'].length > 1 && Object.keys(info[expansionData['packs'][0]['name']]['data']['rarities']).length > 0) {
         const ranked = expansionData['packs'].map(p => [p['name'], chanceOf(p['name'])]).sort((a, b) => b[1] - a[1]);
@@ -1042,6 +1172,12 @@ function load() {
             sbtn.onclick = () => showSeries(name);
             element.appendChild(sbtn);
         });
+        const bestBtn = document.createElement("button");
+        bestBtn.id = "best-tab";
+        bestBtn.textContent = "\u2605 Best to open";
+        bestBtn.className = "w3-bar-item w3-button";
+        bestBtn.onclick = showBestToOpen;
+        element.appendChild(bestBtn);
         const themeBtn = document.createElement("button");
         themeBtn.id = "theme-toggle";
         themeBtn.className = "w3-bar-item w3-button";

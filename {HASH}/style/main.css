@@ -362,3 +362,30 @@ html[data-theme="dark"] .missiontab {
 html[data-theme="dark"] .missionlinks.complete-mission {
     background-color: #2f6b44;
 }
+
+/* ---------- best to open ---------- */
+.best-wrap {
+    padding: 8px 12px;
+}
+
+.best-table td {
+    padding: 4px 14px 4px 6px;
+}
+
+.best-table tr:first-child {
+    font-weight: bold;
+}
+
+html[data-theme="dark"] .best-row.even-row {
+    background-color: #262a33;
+}
+
+.best-row.even-row {
+    background-color: #e9eef5;
+}
+
+html[data-theme="dark"] .best-row:hover,
+.best-row:hover {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+}

@@ -128,10 +128,7 @@ for (const set of setList) {
     const inPacks = (c.packs ?? []).map(normalizePack);
     let pack = "All";
     if (inPacks.length === 1 && packNames.length > 1) pack = inPacks[0];
-    else if (inPacks.length > 1 && inPacks.length < packNames.length) {
-      pack = inPacks[0];
-      problems.push(`${id} ${c.name}: in packs [${inPacks}] but only one can be stored; used "${pack}"`);
-    }
+    else if (inPacks.length > 1 && inPacks.length < packNames.length) pack = inPacks; // card in several (not all) packs
     for (const pn of inPacks) if (!data.packs.some((p) => p.name === pn)) { newPacks.push(pn); data.packs.push({ name: pn, rarities: {} }); }
     const card = { id, name: c.name, pack, rarity, tags: /\bex\b/i.test(c.name) ? ["EX"] : [], type: mapType(c) };
     newCards.push(card);

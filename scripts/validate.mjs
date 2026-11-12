@@ -19,7 +19,7 @@ for (const meta of expansions) {
     ids.add(c.id); allIds.add(c.id);
     if (!c.id.startsWith(meta.id + " ")) warnings.push(`${meta.name}: ${c.id} does not start with "${meta.id} "`);
     if (!RARITY.includes(c.rarity)) errors.push(`${meta.name}: ${c.id} unknown rarity ${JSON.stringify(c.rarity)}`);
-    if (c.pack !== "All" && !packNames.has(c.pack)) warnings.push(`${meta.name}: ${c.id} pack "${c.pack}" not in packs list`);
+    for (const pk of [].concat(c.pack)) if (pk !== "All" && !packNames.has(pk)) warnings.push(`${meta.name}: ${c.id} pack "${pk}" not in packs list`);
   }
   for (const m of data.missions) {
     if (!Array.isArray(m.requirements)) { warnings.push(`${meta.name}: empty/invalid mission entry ${JSON.stringify(m)} (ignored by the app)`); continue; }
