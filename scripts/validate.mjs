@@ -31,6 +31,17 @@ for (const { meta, ids, m, r, id } of pending) {
   if (!allIds.has(id)) errors.push(`${meta.name}: mission "${m.name}" / "${r.display}" references unknown card ${id}`);
   else if (!ids.has(id)) warnings.push(`${meta.name}: mission "${m.name}" uses card ${id} from another set (craft cost shows "Not Craftable")`);
 }
+try {
+  const byId = new Map();
+  for (const meta of expansions) for (const c of read(meta.location).cards) byId.set(c.id, c);
+  for (const group of read(`${D}/links.json`)) {
+    if (!Array.isArray(group) || group.length < 2) { errors.push(`links.json: group ${JSON.stringify(group)} needs at least 2 ids`); continue; }
+    for (const id of group) if (!byId.has(id)) warnings.push(`links.json: card ${id} not in the data (yet?)`);
+    const rarities = new Set(group.map((id) => byId.get(id)?.rarity));
+    if (rarities.size > 1) warnings.push(`links.json: ${JSON.stringify(group)} have different rarities`);
+  }
+} catch (e) { warnings.push(`links.json not checked: ${e.message}`); }
+
 for (const m of read(`${D}/global.json`).missions) for (const r of m.requirements) for (const id of r.ids)
   if (!allIds.has(id)) warnings.push(`global: "${m.name}" / "${r.display}" references unknown card ${id}`);
 

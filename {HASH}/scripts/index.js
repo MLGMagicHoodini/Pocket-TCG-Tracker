@@ -34,6 +34,35 @@ function writePref(key, value) {
     }
 }
 
+
+/* ---------- linked cards: the same card printed in two sets (different numbers) ---------- */
+let linkGroups = {}; // card id -> array of every id in its group (including itself)
+
+function setLinks(groups) {
+    linkGroups = {};
+    (groups || []).forEach(group => {
+        if (Array.isArray(group) && group.length > 1) {
+            group.forEach(id => linkGroups[id] = group);
+        }
+    });
+    try {
+        const saved = readPref("cards", []);
+        const expanded = expandLinks(saved);
+        if (expanded.length !== saved.length) {
+            writePref("cards", expanded);
+        }
+    } catch (err) {
+        console.warn("Unable to apply card links", err);
+    }
+}
+
+/** Adds every linked card of the ids given (owning one print counts as owning all prints). */
+function expandLinks(ids) {
+    const out = new Set(ids);
+    ids.forEach(id => (linkGroups[id] || []).forEach(other => out.add(other)));
+    return [...out];
+}
+
 /* ---------- theme ---------- */
 function effectiveTheme() {
     const saved = readPref("theme", null);
@@ -370,15 +399,15 @@ function toggleHiddenCards(event) {
  */
 function onCardOwnershipChange(ownedBox, expansionMetadata) {
     let local = JSON.parse(localStorage.getItem("cards"));
-    if (ownedBox.checked) {
-        if (local.indexOf(ownedBox.id) === -1) {
-            local.push(ownedBox.id);
+    const group = linkGroups[ownedBox.id] || [ownedBox.id]; // linked prints of the same card change together
+    group.forEach(id => {
+        const at = local.indexOf(id);
+        if (ownedBox.checked && at === -1) {
+            local.push(id);
+        } else if (!ownedBox.checked && at !== -1) {
+            local.splice(at, 1);
         }
-    } else {
-        if (local.indexOf(ownedBox.id) !== -1) {
-            local.splice(local.indexOf(ownedBox.id), 1);
-        }
-    }
+    });
     localStorage.setItem("cards", JSON.stringify(local));
     generateExpansionDetails(expansionMetadata);
     refreshTabProgress();
@@ -1128,7 +1157,7 @@ function generateSpecialTab(element, name, label, packMeta) {
  * @param ids array of card ids
  */
 function normalizeCardIds(ids) {
-    return [...new Set(ids.map(id => id.replace(/^(\S+) 0(\d{3})$/, "$1 $2")))];
+    return expandLinks([...new Set(ids.map(id => id.replace(/^(\S+) 0(\d{3})$/, "$1 $2")))]);
 }
 
 function load() {
@@ -1154,7 +1183,10 @@ function load() {
 
     const element = document.getElementById("expansion-buttons");
 
-    fetch('{HASH}/expansions.json').then(response => {
+    fetch('{HASH}/links.json').then(r => r.ok ? r.json() : []).catch(() => []).then(groups => {
+        setLinks(groups);
+        return fetch('{HASH}/expansions.json');
+    }).then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error white fetching \`expansions.json\`! Status: ${response.status}`);
         }
